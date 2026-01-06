@@ -6,7 +6,6 @@ import './App.css';
 const AdBanner = () => {
   useEffect(() => {
     try {
-      // The push call needs to happen once the component is mounted
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch (e) {
       console.error("AdSense error:", e);
@@ -18,8 +17,8 @@ const AdBanner = () => {
       <small>ADVERTISEMENT</small>
       <ins className="adsbygoogle"
            style={{ display: 'block' }}
-           data-ad-client="ca-pub-5270573117216515" // Your Verified ID
-           data-ad-slot="5558403184"             // Your Slot ID
+           data-ad-client="pub-5270573117216515"
+           data-ad-slot="5558403184"
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
     </div>
@@ -27,6 +26,7 @@ const AdBanner = () => {
 };
 
 function App() {
+  const [view, setView] = useState('home'); // home, privacy, terms
   const [recipes] = useState(data.recipes);
   const [categories, setCategories] = useState({});
   const [cuisines, setCuisines] = useState([]);
@@ -38,11 +38,10 @@ function App() {
   const [hasSearched, setHasSearched] = useState(false);
 
   useEffect(() => {
-    // 1. Group ingredients by category for the dropdowns
     const groups = {};
     recipes.forEach(r => {
       r.ingredients.forEach(ing => {
-        const cat = r.category || "Other";
+        const cat = r.category || "General";
         if (!groups[cat]) groups[cat] = new Set();
         groups[cat].add(ing);
       });
@@ -56,13 +55,12 @@ function App() {
     setCategories(formattedGroups);
     setCuisines(["All", ...new Set(recipes.map(r => r.cuisine))].sort());
     
-    // 2. Dark Mode Toggle
     document.documentElement.setAttribute('data-theme', darkMode ? 'dark' : 'light');
     localStorage.setItem('theme', darkMode ? 'dark' : 'light');
   }, [recipes, darkMode]);
 
+  const changeView = (v) => { setView(v); window.scrollTo(0,0); };
   const addIngredientSlot = () => setSelectedIngs([...selectedIngs, ""]);
-  
   const updateIng = (idx, val) => {
     const next = [...selectedIngs];
     next[idx] = val;
@@ -78,21 +76,14 @@ function App() {
 
   const findRecipe = () => {
     setHasSearched(true);
-    // Fridge-First: We use what the user selected
     const fridge = selectedIngs.filter(i => i !== "").map(i => i.toLowerCase());
-    
     const matches = recipes.filter(recipe => {
       const cuisineMatch = selectedCuisine === "All" || recipe.cuisine === selectedCuisine;
-      
-      // Strict Check: Every ingredient in the recipe MUST be in your fridge selection
-      const canMake = recipe.ingredients.every(ing => 
-        fridge.includes(ing.toLowerCase())
-      );
+      const canMake = recipe.ingredients.every(ing => fridge.includes(ing.toLowerCase()));
       return cuisineMatch && canMake;
     });
 
     if (matches.length > 0) {
-      // Pick a random one, preferably different from current
       const otherMatches = matches.length > 1 && foundRecipe 
         ? matches.filter(m => m.id !== foundRecipe.id) : matches;
       setFoundRecipe(otherMatches[Math.floor(Math.random() * otherMatches.length)]);
@@ -101,17 +92,21 @@ function App() {
     }
   };
 
+  // --- View Logic ---
+  if (view === 'privacy') return <PrivacyPage goBack={() => setView('home')} />;
+  if (view === 'terms') return <TermsPage goBack={() => setView('home')} />;
+
   return (
     <div className="engine-container">
       <nav className="top-nav">
         <button className="theme-toggle" onClick={() => setDarkMode(!darkMode)}>
-          {darkMode ? '☀️ Light' : '🌙 Dark'}
+          {darkMode ? '☀️' : '🌙'}
         </button>
       </nav>
 
       <header>
         <h1>FodPick</h1>
-        <p>No extra trips to the store. Use what you have.</p>
+        <p>Cook with what you have. No store runs.</p>
       </header>
 
       <div className="filter-group">
@@ -122,7 +117,7 @@ function App() {
       </div>
 
       <div className="filter-group">
-        <label>Ingredients in your Fridge</label>
+        <label>Your Fridge</label>
         <div className="dropdown-list">
           {selectedIngs.map((val, idx) => (
             <select key={idx} value={val} onChange={(e) => updateIng(idx, e.target.value)}>
@@ -144,7 +139,7 @@ function App() {
       </div>
 
       <button className="main-btn" onClick={findRecipe}>
-        {foundRecipe ? "NOT THIS ONE, REROLL" : "DECIDE FOR ME"}
+        {foundRecipe ? "REROLL" : "DECIDE FOR ME"}
       </button>
 
       {foundRecipe ? (
@@ -154,27 +149,74 @@ function App() {
             <span className="time-tag">⏱ {foundRecipe.time}</span>
           </div>
           <h2>{foundRecipe.title}</h2>
-          <p className="recipe-meta">Ingredients: {foundRecipe.ingredients.join(", ")}</p>
           <div className="method">
             <h3>Method:</h3>
             <p>{foundRecipe.instructions}</p>
           </div>
-          <AdBanner /> {/* Ad inside the card */}
+          <AdBanner />
         </div>
       ) : hasSearched && (
         <div className="no-match-box animate-in">
-          <p>❌ No recipes in our DB match these exact items.</p>
-          <span>Try adding basics like <b>Flour</b>, <b>Sugar</b>, or <b>Milk</b>.</span>
+          <p>❌ No exact matches. Add pantry staples like <b>Water</b>, <b>Salt</b>, or <b>Oil</b>.</p>
         </div>
       )}
 
-      {!foundRecipe && <AdBanner />} {/* Ad at bottom if no recipe found */}
-      
+      {!foundRecipe && <AdBanner />}
+
       <footer className="app-footer">
-        <p>© 2026 FodPick • Privacy Policy</p>
+        <p>© 2026 -FodPick</p>
+        <div className="footer-links">
+          <span onClick={() => changeView('privacy')}>Privacy Policy</span>
+          <span onClick={() => changeView('terms')}>Terms of Service</span>
+        </div>
       </footer>
     </div>
   );
 }
+
+// --- Legal Sub-Components ---
+
+const PrivacyPage = ({ goBack }) => (
+  <div className="legal-container animate-in">
+    <span className="back-btn" onClick={goBack}>← Back to App</span>
+    <h1>Privacy Policy</h1>
+    <p>Effective Date: January 6, 2026</p>
+    <section>
+      <h2>1. Introduction</h2>
+      <p>This Privacy Policy explains how FodPick ("we", "us") handles information. We are committed to protecting your privacy.</p>
+    </section>
+    <section>
+      <h2>2. Data Collection</h2>
+      <p>We do not collect personal identification information. Your ingredient selections are processed locally on your device and are not stored on our servers.</p>
+    </section>
+    <section>
+      <h2>3. Google AdSense & Cookies</h2>
+      <p>We use Google AdSense to serve ads. Google, as a third-party vendor, uses cookies to serve ads on our site. Google's use of advertising cookies enables it and its partners to serve ads based on your visit to this site and/or other sites on the Internet.</p>
+    </section>
+    <section>
+      <h2>4. Third-Party Links</h2>
+      <p>Our application contains advertisements. Clicking on these ads may direct you to third-party websites with their own privacy policies.</p>
+    </section>
+  </div>
+);
+
+const TermsPage = ({ goBack }) => (
+  <div className="legal-container animate-in">
+    <span className="back-btn" onClick={goBack}>← Back to App</span>
+    <h1>Terms of Service</h1>
+    <section>
+      <h2>1. Acceptance of Terms</h2>
+      <p>By using the FodPick, you agree to these terms. If you do not agree, please do not use the application.</p>
+    </section>
+    <section>
+      <h2>2. Disclaimer of Warranty</h2>
+      <p>The service is provided "as is". We make no warranty that recipe suggestions are accurate or safe for all dietary requirements. Use recipes at your own risk.</p>
+    </section>
+    <section>
+      <h2>3. Limitation of Liability</h2>
+      <p>We are not liable for any damages, including but not limited to kitchen accidents, food poisoning, or allergic reactions resulting from the use of this app.</p>
+    </section>
+  </div>
+);
 
 export default App;

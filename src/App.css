@@ -24,114 +24,79 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: 'Plus Jakarta Sans', sans-serif;
-  transition: 0.3s ease;
-  margin: 0;
-  padding: 20px;
+  margin: 0; padding: 20px; transition: 0.3s;
 }
 
 .engine-container {
-  max-width: 440px;
-  margin: 30px auto;
-  padding: 30px;
-  background: var(--card);
-  border-radius: 30px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-  border: 1px solid var(--border);
-  text-align: center;
+  max-width: 440px; margin: 40px auto; padding: 30px;
+  background: var(--card); border-radius: 30px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border); text-align: center;
 }
 
-.top-nav { display: flex; justify-content: flex-end; margin-bottom: 10px; }
+.top-nav { display: flex; justify-content: flex-end; }
 .theme-toggle { 
-  background: var(--border); 
-  border: none; 
-  padding: 8px 15px; 
-  border-radius: 50px; 
-  cursor: pointer; 
-  color: var(--text); 
-  font-weight: 600;
-  font-size: 0.8rem;
+  background: var(--border); border: none; padding: 10px; 
+  border-radius: 50%; cursor: pointer; font-size: 1rem;
 }
 
 h1 {
-  font-family: 'Outfit', sans-serif;
-  font-size: 2.2rem;
-  margin: 0;
+  font-family: 'Outfit', sans-serif; font-size: 2.3rem; margin: 10px 0;
   background: linear-gradient(135deg, var(--primary), var(--accent));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
 }
 
-header p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 25px; }
-
-.filter-group { text-align: left; margin-bottom: 20px; }
-.filter-group label { font-weight: 700; font-size: 0.75rem; color: var(--primary); text-transform: uppercase; display: block; margin-bottom: 8px; }
+.filter-group { text-align: left; margin-bottom: 25px; }
+.filter-group label { 
+  font-weight: 800; font-size: 0.75rem; text-transform: uppercase; 
+  color: var(--primary); display: block; margin-bottom: 8px; 
+}
 
 .dropdown-list { display: flex; flex-direction: column; gap: 8px; }
 
 select {
-  width: 100%;
-  padding: 14px;
-  border-radius: 14px;
-  border: 2px solid var(--border);
-  background: var(--card);
-  color: var(--text);
-  font-size: 1rem;
-  appearance: none;
-  cursor: pointer;
+  width: 100%; padding: 14px; border-radius: 12px;
+  border: 2px solid var(--border); background: var(--card);
+  color: var(--text); font-size: 1rem; appearance: none;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b' stroke-width='2'%3E%3Cpath d='M19.5 8.25l-7.5 7.5-7.5-7.5'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 1rem center;
-  background-size: 1rem;
+  background-repeat: no-repeat; background-position: right 1rem center; background-size: 1rem;
 }
 
-optgroup { font-weight: 800; color: var(--primary); background: var(--card); }
-
 .button-row { display: flex; gap: 10px; margin-top: 10px; }
-.add-btn, .clear-btn { flex: 1; padding: 12px; border-radius: 12px; font-weight: 600; cursor: pointer; transition: 0.2s; font-size: 0.85rem; }
-
+.add-btn, .clear-btn { 
+  flex: 1; padding: 12px; border-radius: 12px; font-weight: 700; cursor: pointer; font-size: 0.8rem;
+}
 .add-btn { background: transparent; border: 2px dashed var(--border); color: var(--text-muted); }
-.clear-btn { background: transparent; border: 2px solid transparent; color: var(--danger); }
-.clear-btn:hover { background: rgba(239, 68, 68, 0.05); }
+.clear-btn { background: transparent; border: none; color: var(--danger); }
 
 .main-btn {
-  width: 100%;
-  padding: 18px;
-  background: var(--primary);
-  color: white;
-  border: none;
-  border-radius: 18px;
-  font-weight: 800;
-  font-size: 1.1rem;
-  margin-top: 20px;
-  cursor: pointer;
-  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.3);
+  width: 100%; padding: 20px; background: var(--primary);
+  color: white; border: none; border-radius: 20px;
+  font-weight: 800; font-size: 1.1rem; margin-top: 15px; cursor: pointer;
+  box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.4);
 }
 
 .recipe-card, .no-match-box {
-  margin-top: 25px;
-  padding: 20px;
-  background: var(--bg);
-  border-radius: 20px;
-  text-align: left;
-  border-bottom: 4px solid var(--accent);
+  margin-top: 30px; padding: 25px; background: var(--bg);
+  border-radius: 24px; text-align: left; border-left: 6px solid var(--accent);
 }
 
-.no-match-box { border-bottom-color: var(--danger); }
+.cuisine-tag { background: var(--primary); color: white; padding: 4px 10px; border-radius: 6px; font-size: 0.7rem; font-weight: 800; }
+.time-tag { float: right; color: var(--text-muted); font-size: 0.8rem; }
 
-.cuisine-tag { background: var(--primary); color: white; padding: 4px 10px; border-radius: 8px; font-size: 0.7rem; font-weight: 800; }
-.method h3 { font-size: 0.9rem; margin: 15px 0 5px; }
-.method p { line-height: 1.6; color: var(--text-muted); font-size: 0.95rem; }
+.ad-wrapper { margin-top: 20px; padding: 10px; background: rgba(0,0,0,0.03); border-radius: 10px; text-align: center; }
+.ad-wrapper small { font-size: 0.6rem; color: #999; letter-spacing: 1px; display: block; margin-bottom: 5px; }
 
-/* Ads Styling */
-.ad-wrapper {
-  margin-top: 20px;
-  padding: 10px;
-  background: rgba(0,0,0,0.02);
-  border-radius: 10px;
-  text-align: center;
-}
-.ad-wrapper small { font-size: 0.6rem; color: #ccc; letter-spacing: 1px; }
+.app-footer { margin-top: 40px; border-top: 1px solid var(--border); padding-top: 20px; font-size: 0.75rem; color: var(--text-muted); }
+.footer-links { display: flex; justify-content: center; gap: 15px; margin-top: 8px; }
+.footer-links span { color: var(--primary); cursor: pointer; font-weight: 600; }
 
-.animate-in { animation: pop 0.4s ease-out; }
-@keyframes pop { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
+/* Legal Views */
+.legal-container { max-width: 500px; margin: 40px auto; text-align: left; background: var(--card); padding: 40px; border-radius: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+.back-btn { color: var(--primary); font-weight: 700; cursor: pointer; display: block; margin-bottom: 20px; }
+.legal-container h1 { font-size: 2rem; margin-bottom: 10px; }
+.legal-container h2 { font-size: 1.1rem; margin-top: 20px; color: var(--primary); }
+.legal-container p { line-height: 1.6; color: var(--text-muted); }
+
+.animate-in { animation: popIn 0.4s ease-out; }
+@keyframes popIn { from { opacity: 0; transform: scale(0.97) translateY(10px); } to { opacity: 1; transform: scale(1) translateY(0); } }
