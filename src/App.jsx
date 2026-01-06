@@ -46,7 +46,7 @@ function App() {
 
   return (
     <div className="engine-container">
-      <h1>🚫 Anti-Decision Engine</h1>
+      <h1>FodPick</h1>
 
       <div className="filter-group">
         <label>Step 1: Pick a Cuisine</label>
