@@ -60,7 +60,7 @@ function App() {
   return (
     <div className="engine-container">
       <header>
-        <h1>🚫 Anti-Decision Engine</h1>
+        <h1>FodPick</h1>
         <p>Stop thinking. Start cooking.</p>
       </header>
 
