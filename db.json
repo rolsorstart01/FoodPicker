@@ -95,6 +95,3910 @@
       "ingredients": ["Tortilla", "Black Beans", "Cheddar Cheese", "Corn"],
       "instructions": "1. Place cheese and beans on tortilla. 2. Fold and grill until melted. 3. Slice and serve.",
       "time": "10 min"
+    },
+    {
+      "id": 13,
+      "title": "Shrimp Scampi",
+      "cuisine": "Italian-American",
+      "ingredients": ["Shrimp", "Garlic", "White Wine", "Lemon", "Parsley", "Butter"],
+      "instructions": "1. Sauté shrimp and garlic in butter. 2. Deglaze with wine and lemon. 3. Toss with parsley.",
+      "time": "12 min"
+    },
+    {
+      "id": 14,
+      "title": "Teriyaki Tofu",
+      "cuisine": "Japanese",
+      "ingredients": ["Firm Tofu", "Soy Sauce", "Mirin", "Sugar", "Sesame Seeds"],
+      "instructions": "1. Press and cube tofu. 2. Fry until crisp. 3. Glaze with soy, mirin, and sugar mix.",
+      "time": "20 min"
+    },
+    {
+      "id": 15,
+      "title": "Caprese Salad",
+      "cuisine": "Italian",
+      "ingredients": ["Fresh Mozzarella", "Tomatoes", "Basil Leaves", "Olive Oil", "Balsamic Vinegar"],
+      "instructions": "1. Slice cheese and tomatoes. 2. Alternate slices with basil. 3. Drizzle with oil and vinegar.",
+      "time": "8 min"
+    },
+    {
+      "id": 16,
+      "title": "BBQ Pulled Pork",
+      "cuisine": "American",
+      "ingredients": ["Pork Shoulder", "BBQ Sauce", "Apple Cider Vinegar", "Onion"],
+      "instructions": "1. Slow cook pork with onions. 2. Shred meat. 3. Mix with BBQ sauce and vinegar.",
+      "time": "6 hours"
+    },
+    {
+      "id": 17,
+      "title": "Miso Soup",
+      "cuisine": "Japanese",
+      "ingredients": ["Miso Paste", "Dashi", "Tofu", "Seaweed", "Green Onions"],
+      "instructions": "1. Heat dashi to simmer. 2. Dissolve miso paste. 3. Add tofu and seaweed.",
+      "time": "10 min"
+    },
+    {
+      "id": 18,
+      "title": "Beef Stroganoff",
+      "cuisine": "Russian",
+      "ingredients": ["Beef Strips", "Mushrooms", "Sour Cream", "Onion", "Egg Noodles"],
+      "instructions": "1. Brown beef and mushrooms. 2. Stir in sour cream and onions. 3. Serve over boiled noodles.",
+      "time": "25 min"
+    },
+    {
+      "id": 19,
+      "title": "Falafel Wrap",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Falafel Balls", "Pita Bread", "Hummus", "Tahini", "Cucumber"],
+      "instructions": "1. Warm pita and falafel. 2. Spread hummus. 3. Top with falafel, cucumber, and tahini.",
+      "time": "10 min"
+    },
+    {
+      "id": 20,
+      "title": "French Onion Soup",
+      "cuisine": "French",
+      "ingredients": ["Onions", "Beef Broth", "Gruyere Cheese", "Baguette", "Thyme"],
+      "instructions": "1. Caramelize onions. 2. Add broth and simmer. 3. Top with bread and cheese; broil.",
+      "time": "50 min"
+    },
+    {
+      "id": 21,
+      "title": "Chicken Quesadilla",
+      "cuisine": "Mexican",
+      "ingredients": ["Tortilla", "Cooked Chicken", "Cheese", "Peppers"],
+      "instructions": "1. Layer cheese and chicken on tortilla. 2. Fold and pan-fry until golden. 3. Slice into wedges.",
+      "time": "10 min"
+    },
+    {
+      "id": 22,
+      "title": "Tuna Melt",
+      "cuisine": "American",
+      "ingredients": ["Canned Tuna", "Mayo", "Bread", "Cheddar Cheese"],
+      "instructions": "1. Mix tuna and mayo. 2. Spread on bread with cheese. 3. Grill until cheese melts.",
+      "time": "8 min"
+    },
+    {
+      "id": 23,
+      "title": "Pad Thai",
+      "cuisine": "Thai",
+      "ingredients": ["Rice Noodles", "Peanuts", "Bean Sprouts", "Egg", "Tamarind Paste"],
+      "instructions": "1. Soak noodles. 2. Stir-fry egg and sprouts. 3. Toss with noodles, peanuts, and sauce.",
+      "time": "20 min"
+    },
+    {
+      "id": 24,
+      "title": "Shakshuka",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Eggs", "Tomato Sauce", "Bell Peppers", "Onion", "Cumin"],
+      "instructions": "1. Sauté peppers and onions. 2. Add tomato sauce and spices. 3. Poach eggs in sauce.",
+      "time": "25 min"
+    },
+    {
+      "id": 25,
+      "title": "Cobb Salad",
+      "cuisine": "American",
+      "ingredients": ["Chicken", "Bacon", "Hard-boiled Egg", "Avocado", "Blue Cheese"],
+      "instructions": "1. Chop all ingredients. 2. Arrange in rows over lettuce. 3. Serve with vinaigrette.",
+      "time": "20 min"
+    },
+    {
+      "id": 26,
+      "title": "Zucchini Fritters",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Zucchini", "Flour", "Egg", "Garlic", "Lemon"],
+      "instructions": "1. Grate and squeeze zucchini. 2. Mix with flour and egg. 3. Pan-fry small patties.",
+      "time": "20 min"
+    },
+    {
+      "id": 27,
+      "title": "Butter Chicken",
+      "cuisine": "Indian",
+      "ingredients": ["Chicken", "Tomato Puree", "Cream", "Garam Masala", "Butter"],
+      "instructions": "1. Cook chicken in spices. 2. Add tomato and cream. 3. Simmer until thick.",
+      "time": "35 min"
+    },
+    {
+      "id": 28,
+      "title": "Lobster Roll",
+      "cuisine": "Seafood",
+      "ingredients": ["Lobster Meat", "Mayo", "Brioche Bun", "Chives", "Lemon"],
+      "instructions": "1. Toss lobster with mayo and lemon. 2. Butter and toast bun. 3. Fill with mixture.",
+      "time": "15 min"
+    },
+    {
+      "id": 29,
+      "title": "Ratatouille",
+      "cuisine": "French",
+      "ingredients": ["Eggplant", "Zucchini", "Bell Pepper", "Tomato Sauce"],
+      "instructions": "1. Slice vegetables thinly. 2. Layer over sauce in a pan. 3. Bake until tender.",
+      "time": "1 hour"
+    },
+    {
+      "id": 30,
+      "title": "Shepherd's Pie",
+      "cuisine": "British",
+      "ingredients": ["Ground Lamb", "Mashed Potatoes", "Peas", "Carrots", "Onion"],
+      "instructions": "1. Cook lamb and veggies. 2. Top with mashed potatoes. 3. Bake until golden.",
+      "time": "45 min"
+    },
+    {
+      "id": 31,
+      "title": "Spaghetti Carbonara",
+      "cuisine": "Italian",
+      "ingredients": ["Spaghetti", "Pancetta", "Eggs", "Pecorino Romano", "Black Pepper"],
+      "instructions": "1. Cook pasta and pancetta. 2. Whisk eggs and cheese. 3. Toss all with pasta heat off.",
+      "time": "15 min"
+    },
+    {
+      "id": 32,
+      "title": "Chicken Caesar Wrap",
+      "cuisine": "American",
+      "ingredients": ["Chicken", "Romaine", "Caesar Dressing", "Tortilla", "Parmesan"],
+      "instructions": "1. Toss chicken and lettuce with dressing. 2. Sprinkle parmesan. 3. Wrap in tortilla.",
+      "time": "10 min"
+    },
+    {
+      "id": 33,
+      "title": "Gazpacho",
+      "cuisine": "Spanish",
+      "ingredients": ["Tomatoes", "Cucumber", "Bell Pepper", "Garlic", "Vinegar"],
+      "instructions": "1. Blend all raw ingredients. 2. Chill in fridge. 3. Serve cold.",
+      "time": "10 min"
+    },
+    {
+      "id": 34,
+      "title": "Hummus",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Chickpeas", "Tahini", "Lemon Juice", "Garlic", "Olive Oil"],
+      "instructions": "1. Blend chickpeas, tahini, and lemon. 2. Add water for consistency. 3. Drizzle with oil.",
+      "time": "10 min"
+    },
+    {
+      "id": 35,
+      "title": "Eggplant Parmesan",
+      "cuisine": "Italian",
+      "ingredients": ["Eggplant", "Marinara Sauce", "Mozzarella", "Parmesan", "Breadcrumbs"],
+      "instructions": "1. Bread and fry eggplant. 2. Layer with sauce and cheese. 3. Bake until bubbly.",
+      "time": "45 min"
+    },
+    {
+      "id": 36,
+      "title": "Pho",
+      "cuisine": "Vietnamese",
+      "ingredients": ["Beef Broth", "Rice Noodles", "Beef Slices", "Basil", "Bean Sprouts"],
+      "instructions": "1. Boil broth. 2. Add noodles and beef. 3. Garnish with basil and sprouts.",
+      "time": "30 min"
+    },
+    {
+      "id": 37,
+      "title": "Bangers and Mash",
+      "cuisine": "British",
+      "ingredients": ["Sausages", "Potatoes", "Milk", "Butter", "Onion Gravy"],
+      "instructions": "1. Boil and mash potatoes. 2. Pan-fry sausages. 3. Serve with warm gravy.",
+      "time": "25 min"
+    },
+    {
+      "id": 38,
+      "title": "Tuna Poke Bowl",
+      "cuisine": "Hawaiian",
+      "ingredients": ["Ahi Tuna", "Rice", "Edamame", "Seaweed", "Soy Sauce"],
+      "instructions": "1. Marinate tuna in soy. 2. Place rice in bowl. 3. Top with tuna and veggies.",
+      "time": "15 min"
+    },
+    {
+      "id": 39,
+      "title": "Beef Sliders",
+      "cuisine": "American",
+      "ingredients": ["Mini Buns", "Ground Beef", "Cheese", "Pickles"],
+      "instructions": "1. Form mini patties and grill. 2. Melt cheese on top. 3. Serve in buns with pickles.",
+      "time": "15 min"
+    },
+    {
+      "id": 40,
+      "title": "Mushroom Risotto",
+      "cuisine": "Italian",
+      "ingredients": ["Arborio Rice", "Mushrooms", "Broth", "Shallots", "White Wine"],
+      "instructions": "1. Sauté shallots and rice. 2. Add wine, then broth slowly. 3. Stir in mushrooms and butter.",
+      "time": "35 min"
+    },
+    {
+      "id": 41,
+      "title": "Chicken Wings",
+      "cuisine": "American",
+      "ingredients": ["Wings", "Buffalo Sauce", "Butter", "Garlic Powder"],
+      "instructions": "1. Bake or fry wings. 2. Mix sauce and butter. 3. Toss wings in sauce.",
+      "time": "30 min"
+    },
+    {
+      "id": 42,
+      "title": "Stuffed Bell Peppers",
+      "cuisine": "Global",
+      "ingredients": ["Bell Peppers", "Ground Beef", "Rice", "Tomato Sauce"],
+      "instructions": "1. Stuff peppers with beef and rice. 2. Cover with sauce. 3. Bake until tender.",
+      "time": "50 min"
+    },
+    {
+      "id": 43,
+      "title": "Pork Gyoza",
+      "cuisine": "Japanese",
+      "ingredients": ["Ground Pork", "Gyoza Wrappers", "Cabbage", "Ginger", "Garlic"],
+      "instructions": "1. Mix filling. 2. Fold into wrappers. 3. Pan-sear then steam with water.",
+      "time": "30 min"
+    },
+    {
+      "id": 44,
+      "title": "Enchiladas",
+      "cuisine": "Mexican",
+      "ingredients": ["Tortillas", "Chicken", "Enchilada Sauce", "Cheese"],
+      "instructions": "1. Fill tortillas with chicken. 2. Roll and place in dish. 3. Cover with sauce/cheese and bake.",
+      "time": "30 min"
+    },
+    {
+      "id": 45,
+      "title": "Ramen",
+      "cuisine": "Japanese",
+      "ingredients": ["Ramen Noodles", "Pork Belly", "Soft Egg", "Bamboo Shoots", "Broth"],
+      "instructions": "1. Simmer broth. 2. Boil noodles. 3. Combine in bowl with toppings.",
+      "time": "20 min"
+    },
+    {
+      "id": 46,
+      "title": "Baked Ziti",
+      "cuisine": "Italian-American",
+      "ingredients": ["Ziti Pasta", "Ricotta", "Marinara Sauce", "Mozzarella"],
+      "instructions": "1. Boil pasta. 2. Mix with ricotta and sauce. 3. Top with mozzarella and bake.",
+      "time": "40 min"
+    },
+    {
+      "id": 47,
+      "title": "Ceviche",
+      "cuisine": "Peruvian",
+      "ingredients": ["White Fish", "Lime Juice", "Red Onion", "Cilantro", "Chili"],
+      "instructions": "1. Cube fish. 2. Marinate in lime juice until white. 3. Mix with onion and cilantro.",
+      "time": "20 min"
+    },
+    {
+      "id": 48,
+      "title": "Sloppy Joes",
+      "cuisine": "American",
+      "ingredients": ["Ground Beef", "Ketchup", "Mustard", "Brown Sugar", "Buns"],
+      "instructions": "1. Brown beef. 2. Stir in sauce ingredients. 3. Simmer and serve on buns.",
+      "time": "15 min"
+    },
+    {
+      "id": 49,
+      "title": "Beef Tartare",
+      "cuisine": "French",
+      "ingredients": ["Raw Beef Fillet", "Egg Yolk", "Capers", "Dijon Mustard", "Shallots"],
+      "instructions": "1. Finely mince beef. 2. Mix with seasonings. 3. Top with raw egg yolk.",
+      "time": "20 min"
+    },
+    {
+      "id": 50,
+      "title": "Vegetable Stir Fry",
+      "cuisine": "Asian",
+      "ingredients": ["Broccoli", "Carrots", "Snap Peas", "Soy Sauce", "Ginger"],
+      "instructions": "1. Sauté ginger. 2. Add veggies and stir-fry. 3. Toss with soy sauce.",
+      "time": "10 min"
+    },
+    {
+      "id": 51,
+      "title": "Fish and Chips",
+      "cuisine": "British",
+      "ingredients": ["White Fish", "Potatoes", "Flour", "Beer", "Tartar Sauce"],
+      "instructions": "1. Batter fish and fry. 2. Deep fry potato wedges. 3. Serve with tartar sauce.",
+      "time": "30 min"
+    },
+    {
+      "id": 52,
+      "title": "Minestrone",
+      "cuisine": "Italian",
+      "ingredients": ["Beans", "Pasta", "Tomato", "Celery", "Broth"],
+      "instructions": "1. Sauté veggies. 2. Add broth and tomatoes. 3. Simmer with beans and pasta.",
+      "time": "40 min"
+    },
+    {
+      "id": 53,
+      "title": "Bibimbap",
+      "cuisine": "Korean",
+      "ingredients": ["Rice", "Beef", "Spinach", "Gochujang", "Egg"],
+      "instructions": "1. Sauté beef and veggies separately. 2. Place over rice. 3. Top with egg and gochujang.",
+      "time": "30 min"
+    },
+    {
+      "id": 54,
+      "title": "Chicken Marsala",
+      "cuisine": "Italian",
+      "ingredients": ["Chicken Breasts", "Marsala Wine", "Mushrooms", "Flour"],
+      "instructions": "1. Dredge chicken in flour and pan-fry. 2. Sauté mushrooms. 3. Simmer in wine.",
+      "time": "25 min"
+    },
+    {
+      "id": 55,
+      "title": "Clam Chowder",
+      "cuisine": "American",
+      "ingredients": ["Clams", "Potatoes", "Cream", "Bacon", "Celery"],
+      "instructions": "1. Cook bacon and celery. 2. Add potatoes and broth. 3. Stir in cream and clams.",
+      "time": "30 min"
+    },
+    {
+      "id": 56,
+      "title": "Palak Paneer",
+      "cuisine": "Indian",
+      "ingredients": ["Spinach", "Paneer", "Cream", "Garam Masala", "Ginger"],
+      "instructions": "1. Blanch and puree spinach. 2. Fry paneer cubes. 3. Simmer together with spices.",
+      "time": "25 min"
+    },
+    {
+      "id": 57,
+      "title": "Steak Frites",
+      "cuisine": "French",
+      "ingredients": ["Sirloin Steak", "Potatoes", "Butter", "Garlic"],
+      "instructions": "1. Pan-sear steak. 2. Deep fry potatoes. 3. Serve with garlic butter.",
+      "time": "20 min"
+    },
+    {
+      "id": 58,
+      "title": "Chili Con Carne",
+      "cuisine": "Tex-Mex",
+      "ingredients": ["Ground Beef", "Kidney Beans", "Chili Powder", "Tomato Puree"],
+      "instructions": "1. Brown beef. 2. Add beans and tomato. 3. Simmer with chili powder.",
+      "time": "45 min"
+    },
+    {
+      "id": 59,
+      "title": "Aloo Gobi",
+      "cuisine": "Indian",
+      "ingredients": ["Potatoes", "Cauliflower", "Turmeric", "Cumin", "Onion"],
+      "instructions": "1. Sauté onions and spices. 2. Add potatoes and cauliflower. 3. Cook until tender.",
+      "time": "25 min"
+    },
+    {
+      "id": 60,
+      "title": "Quiche Lorraine",
+      "cuisine": "French",
+      "ingredients": ["Pie Crust", "Bacon", "Eggs", "Cream", "Swiss Cheese"],
+      "instructions": "1. Place bacon/cheese in crust. 2. Pour in egg/cream mix. 3. Bake until set.",
+      "time": "50 min"
+    },
+    {
+      "id": 61,
+      "title": "Guacamole",
+      "cuisine": "Mexican",
+      "ingredients": ["Avocados", "Lime", "Onion", "Cilantro", "Tomato"],
+      "instructions": "1. Mash avocados. 2. Mix in chopped veggies and lime. 3. Season with salt.",
+      "time": "10 min"
+    },
+    {
+      "id": 62,
+      "title": "Beef Wellington",
+      "cuisine": "British",
+      "ingredients": ["Beef Tenderloin", "Puff Pastry", "Mushroom Duxelles", "Prosciutto"],
+      "instructions": "1. Sear beef. 2. Wrap in mushrooms, ham, and pastry. 3. Bake until golden.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 63,
+      "title": "Tom Yum Soup",
+      "cuisine": "Thai",
+      "ingredients": ["Shrimp", "Lemongrass", "Galangal", "Lime Leaves", "Chili"],
+      "instructions": "1. Boil aromatics. 2. Add shrimp and mushrooms. 3. Season with lime and fish sauce.",
+      "time": "20 min"
+    },
+    {
+      "id": 64,
+      "title": "Gnocchi with Sage Butter",
+      "cuisine": "Italian",
+      "ingredients": ["Gnocchi", "Butter", "Fresh Sage", "Parmesan"],
+      "instructions": "1. Boil gnocchi. 2. Melt butter until brown with sage. 3. Toss together.",
+      "time": "10 min"
+    },
+    {
+      "id": 65,
+      "title": "Chicken Tikka Masala",
+      "cuisine": "Indian-British",
+      "ingredients": ["Chicken", "Yogurt", "Tomato Sauce", "Spices", "Cream"],
+      "instructions": "1. Marinate and grill chicken. 2. Simmer in spiced tomato cream sauce.",
+      "time": "40 min"
+    },
+    {
+      "id": 66,
+      "title": "Nicoise Salad",
+      "cuisine": "French",
+      "ingredients": ["Tuna", "Green Beans", "Hard-boiled Egg", "Potatoes", "Olives"],
+      "instructions": "1. Boil beans and potatoes. 2. Arrange with tuna and eggs. 3. Add vinaigrette.",
+      "time": "25 min"
+    },
+    {
+      "id": 67,
+      "title": "Pulled Pork Sliders",
+      "cuisine": "American",
+      "ingredients": ["Pulled Pork", "Coleslaw", "Mini Buns", "Pickles"],
+      "instructions": "1. Warm pork. 2. Place on buns. 3. Top with coleslaw and pickles.",
+      "time": "10 min"
+    },
+    {
+      "id": 68,
+      "title": "Paella",
+      "cuisine": "Spanish",
+      "ingredients": ["Rice", "Saffron", "Shrimp", "Mussels", "Chorizo"],
+      "instructions": "1. Sauté chorizo. 2. Add rice, saffron, and broth. 3. Simmer with seafood.",
+      "time": "45 min"
+    },
+    {
+      "id": 69,
+      "title": "Shrimp Po' Boy",
+      "cuisine": "Cajun",
+      "ingredients": ["Fried Shrimp", "French Bread", "Lettuce", "Tomato", "Remoulade"],
+      "instructions": "1. Fry breaded shrimp. 2. Split bread and add remoulade. 3. Layer with shrimp and veg.",
+      "time": "20 min"
+    },
+    {
+      "id": 70,
+      "title": "Chicken Schnitzel",
+      "cuisine": "German",
+      "ingredients": ["Chicken Breast", "Breadcrumbs", "Flour", "Egg", "Lemon"],
+      "instructions": "1. Pound chicken thin. 2. Bread with flour, egg, crumbs. 3. Fry until crisp.",
+      "time": "20 min"
+    },
+    {
+      "id": 71,
+      "title": "Lentil Soup",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Brown Lentils", "Carrots", "Onion", "Garlic", "Cumin"],
+      "instructions": "1. Sauté veggies. 2. Add lentils and broth. 3. Simmer until tender.",
+      "time": "40 min"
+    },
+    {
+      "id": 72,
+      "title": "Beef Broccoli",
+      "cuisine": "Chinese",
+      "ingredients": ["Beef Strips", "Broccoli", "Soy Sauce", "Oyster Sauce", "Garlic"],
+      "instructions": "1. Stir-fry beef. 2. Add broccoli and garlic. 3. Toss with sauce mix.",
+      "time": "15 min"
+    },
+    {
+      "id": 73,
+      "title": "Tiramisu",
+      "cuisine": "Italian",
+      "ingredients": ["Ladyfingers", "Espresso", "Mascarpone", "Cocoa Powder", "Eggs"],
+      "instructions": "1. Dip ladyfingers in coffee. 2. Layer with mascarpone cream. 3. Dust with cocoa.",
+      "time": "30 min"
+    },
+    {
+      "id": 74,
+      "title": "Moussaka",
+      "cuisine": "Greek",
+      "ingredients": ["Eggplant", "Ground Beef", "Béchamel Sauce", "Potato"],
+      "instructions": "1. Layer eggplant, beef, and potato. 2. Pour over béchamel. 3. Bake until golden.",
+      "time": "1 hour"
+    },
+    {
+      "id": 75,
+      "title": "Calamari Fritti",
+      "cuisine": "Italian",
+      "ingredients": ["Squid Rings", "Flour", "Lemon", "Marinara Sauce"],
+      "instructions": "1. Dredge squid in flour. 2. Deep fry until golden. 3. Serve with lemon and sauce.",
+      "time": "15 min"
+    },
+    {
+      "id": 76,
+      "title": "Corn Chowder",
+      "cuisine": "American",
+      "ingredients": ["Corn", "Potato", "Cream", "Bacon", "Onion"],
+      "instructions": "1. Sauté bacon and onion. 2. Add potato and corn. 3. Stir in cream and simmer.",
+      "time": "30 min"
+    },
+    {
+      "id": 77,
+      "title": "Tandoori Chicken",
+      "cuisine": "Indian",
+      "ingredients": ["Chicken Drumsticks", "Yogurt", "Tandoori Masala", "Lemon"],
+      "instructions": "1. Marinate chicken in yogurt/spices. 2. Grill at high heat. 3. Serve with lemon.",
+      "time": "40 min"
+    },
+    {
+      "id": 78,
+      "title": "Samosas",
+      "cuisine": "Indian",
+      "ingredients": ["Pastry", "Potatoes", "Peas", "Cumin", "Ginger"],
+      "instructions": "1. Fill pastry with spiced potato mix. 2. Fold into triangles. 3. Deep fry.",
+      "time": "40 min"
+    },
+    {
+      "id": 79,
+      "title": "Pork Souvlaki",
+      "cuisine": "Greek",
+      "ingredients": ["Pork Cubes", "Lemon", "Oregano", "Garlic", "Tzatziki"],
+      "instructions": "1. Marinate pork. 2. Skewer and grill. 3. Serve in pita with tzatziki.",
+      "time": "25 min"
+    },
+    {
+      "id": 80,
+      "title": "Coleslaw",
+      "cuisine": "American",
+      "ingredients": ["Cabbage", "Carrots", "Mayo", "Vinegar", "Sugar"],
+      "instructions": "1. Shred cabbage and carrots. 2. Mix mayo and vinegar. 3. Toss together.",
+      "time": "10 min"
+    },
+    {
+      "id": 81,
+      "title": "Pancakes",
+      "cuisine": "American",
+      "ingredients": ["Flour", "Milk", "Egg", "Butter", "Maple Syrup"],
+      "instructions": "1. Mix batter. 2. Pour onto griddle. 3. Flip when bubbly; serve with syrup.",
+      "time": "15 min"
+    },
+    {
+      "id": 82,
+      "title": "French Toast",
+      "cuisine": "French",
+      "ingredients": ["Bread", "Eggs", "Milk", "Cinnamon", "Vanilla"],
+      "instructions": "1. Dip bread in egg mixture. 2. Fry in butter until brown. 3. Top with syrup.",
+      "time": "10 min"
+    },
+    {
+      "id": 83,
+      "title": "Bruschetta",
+      "cuisine": "Italian",
+      "ingredients": ["Baguette", "Tomatoes", "Garlic", "Basil", "Olive Oil"],
+      "instructions": "1. Toast bread slices. 2. Mix tomatoes and basil. 3. Pile onto bread with oil.",
+      "time": "15 min"
+    },
+    {
+      "id": 84,
+      "title": "Clams Linguine",
+      "cuisine": "Italian",
+      "ingredients": ["Linguine", "Clams", "Garlic", "White Wine", "Parsley"],
+      "instructions": "1. Boil pasta. 2. Sauté garlic and clams in wine. 3. Toss with pasta.",
+      "time": "20 min"
+    },
+    {
+      "id": 85,
+      "title": "Stuffed Mushrooms",
+      "cuisine": "American",
+      "ingredients": ["Mushrooms", "Cream Cheese", "Garlic", "Breadcrumbs"],
+      "instructions": "1. Remove stems. 2. Fill caps with cheese and crumbs. 3. Bake until golden.",
+      "time": "20 min"
+    },
+    {
+      "id": 86,
+      "title": "General Tso's Chicken",
+      "cuisine": "Chinese-American",
+      "ingredients": ["Chicken", "Cornstarch", "Dried Chilies", "Soy Sauce", "Sugar"],
+      "instructions": "1. Batter and fry chicken. 2. Sauté chilies. 3. Toss in sweet/spicy sauce.",
+      "time": "30 min"
+    },
+    {
+      "id": 87,
+      "title": "Banh Mi",
+      "cuisine": "Vietnamese",
+      "ingredients": ["Baguette", "Pork Pate", "Pickled Daikon", "Cilantro", "Jalapeno"],
+      "instructions": "1. Spread pate on bread. 2. Add pork and pickles. 3. Top with cilantro.",
+      "time": "15 min"
+    },
+    {
+      "id": 88,
+      "title": "Chicken Noodle Soup",
+      "cuisine": "Global",
+      "ingredients": ["Chicken", "Noodles", "Carrots", "Celery", "Broth"],
+      "instructions": "1. Simmer veggies and chicken in broth. 2. Add noodles. 3. Cook until tender.",
+      "time": "30 min"
+    },
+    {
+      "id": 89,
+      "title": "Cauliflower Wings",
+      "cuisine": "Vegan",
+      "ingredients": ["Cauliflower", "Flour", "Buffalo Sauce", "Garlic Powder"],
+      "instructions": "1. Batter florets. 2. Bake until crisp. 3. Toss in buffalo sauce.",
+      "time": "35 min"
+    },
+    {
+      "id": 90,
+      "title": "Beef Fajitas",
+      "cuisine": "Mexican",
+      "ingredients": ["Beef Strips", "Bell Peppers", "Onion", "Tortillas", "Lime"],
+      "instructions": "1. Sear beef and veggies. 2. Squeeze lime over. 3. Serve with warm tortillas.",
+      "time": "20 min"
+    },
+    {
+      "id": 91,
+      "title": "Goulash",
+      "cuisine": "Hungarian",
+      "ingredients": ["Beef", "Paprika", "Onions", "Potatoes", "Bell Pepper"],
+      "instructions": "1. Sauté onions. 2. Add beef and plenty of paprika. 3. Simmer with potatoes.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 92,
+      "title": "Egg Salad",
+      "cuisine": "Global",
+      "ingredients": ["Hard-boiled Eggs", "Mayo", "Mustard", "Chives"],
+      "instructions": "1. Chop eggs. 2. Mix with mayo and mustard. 3. Garnish with chives.",
+      "time": "15 min"
+    },
+    {
+      "id": 93,
+      "title": "Potato Leek Soup",
+      "cuisine": "French",
+      "ingredients": ["Leeks", "Potatoes", "Broth", "Butter", "Cream"],
+      "instructions": "1. Sauté leeks. 2. Add potatoes and broth. 3. Blend and stir in cream.",
+      "time": "35 min"
+    },
+    {
+      "id": 94,
+      "title": "Tabbouleh",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Parsley", "Bulgur", "Tomatoes", "Mint", "Lemon Juice"],
+      "instructions": "1. Soak bulgur. 2. Chop parsley and veggies finely. 3. Mix with lemon and oil.",
+      "time": "20 min"
+    },
+    {
+      "id": 95,
+      "title": "Beef Enchiladas",
+      "cuisine": "Mexican",
+      "ingredients": ["Ground Beef", "Tortillas", "Enchilada Sauce", "Cheese"],
+      "instructions": "1. Fill tortillas with beef. 2. Top with sauce and cheese. 3. Bake until bubbly.",
+      "time": "30 min"
+    },
+    {
+      "id": 96,
+      "title": "Baba Ganoush",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Eggplant", "Tahini", "Garlic", "Lemon Juice", "Olive Oil"],
+      "instructions": "1. Roast eggplant. 2. Scoop out flesh and mash. 3. Mix with tahini and garlic.",
+      "time": "45 min"
+    },
+    {
+      "id": 97,
+      "title": "Shrimp Cocktail",
+      "cuisine": "American",
+      "ingredients": ["Boiled Shrimp", "Ketchup", "Horseradish", "Lemon"],
+      "instructions": "1. Mix ketchup and horseradish. 2. Chill shrimp. 3. Serve with sauce and lemon.",
+      "time": "15 min"
+    },
+    {
+      "id": 98,
+      "title": "Cobb Salad",
+      "cuisine": "American",
+      "ingredients": ["Lettuce", "Chicken", "Bacon", "Avocado", "Blue Cheese"],
+      "instructions": "1. Chop all ingredients. 2. Layer on greens. 3. Add dressing.",
+      "time": "20 min"
+    },
+    {
+      "id": 99,
+      "title": "Chow Mein",
+      "cuisine": "Chinese",
+      "ingredients": ["Noodles", "Cabbage", "Carrots", "Soy Sauce", "Garlic"],
+      "instructions": "1. Boil noodles. 2. Stir-fry veggies. 3. Toss noodles with soy sauce.",
+      "time": "15 min"
+    },
+    {
+      "id": 100,
+      "title": "Caprese Skewers",
+      "cuisine": "Italian",
+      "ingredients": ["Cherry Tomatoes", "Bocconcini", "Basil", "Balsamic Glaze"],
+      "instructions": "1. Thread tomato, cheese, and basil on sticks. 2. Drizzle with glaze.",
+      "time": "10 min"
+    },
+    {
+      "id": 101,
+      "title": "Swedish Meatballs",
+      "cuisine": "Swedish",
+      "ingredients": ["Ground Beef/Pork", "Cream", "Lingonberry Jam", "Allspice", "Gravy"],
+      "instructions": "1. Form and fry meatballs. 2. Make cream gravy in pan. 3. Serve with jam.",
+      "time": "30 min"
+    },
+    {
+      "id": 102,
+      "title": "Apple Crisp",
+      "cuisine": "American",
+      "ingredients": ["Apples", "Oats", "Brown Sugar", "Cinnamon", "Butter"],
+      "instructions": "1. Slice apples with cinnamon. 2. Top with oat/butter mix. 3. Bake until golden.",
+      "time": "45 min"
+    },
+    {
+      "id": 103,
+      "title": "Chicken Satay",
+      "cuisine": "Indonesian",
+      "ingredients": ["Chicken Strips", "Peanut Butter", "Soy Sauce", "Turmeric", "Lime"],
+      "instructions": "1. Marinate chicken. 2. Skewer and grill. 3. Serve with peanut sauce.",
+      "time": "25 min"
+    },
+    {
+      "id": 104,
+      "title": "Borscht",
+      "cuisine": "Ukrainian",
+      "ingredients": ["Beets", "Cabbage", "Potatoes", "Beef", "Sour Cream"],
+      "instructions": "1. Boil beef and beets. 2. Add veggies and simmer. 3. Serve with sour cream.",
+      "time": "1 hour"
+    },
+    {
+      "id": 105,
+      "title": "Greek Yogurt Parfait",
+      "cuisine": "Modern",
+      "ingredients": ["Greek Yogurt", "Granola", "Honey", "Berries"],
+      "instructions": "1. Layer yogurt and granola. 2. Top with berries. 3. Drizzle with honey.",
+      "time": "5 min"
+    },
+    {
+      "id": 106,
+      "title": "Chicken Piccata",
+      "cuisine": "Italian",
+      "ingredients": ["Chicken Breast", "Capers", "Lemon", "White Wine", "Butter"],
+      "instructions": "1. Sauté floured chicken. 2. Make sauce with wine, lemon, and capers. 3. Combine.",
+      "time": "20 min"
+    },
+    {
+      "id": 107,
+      "title": "Nachos Supremo",
+      "cuisine": "Tex-Mex",
+      "ingredients": ["Tortilla Chips", "Ground Beef", "Cheese Sauce", "Jalapenos", "Salsa"],
+      "instructions": "1. Layer chips and beef. 2. Melt cheese over top. 3. Add jalapenos and salsa.",
+      "time": "15 min"
+    },
+    {
+      "id": 108,
+      "title": "Beef Kabobs",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Beef Cubes", "Bell Peppers", "Red Onion", "Garlic", "Oil"],
+      "instructions": "1. Skewer beef and veggies. 2. Brush with oil and garlic. 3. Grill until charred.",
+      "time": "20 min"
+    },
+    {
+      "id": 109,
+      "title": "Crab Cakes",
+      "cuisine": "American",
+      "ingredients": ["Crab Meat", "Breadcrumbs", "Mayo", "Old Bay Seasoning", "Egg"],
+      "instructions": "1. Mix ingredients. 2. Form into patties. 3. Pan-fry until golden brown.",
+      "time": "20 min"
+    },
+    {
+      "id": 110,
+      "title": "Mushroom Pizza",
+      "cuisine": "Italian",
+      "ingredients": ["Pizza Dough", "Mushrooms", "Thyme", "Mozzarella", "Truffle Oil"],
+      "instructions": "1. Layer cheese and mushrooms. 2. Bake until crisp. 3. Drizzle with truffle oil.",
+      "time": "15 min"
+    },
+    {
+      "id": 111,
+      "title": "Lentil Dal",
+      "cuisine": "Indian",
+      "ingredients": ["Red Lentils", "Turmeric", "Garlic", "Cumin Seeds", "Onion"],
+      "instructions": "1. Boil lentils. 2. Sauté garlic/cumin (tadka). 3. Stir into lentils.",
+      "time": "25 min"
+    },
+    {
+      "id": 112,
+      "title": "Chicken Pot Pie",
+      "cuisine": "American",
+      "ingredients": ["Chicken", "Peas", "Carrots", "Pie Crust", "Cream Sauce"],
+      "instructions": "1. Mix chicken and veg in sauce. 2. Place in crust and cover. 3. Bake until brown.",
+      "time": "50 min"
+    },
+    {
+      "id": 113,
+      "title": "Shrimp Fra Diavolo",
+      "cuisine": "Italian",
+      "ingredients": ["Shrimp", "Linguine", "Crushed Tomatoes", "Red Pepper Flakes", "Garlic"],
+      "instructions": "1. Sauté garlic and shrimp. 2. Add tomatoes and flakes; simmer. 3. Toss with pasta.",
+      "time": "20 min"
+    },
+    {
+      "id": 114,
+      "title": "Beef Rendang",
+      "cuisine": "Indonesian",
+      "ingredients": ["Beef Cubes", "Coconut Milk", "Lemongrass", "Chili Paste", "Ginger"],
+      "instructions": "1. Brown beef. 2. Add aromatics and milk. 3. Slow cook until liquid evaporates.",
+      "time": "3 hours"
+    },
+    {
+      "id": 115,
+      "title": "Zucchini Noodles with Pesto",
+      "cuisine": "Vegetarian",
+      "ingredients": ["Zucchini", "Basil Pesto", "Pine Nuts", "Cherry Tomatoes"],
+      "instructions": "1. Spiralize zucchini. 2. Sauté for 2 minutes. 3. Toss with pesto and tomatoes.",
+      "time": "10 min"
+    },
+    {
+      "id": 116,
+      "title": "Taco Salad",
+      "cuisine": "Mexican-American",
+      "ingredients": ["Ground Beef", "Lettuce", "Black Beans", "Corn", "Tortilla Strips"],
+      "instructions": "1. Cook beef with taco seasoning. 2. Toss with greens and beans. 3. Top with strips.",
+      "time": "15 min"
+    },
+    {
+      "id": 117,
+      "title": "Japanese Curry",
+      "cuisine": "Japanese",
+      "ingredients": ["Curry Roux", "Beef", "Potatoes", "Carrots", "Onion"],
+      "instructions": "1. Sauté meat and veggies. 2. Add water and boil. 3. Stir in curry roux blocks.",
+      "time": "35 min"
+    },
+    {
+      "id": 118,
+      "title": "Egg Drop Soup",
+      "cuisine": "Chinese",
+      "ingredients": ["Chicken Broth", "Eggs", "Cornstarch", "Ginger", "Green Onions"],
+      "instructions": "1. Simmer broth. 2. Slowly pour whisked eggs while stirring. 3. Thicken with cornstarch.",
+      "time": "10 min"
+    },
+    {
+      "id": 119,
+      "title": "Honey Mustard Chicken",
+      "cuisine": "American",
+      "ingredients": ["Chicken Thighs", "Honey", "Dijon Mustard", "Garlic", "Thyme"],
+      "instructions": "1. Mix honey and mustard. 2. Coat chicken. 3. Bake at 400°F until glazed.",
+      "time": "30 min"
+    },
+    {
+      "id": 120,
+      "title": "Spanish Tortilla",
+      "cuisine": "Spanish",
+      "ingredients": ["Eggs", "Potatoes", "Onion", "Olive Oil"],
+      "instructions": "1. Fry potatoes and onions. 2. Mix with eggs. 3. Cook in pan like a thick omelet.",
+      "time": "25 min"
+    },
+    {
+      "id": 121,
+      "title": "Lamb Gyro",
+      "cuisine": "Greek",
+      "ingredients": ["Lamb Strips", "Pita Bread", "Tzatziki", "Tomato", "Onion"],
+      "instructions": "1. Grill seasoned lamb. 2. Warm pita. 3. Wrap meat with veggies and sauce.",
+      "time": "20 min"
+    },
+    {
+      "id": 122,
+      "title": "Chana Masala",
+      "cuisine": "Indian",
+      "ingredients": ["Chickpeas", "Tomato", "Onion", "Coriander", "Garam Masala"],
+      "instructions": "1. Sauté onions and spices. 2. Add tomatoes and chickpeas. 3. Simmer until thick.",
+      "time": "25 min"
+    },
+    {
+      "id": 123,
+      "title": "Cottage Pie",
+      "cuisine": "British",
+      "ingredients": ["Ground Beef", "Mashed Potatoes", "Peas", "Beef Gravy"],
+      "instructions": "1. Brown beef and peas. 2. Spread in dish and top with mash. 3. Bake until golden.",
+      "time": "45 min"
+    },
+    {
+      "id": 124,
+      "title": "Garlic Butter Steak Bites",
+      "cuisine": "American",
+      "ingredients": ["Sirloin Steak", "Butter", "Garlic", "Parsley"],
+      "instructions": "1. Cube steak and sear in hot pan. 2. Add butter and garlic. 3. Toss until coated.",
+      "time": "10 min"
+    },
+    {
+      "id": 125,
+      "title": "Vichyssoise",
+      "cuisine": "French",
+      "ingredients": ["Leeks", "Potatoes", "Chicken Stock", "Heavy Cream"],
+      "instructions": "1. Cook leeks and potatoes in stock. 2. Puree until smooth. 3. Chill and stir in cream.",
+      "time": "40 min"
+    },
+    {
+      "id": 126,
+      "title": "Mongolian Beef",
+      "cuisine": "Chinese-American",
+      "ingredients": ["Beef Slices", "Soy Sauce", "Brown Sugar", "Ginger", "Green Onions"],
+      "instructions": "1. Fry beef until crisp. 2. Simmer sauce ingredients. 3. Toss beef in sauce.",
+      "time": "20 min"
+    },
+    {
+      "id": 127,
+      "title": "Pesto Gnocchi",
+      "cuisine": "Italian",
+      "ingredients": ["Gnocchi", "Basil Pesto", "Parmesan", "Walnuts"],
+      "instructions": "1. Boil gnocchi. 2. Drain and toss with pesto. 3. Top with nuts and cheese.",
+      "time": "10 min"
+    },
+    {
+      "id": 128,
+      "title": "Vietnamese Spring Rolls",
+      "cuisine": "Vietnamese",
+      "ingredients": ["Rice Paper", "Shrimp", "Vermicelli Noodles", "Mint", "Hoisin Sauce"],
+      "instructions": "1. Soften rice paper. 2. Layer shrimp, noodles, and herbs. 3. Roll tightly.",
+      "time": "25 min"
+    },
+    {
+      "id": 129,
+      "title": "Chicken Cordon Bleu",
+      "cuisine": "Swiss/French",
+      "ingredients": ["Chicken Breast", "Ham", "Swiss Cheese", "Breadcrumbs"],
+      "instructions": "1. Wrap ham and cheese in chicken. 2. Bread the chicken. 3. Bake or fry.",
+      "time": "40 min"
+    },
+    {
+      "id": 130,
+      "title": "Ahi Tuna Sashimi",
+      "cuisine": "Japanese",
+      "ingredients": ["Raw Tuna", "Soy Sauce", "Wasabi", "Ginger"],
+      "instructions": "1. Slice tuna thinly against the grain. 2. Arrange on plate. 3. Serve with dip.",
+      "time": "10 min"
+    },
+    {
+      "id": 131,
+      "title": "Lemon Poppy Seed Muffins",
+      "cuisine": "Bakery",
+      "ingredients": ["Flour", "Lemon Juice", "Poppy Seeds", "Sugar", "Baking Powder"],
+      "instructions": "1. Mix dry and wet ingredients. 2. Fold in poppy seeds. 3. Bake at 375°F.",
+      "time": "25 min"
+    },
+    {
+      "id": 132,
+      "title": "Sausage and Peppers",
+      "cuisine": "Italian-American",
+      "ingredients": ["Italian Sausage", "Bell Peppers", "Onions", "Oregano"],
+      "instructions": "1. Sear sausages. 2. Sauté peppers and onions. 3. Combine and cook through.",
+      "time": "25 min"
+    },
+    {
+      "id": 133,
+      "title": "Caprese Flatbread",
+      "cuisine": "Italian",
+      "ingredients": ["Flatbread", "Mozzarella", "Tomato", "Basil", "Balsamic Glaze"],
+      "instructions": "1. Bake flatbread with cheese/tomato. 2. Top with fresh basil and glaze.",
+      "time": "12 min"
+    },
+    {
+      "id": 134,
+      "title": "Chicken Alfredo",
+      "cuisine": "Italian-American",
+      "ingredients": ["Fettuccine", "Chicken Breast", "Heavy Cream", "Parmesan", "Butter"],
+      "instructions": "1. Boil pasta. 2. Cook chicken. 3. Simmer cream, butter, and cheese; toss pasta.",
+      "time": "20 min"
+    },
+    {
+      "id": 135,
+      "title": "Hummus & Pita Plate",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Hummus", "Pita Bread", "Cucumber", "Olives", "Olive Oil"],
+      "instructions": "1. Toast pita. 2. Arrange with hummus and veggies. 3. Drizzle oil over hummus.",
+      "time": "5 min"
+    },
+    {
+      "id": 136,
+      "title": "Mushroom Swiss Burger",
+      "cuisine": "American",
+      "ingredients": ["Ground Beef", "Swiss Cheese", "Mushrooms", "Burger Bun"],
+      "instructions": "1. Sauté mushrooms. 2. Grill patty. 3. Melt cheese on patty and top with mushrooms.",
+      "time": "15 min"
+    },
+    {
+      "id": 137,
+      "title": "Lentil Salad",
+      "cuisine": "French",
+      "ingredients": ["Cooked Lentils", "Red Onion", "Parsley", "Lemon Juice", "Dijon Mustard"],
+      "instructions": "1. Whisk oil, lemon, and mustard. 2. Toss with lentils and herbs. 3. Serve cold.",
+      "time": "10 min"
+    },
+    {
+      "id": 138,
+      "title": "Stuffed Shells",
+      "cuisine": "Italian-American",
+      "ingredients": ["Jumbo Shells", "Ricotta", "Spinach", "Marinara", "Mozzarella"],
+      "instructions": "1. Boil shells. 2. Stuff with ricotta/spinach. 3. Bake with sauce and cheese.",
+      "time": "45 min"
+    },
+    {
+      "id": 139,
+      "title": "Turkey Club Sandwich",
+      "cuisine": "American",
+      "ingredients": ["Turkey Slices", "Bacon", "Lettuce", "Tomato", "White Bread"],
+      "instructions": "1. Toast bread. 2. Layer turkey, bacon, and veg. 3. Slice into triangles.",
+      "time": "10 min"
+    },
+    {
+      "id": 140,
+      "title": "Cauliflower Steaks",
+      "cuisine": "Vegan",
+      "ingredients": ["Cauliflower Head", "Olive Oil", "Garlic Powder", "Smoked Paprika"],
+      "instructions": "1. Slice cauliflower into thick slabs. 2. Season and oil. 3. Roast at 400°F.",
+      "time": "25 min"
+    },
+    {
+      "id": 141,
+      "title": "Shrimp Fried Rice",
+      "cuisine": "Chinese",
+      "ingredients": ["Shrimp", "Rice", "Peas", "Carrots", "Soy Sauce", "Egg"],
+      "instructions": "1. Scramble egg. 2. Sauté shrimp and veggies. 3. Toss with rice and soy sauce.",
+      "time": "15 min"
+    },
+    {
+      "id": 142,
+      "title": "Tomato Soup",
+      "cuisine": "Global",
+      "ingredients": ["Canned Tomatoes", "Onion", "Garlic", "Vegetable Broth", "Cream"],
+      "instructions": "1. Sauté onion/garlic. 2. Simmer with tomatoes/broth. 3. Blend and add cream.",
+      "time": "20 min"
+    },
+    {
+      "id": 143,
+      "title": "Grilled Cheese",
+      "cuisine": "American",
+      "ingredients": ["Bread", "Cheddar Cheese", "Butter"],
+      "instructions": "1. Butter outside of bread. 2. Place cheese between. 3. Grill until golden.",
+      "time": "5 min"
+    },
+    {
+      "id": 144,
+      "title": "Pork Carnitas",
+      "cuisine": "Mexican",
+      "ingredients": ["Pork Shoulder", "Orange Juice", "Cumin", "Garlic", "Tortillas"],
+      "instructions": "1. Slow cook pork with spices. 2. Shred and broil until crisp. 3. Serve in tortillas.",
+      "time": "4 hours"
+    },
+    {
+      "id": 145,
+      "title": "Broccoli Cheddar Soup",
+      "cuisine": "American",
+      "ingredients": ["Broccoli", "Cheddar", "Milk", "Flour", "Onion"],
+      "instructions": "1. Make a roux. 2. Add milk and simmer with broccoli. 3. Stir in cheese until melted.",
+      "time": "30 min"
+    },
+    {
+      "id": 146,
+      "title": "Steamed Mussels",
+      "cuisine": "Belgian",
+      "ingredients": ["Mussels", "Garlic", "Shallots", "White Wine", "Butter"],
+      "instructions": "1. Sauté shallots. 2. Add mussels and wine. 3. Steam until open and finish with butter.",
+      "time": "15 min"
+    },
+    {
+      "id": 147,
+      "title": "Eggplant Miso",
+      "cuisine": "Japanese",
+      "ingredients": ["Eggplant", "Miso Paste", "Mirin", "Sugar", "Sesame Seeds"],
+      "instructions": "1. Halve eggplants. 2. Broil until soft. 3. Spread miso glaze and broil again.",
+      "time": "20 min"
+    },
+    {
+      "id": 148,
+      "title": "Potato Skins",
+      "cuisine": "American",
+      "ingredients": ["Baked Potatoes", "Cheddar", "Bacon", "Sour Cream", "Chives"],
+      "instructions": "1. Scoop out potato centers. 2. Crisp skins in oven. 3. Fill with cheese/bacon and melt.",
+      "time": "15 min"
+    },
+    {
+      "id": 149,
+      "title": "Cobb Salad Wrap",
+      "cuisine": "Modern American",
+      "ingredients": ["Tortilla", "Chicken", "Egg", "Bacon", "Avocado", "Dressing"],
+      "instructions": "1. Layer salad ingredients in tortilla. 2. Drizzle dressing. 3. Roll and serve.",
+      "time": "10 min"
+    },
+    {
+      "id": 150,
+      "title": "Beef Pho",
+      "cuisine": "Vietnamese",
+      "ingredients": ["Beef Broth", "Star Anise", "Rice Noodles", "Flank Steak", "Onion"],
+      "instructions": "1. Simmer broth with spices. 2. Cook noodles. 3. Pour broth over raw thin steak.",
+      "time": "40 min"
+    },
+    {
+      "id": 151,
+      "title": "Blueberry Pancakes",
+      "cuisine": "American",
+      "ingredients": ["Pancake Mix", "Fresh Blueberries", "Butter", "Maple Syrup"],
+      "instructions": "1. Mix batter. 2. Drop blueberries on pancakes as they cook. 3. Serve warm.",
+      "time": "15 min"
+    },
+    {
+      "id": 152,
+      "title": "Baked Cod",
+      "cuisine": "Seafood",
+      "ingredients": ["Cod Fillet", "Lemon", "Breadcrumbs", "Parsley", "Butter"],
+      "instructions": "1. Top fish with buttered crumbs. 2. Season with lemon. 3. Bake at 400°F.",
+      "time": "15 min"
+    },
+    {
+      "id": 153,
+      "title": "Kale Caesar Salad",
+      "cuisine": "Modern American",
+      "ingredients": ["Kale", "Caesar Dressing", "Parmesan", "Croutons", "Lemon"],
+      "instructions": "1. Massage kale with dressing. 2. Add croutons and cheese. 3. Squeeze lemon.",
+      "time": "10 min"
+    },
+    {
+      "id": 154,
+      "title": "Omelet au Fromage",
+      "cuisine": "French",
+      "ingredients": ["Eggs", "Gruyere Cheese", "Butter", "Chives"],
+      "instructions": "1. Whisk eggs. 2. Cook in butter on low. 3. Fold in cheese and chives.",
+      "time": "8 min"
+    },
+    {
+      "id": 155,
+      "title": "Pork Banh Mi",
+      "cuisine": "Vietnamese",
+      "ingredients": ["Baguette", "Grilled Pork", "Pickled Carrots", "Cilantro", "Mayo"],
+      "instructions": "1. Spread mayo. 2. Layer meat and pickles. 3. Garnish with cilantro and chili.",
+      "time": "20 min"
+    },
+    {
+      "id": 156,
+      "title": "Mushroom Risotto",
+      "cuisine": "Italian",
+      "ingredients": ["Arborio Rice", "Mushrooms", "Vegetable Stock", "Shallot", "Parmesan"],
+      "instructions": "1. Sauté mushrooms. 2. Toast rice with shallots. 3. Add stock slowly, stirring.",
+      "time": "35 min"
+    },
+    {
+      "id": 157,
+      "title": "Tuna Niçoise",
+      "cuisine": "French",
+      "ingredients": ["Canned Tuna", "Green Beans", "Egg", "Potato", "Olives"],
+      "instructions": "1. Blanch beans/potato. 2. Arrange with tuna and egg. 3. Dress with vinaigrette.",
+      "time": "25 min"
+    },
+    {
+      "id": 158,
+      "title": "Chicken Kiev",
+      "cuisine": "Eastern European",
+      "ingredients": ["Chicken Breast", "Garlic Butter", "Flour", "Egg", "Breadcrumbs"],
+      "instructions": "1. Stuff chicken with butter. 2. Coat in crumbs. 3. Bake or fry until golden.",
+      "time": "45 min"
+    },
+    {
+      "id": 159,
+      "title": "Ceviche Mixto",
+      "cuisine": "Peruvian",
+      "ingredients": ["Shrimp", "Fish", "Lime Juice", "Cilantro", "Sweet Potato"],
+      "instructions": "1. Marinate seafood in lime. 2. Mix with onion/cilantro. 3. Serve with potato.",
+      "time": "25 min"
+    },
+    {
+      "id": 160,
+      "title": "Huevos Rancheros",
+      "cuisine": "Mexican",
+      "ingredients": ["Fried Eggs", "Corn Tortillas", "Salsa Roja", "Refried Beans"],
+      "instructions": "1. Warm tortillas/beans. 2. Place egg on tortilla. 3. Top with plenty of salsa.",
+      "time": "15 min"
+    },
+    {
+      "id": 161,
+      "title": "Beef Bulgogi",
+      "cuisine": "Korean",
+      "ingredients": ["Flank Steak", "Soy Sauce", "Pear Juice", "Sesame Oil", "Garlic"],
+      "instructions": "1. Marinate beef. 2. Grill over high heat. 3. Serve with rice and lettuce.",
+      "time": "20 min"
+    },
+    {
+      "id": 162,
+      "title": "Gazpacho",
+      "cuisine": "Spanish",
+      "ingredients": ["Tomato", "Cucumber", "Bell Pepper", "Vinegar", "Stale Bread"],
+      "instructions": "1. Blend all ingredients. 2. Strain if desired. 3. Chill for 2 hours.",
+      "time": "15 min"
+    },
+    {
+      "id": 163,
+      "title": "Chili Cheese Fries",
+      "cuisine": "American",
+      "ingredients": ["Frozen Fries", "Chili Con Carne", "Cheddar Cheese"],
+      "instructions": "1. Bake fries. 2. Top with warm chili and cheese. 3. Broil until melted.",
+      "time": "25 min"
+    },
+    {
+      "id": 164,
+      "title": "Penne alla Vodka",
+      "cuisine": "Italian",
+      "ingredients": ["Penne", "Vodka", "Heavy Cream", "Tomato Paste", "Shallot"],
+      "instructions": "1. Sauté shallot. 2. Add paste, vodka, and cream. 3. Toss with boiled pasta.",
+      "time": "20 min"
+    },
+    {
+      "id": 165,
+      "title": "Ratatouille",
+      "cuisine": "French",
+      "ingredients": ["Zucchini", "Eggplant", "Tomato", "Bell Pepper", "Thyme"],
+      "instructions": "1. Sauté veggies individually. 2. Combine and simmer with herbs. 3. Serve warm.",
+      "time": "50 min"
+    },
+    {
+      "id": 166,
+      "title": "Tikka Masala Skewers",
+      "cuisine": "Indian-Fusion",
+      "ingredients": ["Chicken Cubes", "Yogurt", "Tikka Spices", "Onion", "Bell Pepper"],
+      "instructions": "1. Marinate chicken. 2. Skewer with veggies. 3. Grill until charred.",
+      "time": "30 min"
+    },
+    {
+      "id": 167,
+      "title": "Quinoa Bowl",
+      "cuisine": "Modern",
+      "ingredients": ["Quinoa", "Avocado", "Black Beans", "Corn", "Lime Dressing"],
+      "instructions": "1. Cook quinoa. 2. Top with beans, corn, and avocado. 3. Add dressing.",
+      "time": "20 min"
+    },
+    {
+      "id": 168,
+      "title": "Fish Tacos",
+      "cuisine": "Mexican",
+      "ingredients": ["White Fish", "Cabbage Slaw", "Tortillas", "Lime Cream"],
+      "instructions": "1. Pan-fry seasoned fish. 2. Warm tortillas. 3. Assemble with slaw and cream.",
+      "time": "20 min"
+    },
+    {
+      "id": 169,
+      "title": "Spaghetti Bolognese",
+      "cuisine": "Italian",
+      "ingredients": ["Spaghetti", "Ground Beef", "Onion", "Carrot", "Tomato Sauce"],
+      "instructions": "1. Sauté veggies. 2. Brown beef. 3. Simmer in sauce and serve over pasta.",
+      "time": "40 min"
+    },
+    {
+      "id": 170,
+      "title": "Lemon Tart",
+      "cuisine": "French",
+      "ingredients": ["Shortcrust Pastry", "Lemons", "Eggs", "Sugar", "Cream"],
+      "instructions": "1. Bake crust. 2. Cook lemon/egg curd. 3. Pour into crust and chill.",
+      "time": "1 hour"
+    },
+    {
+      "id": 171,
+      "title": "Chicken Wing Dip",
+      "cuisine": "American",
+      "ingredients": ["Shredded Chicken", "Cream Cheese", "Buffalo Sauce", "Blue Cheese"],
+      "instructions": "1. Mix all ingredients. 2. Bake until bubbly. 3. Serve with tortilla chips.",
+      "time": "25 min"
+    },
+    {
+      "id": 172,
+      "title": "Greek Pasta Salad",
+      "cuisine": "Greek",
+      "ingredients": ["Rotini", "Feta", "Olives", "Cucumber", "Red Onion"],
+      "instructions": "1. Boil pasta and cool. 2. Toss with veggies and cheese. 3. Add vinaigrette.",
+      "time": "15 min"
+    },
+    {
+      "id": 173,
+      "title": "Beef Satay",
+      "cuisine": "Thai",
+      "ingredients": ["Beef Strips", "Coconut Milk", "Curry Powder", "Peanut Sauce"],
+      "instructions": "1. Marinate beef. 2. Skewer and grill. 3. Serve with warm peanut sauce.",
+      "time": "30 min"
+    },
+    {
+      "id": 174,
+      "title": "Sloppy Joes",
+      "cuisine": "American",
+      "ingredients": ["Ground Beef", "Ketchup", "Brown Sugar", "Mustard", "Buns"],
+      "instructions": "1. Brown beef. 2. Stir in sauce ingredients. 3. Simmer and serve on buns.",
+      "time": "20 min"
+    },
+    {
+      "id": 175,
+      "title": "Garlic Naan",
+      "cuisine": "Indian",
+      "ingredients": ["Flour", "Yogurt", "Yeast", "Garlic", "Butter"],
+      "instructions": "1. Knead dough and let rise. 2. Roll out and pan-sear. 3. Brush with garlic butter.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 176,
+      "title": "Shrimp Lo Mein",
+      "cuisine": "Chinese-American",
+      "ingredients": ["Egg Noodles", "Shrimp", "Bok Choy", "Soy Sauce", "Sesame Oil"],
+      "instructions": "1. Cook noodles. 2. Sauté shrimp and bok choy. 3. Toss with noodles and sauce.",
+      "time": "15 min"
+    },
+    {
+      "id": 177,
+      "title": "Vegetable Korma",
+      "cuisine": "Indian",
+      "ingredients": ["Mixed Veggies", "Coconut Milk", "Cashews", "Spices"],
+      "instructions": "1. Blend cashews into a paste. 2. Sauté veggies and spices. 3. Simmer in milk.",
+      "time": "30 min"
+    },
+    {
+      "id": 178,
+      "title": "Bruschetta",
+      "cuisine": "Italian",
+      "ingredients": ["Baguette", "Tomatoes", "Garlic", "Basil", "Olive Oil"],
+      "instructions": "1. Toast bread slices. 2. Rub with garlic. 3. Top with tomato/basil mix.",
+      "time": "15 min"
+    },
+    {
+      "id": 179,
+      "title": "Chicken Enchiladas",
+      "cuisine": "Mexican",
+      "ingredients": ["Tortillas", "Chicken", "Green Chili Sauce", "Monterey Jack"],
+      "instructions": "1. Roll chicken in tortillas. 2. Top with sauce and cheese. 3. Bake until melted.",
+      "time": "30 min"
+    },
+    {
+      "id": 180,
+      "title": "Lentil Soup",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Brown Lentils", "Carrots", "Celery", "Onion", "Spinach"],
+      "instructions": "1. Sauté mirepoix. 2. Add lentils and water; simmer. 3. Stir in spinach at end.",
+      "time": "45 min"
+    },
+    {
+      "id": 181,
+      "title": "Beef Carpaccio",
+      "cuisine": "Italian",
+      "ingredients": ["Beef Tenderloin", "Arugula", "Parmesan Shavings", "Lemon"],
+      "instructions": "1. Slice raw beef paper-thin. 2. Plate with arugula. 3. Drizzle oil and lemon.",
+      "time": "15 min"
+    },
+    {
+      "id": 182,
+      "title": "Mushroom Quesadilla",
+      "cuisine": "Mexican",
+      "ingredients": ["Tortilla", "Mushrooms", "Onion", "Oaxaca Cheese"],
+      "instructions": "1. Sauté mushrooms/onions. 2. Place on tortilla with cheese. 3. Fold and grill.",
+      "time": "12 min"
+    },
+    {
+      "id": 183,
+      "title": "Lobster Bisque",
+      "cuisine": "French",
+      "ingredients": ["Lobster Shells", "Cream", "Sherry", "Tomato Paste", "Butter"],
+      "instructions": "1. Make stock from shells. 2. Strain and add paste/sherry. 3. Whisk in cream.",
+      "time": "1 hour"
+    },
+    {
+      "id": 184,
+      "title": "Turkey Meatloaf",
+      "cuisine": "American",
+      "ingredients": ["Ground Turkey", "Breadcrumbs", "Egg", "Ketchup", "Onion"],
+      "instructions": "1. Mix all ingredients. 2. Shape into loaf. 3. Bake at 375°F for 50 mins.",
+      "time": "1 hour"
+    },
+    {
+      "id": 185,
+      "title": "Pad See Ew",
+      "cuisine": "Thai",
+      "ingredients": ["Wide Rice Noodles", "Chinese Broccoli", "Beef", "Dark Soy Sauce"],
+      "instructions": "1. Sauté beef and broccoli. 2. Add noodles and sauce. 3. Stir-fry on high heat.",
+      "time": "20 min"
+    },
+    {
+      "id": 186,
+      "title": "Tiramisu",
+      "cuisine": "Italian",
+      "ingredients": ["Ladyfingers", "Mascarpone", "Espresso", "Cocoa Powder"],
+      "instructions": "1. Dip biscuits in coffee. 2. Layer with mascarpone cream. 3. Dust with cocoa.",
+      "time": "30 min"
+    },
+    {
+      "id": 187,
+      "title": "Buffalo Cauliflower",
+      "cuisine": "Vegan",
+      "ingredients": ["Cauliflower", "Buffalo Sauce", "Flour", "Garlic Powder"],
+      "instructions": "1. Batter and bake florets. 2. Toss in sauce. 3. Bake again until crispy.",
+      "time": "35 min"
+    },
+    {
+      "id": 188,
+      "title": "Aloo Gobi",
+      "cuisine": "Indian",
+      "ingredients": ["Potatoes", "Cauliflower", "Turmeric", "Cumin", "Ginger"],
+      "instructions": "1. Sauté spices. 2. Add potatoes and cauliflower. 3. Cook until tender.",
+      "time": "30 min"
+    },
+    {
+      "id": 189,
+      "title": "Baked Salmon",
+      "cuisine": "Seafood",
+      "ingredients": ["Salmon", "Asparagus", "Lemon", "Dill", "Olive Oil"],
+      "instructions": "1. Place salmon and asparagus on sheet. 2. Season and oil. 3. Bake at 400°F.",
+      "time": "15 min"
+    },
+    {
+      "id": 190,
+      "title": "French Onion Soup",
+      "cuisine": "French",
+      "ingredients": ["Onions", "Beef Broth", "Gruyere", "Baguette Slices"],
+      "instructions": "1. Caramelize onions. 2. Add broth; simmer. 3. Top with bread/cheese; broil.",
+      "time": "1 hour"
+    },
+    {
+      "id": 191,
+      "title": "Egg Salad Sandwich",
+      "cuisine": "Global",
+      "ingredients": ["Hard-boiled Eggs", "Mayo", "Dijon Mustard", "Chives", "Bread"],
+      "instructions": "1. Mash eggs with mayo and mustard. 2. Stir in chives. 3. Spread on bread.",
+      "time": "15 min"
+    },
+    {
+      "id": 192,
+      "title": "Falafel",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Chickpeas", "Parsley", "Garlic", "Cumin", "Flour"],
+      "instructions": "1. Pulse chickpeas and herbs. 2. Form balls. 3. Deep fry until brown.",
+      "time": "30 min"
+    },
+    {
+      "id": 193,
+      "title": "Bangers and Mash",
+      "cuisine": "British",
+      "ingredients": ["Sausages", "Potatoes", "Butter", "Onion Gravy"],
+      "instructions": "1. Boil and mash potatoes. 2. Pan-fry sausages. 3. Serve with warm gravy.",
+      "time": "25 min"
+    },
+    {
+      "id": 194,
+      "title": "Bibimbap",
+      "cuisine": "Korean",
+      "ingredients": ["Rice", "Spinach", "Carrots", "Beef", "Gochujang", "Egg"],
+      "instructions": "1. Sauté veggies/beef. 2. Assemble in bowl over rice. 3. Top with fried egg.",
+      "time": "30 min"
+    },
+    {
+      "id": 195,
+      "title": "Clam Chowder",
+      "cuisine": "American",
+      "ingredients": ["Clams", "Potatoes", "Bacon", "Heavy Cream", "Celery"],
+      "instructions": "1. Cook bacon/celery. 2. Add potatoes and clam juice. 3. Stir in cream and clams.",
+      "time": "30 min"
+    },
+    {
+      "id": 196,
+      "title": "Paneer Butter Masala",
+      "cuisine": "Indian",
+      "ingredients": ["Paneer", "Tomato Puree", "Butter", "Cream", "Garam Masala"],
+      "instructions": "1. Sauté spices and tomato. 2. Add paneer cubes. 3. Finish with butter and cream.",
+      "time": "25 min"
+    },
+    {
+      "id": 197,
+      "title": "Tuna Melt",
+      "cuisine": "American",
+      "ingredients": ["Canned Tuna", "Mayo", "Cheddar", "English Muffin"],
+      "instructions": "1. Mix tuna/mayo. 2. Pile on muffin with cheese. 3. Broil until bubbly.",
+      "time": "10 min"
+    },
+    {
+      "id": 198,
+      "title": "Steak au Poivre",
+      "cuisine": "French",
+      "ingredients": ["Filet Mignon", "Peppercorns", "Brandy", "Heavy Cream"],
+      "instructions": "1. Coat steak in peppercorns. 2. Sear. 3. Deglaze with brandy/cream for sauce.",
+      "time": "20 min"
+    },
+    {
+      "id": 199,
+      "title": "Gnocchi Sorrentina",
+      "cuisine": "Italian",
+      "ingredients": ["Gnocchi", "Tomato Sauce", "Mozzarella", "Basil"],
+      "instructions": "1. Boil gnocchi. 2. Mix with sauce and cheese. 3. Bake until cheese is gooey.",
+      "time": "20 min"
+    },
+    {
+      "id": 200,
+      "title": "Calamari",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Squid Rings", "Flour", "Lemon", "Marinara"],
+      "instructions": "1. Dust squid in flour. 2. Deep fry briefly. 3. Serve with lemon and sauce.",
+      "time": "15 min"
+    },
+    {
+      "id": 201,
+      "title": "Ramen",
+      "cuisine": "Japanese",
+      "ingredients": ["Noodles", "Pork Belly", "Miso Broth", "Soft Egg", "Nori"],
+      "instructions": "1. Heat broth. 2. Boil noodles. 3. Combine and add toppings.",
+      "time": "20 min"
+    },
+    {
+      "id": 202,
+      "title": "Chicken Marsala",
+      "cuisine": "Italian-American",
+      "ingredients": ["Chicken Breast", "Marsala Wine", "Mushrooms", "Garlic"],
+      "instructions": "1. Sauté chicken and mushrooms. 2. Add wine and simmer to reduce. 3. Serve.",
+      "time": "25 min"
+    },
+    {
+      "id": 203,
+      "title": "Black Bean Burger",
+      "cuisine": "Vegan",
+      "ingredients": ["Black Beans", "Breadcrumbs", "Cumin", "Onion", "Bun"],
+      "instructions": "1. Mash beans and mix with spices. 2. Form patties and fry. 3. Serve on bun.",
+      "time": "20 min"
+    },
+    {
+      "id": 204,
+      "title": "Shepherd’s Pie",
+      "cuisine": "British",
+      "ingredients": ["Ground Lamb", "Potatoes", "Peas", "Carrots"],
+      "instructions": "1. Cook meat and veggies. 2. Top with mashed potatoes. 3. Bake until browned.",
+      "time": "45 min"
+    },
+    {
+      "id": 205,
+      "title": "Tabbouleh",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Bulgur", "Parsley", "Mint", "Tomato", "Lemon Juice"],
+      "instructions": "1. Soak bulgur. 2. Finely chop herbs/veg. 3. Mix everything with lemon/oil.",
+      "time": "20 min"
+    },
+    {
+      "id": 206,
+      "title": "Crab Cakes",
+      "cuisine": "American",
+      "ingredients": ["Crab Meat", "Mayo", "Old Bay", "Egg", "Breadcrumbs"],
+      "instructions": "1. Gently mix ingredients. 2. Form cakes. 3. Pan-fry until golden.",
+      "time": "20 min"
+    },
+    {
+      "id": 207,
+      "title": "Duck à l'Orange",
+      "cuisine": "French",
+      "ingredients": ["Duck Breast", "Orange Juice", "Sugar", "Vinegar"],
+      "instructions": "1. Sear duck. 2. Make caramel with sugar/vinegar. 3. Add juice to finish sauce.",
+      "time": "40 min"
+    },
+    {
+      "id": 208,
+      "title": "Pork Gyoza",
+      "cuisine": "Japanese",
+      "ingredients": ["Ground Pork", "Wrappers", "Cabbage", "Ginger"],
+      "instructions": "1. Fold filling into wrappers. 2. Pan-fry bottom. 3. Add water and steam.",
+      "time": "30 min"
+    },
+    {
+      "id": 209,
+      "title": "Caesar Salad",
+      "cuisine": "Mexican-Italian",
+      "ingredients": ["Romaine", "Parmesan", "Croutons", "Anchovies", "Egg Yolk"],
+      "instructions": "1. Make dressing with egg/oil/anchovy. 2. Toss with lettuce. 3. Top with cheese.",
+      "time": "15 min"
+    },
+    {
+      "id": 210,
+      "title": "Paella",
+      "cuisine": "Spanish",
+      "ingredients": ["Rice", "Saffron", "Shrimp", "Mussels", "Chorizo"],
+      "instructions": "1. Cook chorizo. 2. Add rice, saffron, and broth. 3. Top with seafood and simmer.",
+      "time": "45 min"
+    },
+    {
+      "id": 211,
+      "title": "Spaghetti Carbonara",
+      "cuisine": "Italian",
+      "ingredients": ["Spaghetti", "Pancetta", "Eggs", "Pecorino Romano"],
+      "instructions": "1. Fry pancetta. 2. Toss hot pasta with pancetta and egg/cheese mixture.",
+      "time": "15 min"
+    },
+    {
+      "id": 212,
+      "title": "Beef Taco",
+      "cuisine": "Mexican",
+      "ingredients": ["Ground Beef", "Tortilla", "Cumin", "Onion", "Cilantro"],
+      "instructions": "1. Season and brown beef. 2. Warm tortillas. 3. Fill and garnish.",
+      "time": "15 min"
+    },
+    {
+      "id": 213,
+      "title": "Lemon Garlic Shrimp",
+      "cuisine": "Seafood",
+      "ingredients": ["Shrimp", "Lemon", "Garlic", "Parsley", "Butter"],
+      "instructions": "1. Sauté garlic in butter. 2. Add shrimp until pink. 3. Finish with lemon and parsley.",
+      "time": "10 min"
+    },
+    {
+      "id": 214,
+      "title": "Chicken Quesadilla",
+      "cuisine": "Mexican",
+      "ingredients": ["Tortilla", "Chicken", "Cheddar", "Bell Peppers"],
+      "instructions": "1. Sauté peppers and chicken. 2. Place on tortilla with cheese. 3. Grill until melted.",
+      "time": "12 min"
+    },
+    {
+      "id": 215,
+      "title": "Miso Ramen",
+      "cuisine": "Japanese",
+      "ingredients": ["Ramen Noodles", "Miso Paste", "Egg", "Corn", "Nori"],
+      "instructions": "1. Boil noodles. 2. Dissolve miso in hot broth. 3. Assemble with toppings.",
+      "time": "15 min"
+    },
+    {
+      "id": 216,
+      "title": "Beef Sliders",
+      "cuisine": "American",
+      "ingredients": ["Ground Beef", "Slider Buns", "Pickles", "Onion"],
+      "instructions": "1. Form small patties. 2. Grill. 3. Serve on buns with pickles and onion.",
+      "time": "15 min"
+    },
+    {
+      "id": 217,
+      "title": "Caprese Toast",
+      "cuisine": "Italian",
+      "ingredients": ["Sourdough", "Mozzarella", "Tomato", "Basil", "Balsamic"],
+      "instructions": "1. Toast bread. 2. Layer cheese and tomato. 3. Top with basil and glaze.",
+      "time": "5 min"
+    },
+    {
+      "id": 218,
+      "title": "Thai Green Curry",
+      "cuisine": "Thai",
+      "ingredients": ["Coconut Milk", "Green Curry Paste", "Bamboo Shoots", "Chicken"],
+      "instructions": "1. Simmer paste and milk. 2. Add chicken and bamboo. 3. Cook until tender.",
+      "time": "25 min"
+    },
+    {
+      "id": 219,
+      "title": "Greek Salad",
+      "cuisine": "Greek",
+      "ingredients": ["Cucumber", "Feta", "Olives", "Tomato", "Red Onion"],
+      "instructions": "1. Chop vegetables. 2. Mix with olives and feta. 3. Drizzle with oil and oregano.",
+      "time": "10 min"
+    },
+    {
+      "id": 220,
+      "title": "Avocado Egg Toast",
+      "cuisine": "Breakfast",
+      "ingredients": ["Bread", "Avocado", "Poached Egg", "Chili Flakes"],
+      "instructions": "1. Toast bread. 2. Mash avocado on top. 3. Add poached egg and flakes.",
+      "time": "10 min"
+    },
+    {
+      "id": 221,
+      "title": "BBQ Chicken Pizza",
+      "cuisine": "American",
+      "ingredients": ["Pizza Dough", "BBQ Sauce", "Chicken", "Red Onion", "Cilantro"],
+      "instructions": "1. Spread sauce on dough. 2. Add chicken and onion. 3. Bake and garnish with cilantro.",
+      "time": "20 min"
+    },
+    {
+      "id": 222,
+      "title": "Egg Fried Rice",
+      "cuisine": "Chinese",
+      "ingredients": ["Rice", "Egg", "Peas", "Soy Sauce", "Sesame Oil"],
+      "instructions": "1. Scramble egg. 2. Stir-fry rice and peas. 3. Mix in egg and soy sauce.",
+      "time": "12 min"
+    },
+    {
+      "id": 223,
+      "title": "Pan-Seared Scallops",
+      "cuisine": "Seafood",
+      "ingredients": ["Scallops", "Butter", "Garlic", "Lemon"],
+      "instructions": "1. Pat scallops dry. 2. Sear in hot butter for 2 mins per side. 3. Add lemon.",
+      "time": "8 min"
+    },
+    {
+      "id": 224,
+      "title": "Beef Stroganoff",
+      "cuisine": "Russian",
+      "ingredients": ["Beef Strips", "Mushrooms", "Sour Cream", "Egg Noodles"],
+      "instructions": "1. Brown beef and mushrooms. 2. Stir in sour cream. 3. Serve over boiled noodles.",
+      "time": "25 min"
+    },
+    {
+      "id": 225,
+      "title": "Honey Garlic Salmon",
+      "cuisine": "Seafood",
+      "ingredients": ["Salmon", "Honey", "Garlic", "Soy Sauce"],
+      "instructions": "1. Pan-fry salmon. 2. Add honey, garlic, and soy sauce to glaze. 3. Serve.",
+      "time": "15 min"
+    },
+    {
+      "id": 226,
+      "title": "Hummus Wrap",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Tortilla", "Hummus", "Spinach", "Cucumber", "Feta"],
+      "instructions": "1. Spread hummus on tortilla. 2. Add veggies and feta. 3. Roll and serve.",
+      "time": "5 min"
+    },
+    {
+      "id": 227,
+      "title": "Mushroom Pasta",
+      "cuisine": "Italian",
+      "ingredients": ["Pasta", "Mushrooms", "Garlic", "Parmesan", "Cream"],
+      "instructions": "1. Boil pasta. 2. Sauté mushrooms and garlic. 3. Toss with cream and cheese.",
+      "time": "15 min"
+    },
+    {
+      "id": 228,
+      "title": "Turkey Tacos",
+      "cuisine": "Mexican-American",
+      "ingredients": ["Ground Turkey", "Taco Shells", "Lettuce", "Salsa"],
+      "instructions": "1. Brown turkey. 2. Fill shells. 3. Top with lettuce and salsa.",
+      "time": "15 min"
+    },
+    {
+      "id": 229,
+      "title": "Sweet Potato Fries",
+      "cuisine": "Sides",
+      "ingredients": ["Sweet Potato", "Olive Oil", "Paprika", "Salt"],
+      "instructions": "1. Slice potatoes. 2. Toss with oil and spices. 3. Bake until crisp.",
+      "time": "25 min"
+    },
+    {
+      "id": 230,
+      "title": "Chicken Satay",
+      "cuisine": "Indonesian",
+      "ingredients": ["Chicken Strips", "Peanut Butter", "Soy Sauce", "Lime"],
+      "instructions": "1. Skewer chicken. 2. Grill. 3. Serve with peanut dipping sauce.",
+      "time": "20 min"
+    },
+    {
+      "id": 231,
+      "title": "Broccoli Stir-Fry",
+      "cuisine": "Chinese",
+      "ingredients": ["Broccoli", "Ginger", "Garlic", "Soy Sauce", "Rice"],
+      "instructions": "1. Sauté ginger and garlic. 2. Add broccoli and soy sauce. 3. Serve over rice.",
+      "time": "12 min"
+    },
+    {
+      "id": 232,
+      "title": "Lentil Dal",
+      "cuisine": "Indian",
+      "ingredients": ["Red Lentils", "Turmeric", "Garlic", "Cumin Seeds"],
+      "instructions": "1. Boil lentils with turmeric. 2. Fry garlic and cumin. 3. Mix into lentils.",
+      "time": "20 min"
+    },
+    {
+      "id": 233,
+      "title": "Caprese Skewers",
+      "cuisine": "Italian",
+      "ingredients": ["Cherry Tomato", "Mozzarella Balls", "Basil", "Balsamic"],
+      "instructions": "1. Thread items on sticks. 2. Drizzle with balsamic glaze.",
+      "time": "10 min"
+    },
+    {
+      "id": 234,
+      "title": "Tuna Poke Bowl",
+      "cuisine": "Hawaiian",
+      "ingredients": ["Ahi Tuna", "Rice", "Edamame", "Seaweed Salad"],
+      "instructions": "1. Cube tuna. 2. Place rice in bowl. 3. Add toppings and soy sauce.",
+      "time": "15 min"
+    },
+    {
+      "id": 235,
+      "title": "Buffalo Wings",
+      "cuisine": "American",
+      "ingredients": ["Chicken Wings", "Hot Sauce", "Butter", "Celery"],
+      "instructions": "1. Bake wings until crispy. 2. Toss in sauce and butter. 3. Serve with celery.",
+      "time": "35 min"
+    },
+    {
+      "id": 236,
+      "title": "Shakshuka",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Eggs", "Tomato Sauce", "Bell Peppers", "Cumin"],
+      "instructions": "1. Cook peppers in sauce. 2. Crack eggs into sauce. 3. Simmer until whites set.",
+      "time": "20 min"
+    },
+    {
+      "id": 237,
+      "title": "Quinoa Salad",
+      "cuisine": "Modern",
+      "ingredients": ["Quinoa", "Chickpeas", "Parsley", "Lemon", "Cucumber"],
+      "instructions": "1. Cook quinoa. 2. Toss with veggies and chickpeas. 3. Add lemon and oil.",
+      "time": "15 min"
+    },
+    {
+      "id": 238,
+      "title": "Bangers and Mash",
+      "cuisine": "British",
+      "ingredients": ["Sausages", "Potatoes", "Butter", "Onion Gravy"],
+      "instructions": "1. Mash potatoes. 2. Fry sausages. 3. Serve with onion gravy.",
+      "time": "30 min"
+    },
+    {
+      "id": 239,
+      "title": "Pesto Chicken",
+      "cuisine": "Italian",
+      "ingredients": ["Chicken Breast", "Basil Pesto", "Parmesan", "Cherry Tomatoes"],
+      "instructions": "1. Pan-fry chicken. 2. Coat in pesto. 3. Garnish with tomatoes.",
+      "time": "15 min"
+    },
+    {
+      "id": 240,
+      "title": "Garlic Bread",
+      "cuisine": "Sides",
+      "ingredients": ["Baguette", "Butter", "Garlic", "Parsley"],
+      "instructions": "1. Mix butter and garlic. 2. Spread on bread. 3. Toast until golden.",
+      "time": "8 min"
+    },
+    {
+      "id": 241,
+      "title": "Baked Potato",
+      "cuisine": "Sides",
+      "ingredients": ["Russet Potato", "Sour Cream", "Chives", "Bacon"],
+      "instructions": "1. Poke potato and bake. 2. Slice open. 3. Top with cream, chives, and bacon.",
+      "time": "1 hour"
+    },
+    {
+      "id": 242,
+      "title": "Chili Con Carne",
+      "cuisine": "Tex-Mex",
+      "ingredients": ["Ground Beef", "Kidney Beans", "Chili Powder", "Tomato Puree"],
+      "instructions": "1. Brown beef. 2. Add beans and puree. 3. Simmer with chili powder.",
+      "time": "45 min"
+    },
+    {
+      "id": 243,
+      "title": "Caesar Salad",
+      "cuisine": "Mexican",
+      "ingredients": ["Romaine", "Croutons", "Parmesan", "Caesar Dressing"],
+      "instructions": "1. Chop romaine. 2. Toss with dressing and croutons. 3. Add cheese.",
+      "time": "5 min"
+    },
+    {
+      "id": 244,
+      "title": "Pork Chops",
+      "cuisine": "American",
+      "ingredients": ["Pork Chops", "Apple Juice", "Rosemary", "Garlic"],
+      "instructions": "1. Sear chops. 2. Deglaze with juice and rosemary. 3. Simmer until cooked.",
+      "time": "20 min"
+    },
+    {
+      "id": 245,
+      "title": "Zucchini Fritters",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Zucchini", "Flour", "Egg", "Garlic", "Lemon"],
+      "instructions": "1. Grate zucchini. 2. Mix with flour and egg. 3. Pan-fry small patties.",
+      "time": "20 min"
+    },
+    {
+      "id": 246,
+      "title": "Steak Frites",
+      "cuisine": "French",
+      "ingredients": ["Sirloin", "French Fries", "Butter", "Thyme"],
+      "instructions": "1. Pan-sear steak. 2. Fry potatoes. 3. Serve steak with herb butter.",
+      "time": "20 min"
+    },
+    {
+      "id": 247,
+      "title": "Blueberry Muffins",
+      "cuisine": "Bakery",
+      "ingredients": ["Flour", "Blueberries", "Sugar", "Milk", "Egg"],
+      "instructions": "1. Mix wet and dry. 2. Fold in berries. 3. Bake in tins.",
+      "time": "30 min"
+    },
+    {
+      "id": 248,
+      "title": "Gnocchi Butter Sage",
+      "cuisine": "Italian",
+      "ingredients": ["Gnocchi", "Butter", "Sage Leaves", "Parmesan"],
+      "instructions": "1. Boil gnocchi. 2. Fry sage in butter until crisp. 3. Toss with gnocchi.",
+      "time": "10 min"
+    },
+    {
+      "id": 249,
+      "title": "Fish and Chips",
+      "cuisine": "British",
+      "ingredients": ["Cod Fillet", "Potatoes", "Batter", "Tartar Sauce"],
+      "instructions": "1. Batter fish. 2. Deep fry fish and potatoes. 3. Serve with sauce.",
+      "time": "30 min"
+    },
+    {
+      "id": 250,
+      "title": "Mushroom Risotto",
+      "cuisine": "Italian",
+      "ingredients": ["Arborio Rice", "Mushrooms", "Broth", "Shallots"],
+      "instructions": "1. Sauté shallots and mushrooms. 2. Add rice and broth slowly. 3. Stir until creamy.",
+      "time": "35 min"
+    },
+    {
+      "id": 251,
+      "title": "Teriyaki Chicken",
+      "cuisine": "Japanese",
+      "ingredients": ["Chicken", "Soy Sauce", "Brown Sugar", "Ginger"],
+      "instructions": "1. Fry chicken. 2. Add soy sauce and sugar. 3. Simmer until thickened.",
+      "time": "20 min"
+    },
+    {
+      "id": 252,
+      "title": "Gazpacho",
+      "cuisine": "Spanish",
+      "ingredients": ["Tomato", "Cucumber", "Bell Pepper", "Garlic"],
+      "instructions": "1. Blend all raw ingredients. 2. Chill. 3. Serve cold.",
+      "time": "10 min"
+    },
+    {
+      "id": 253,
+      "title": "Cobb Salad",
+      "cuisine": "American",
+      "ingredients": ["Chicken", "Bacon", "Avocado", "Blue Cheese", "Egg"],
+      "instructions": "1. Chop ingredients. 2. Layer on lettuce. 3. Serve with vinaigrette.",
+      "time": "20 min"
+    },
+    {
+      "id": 254,
+      "title": "Falafel Pita",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Falafel", "Pita", "Tahini", "Cucumber"],
+      "instructions": "1. Warm pita. 2. Fill with falafel and veg. 3. Drizzle with tahini.",
+      "time": "10 min"
+    },
+    {
+      "id": 255,
+      "title": "Swedish Meatballs",
+      "cuisine": "Swedish",
+      "ingredients": ["Meatballs", "Cream", "Beef Broth", "Lingonberry Jam"],
+      "instructions": "1. Fry meatballs. 2. Make cream sauce in pan. 3. Serve with jam.",
+      "time": "25 min"
+    },
+    {
+      "id": 256,
+      "title": "Ratatouille",
+      "cuisine": "French",
+      "ingredients": ["Eggplant", "Zucchini", "Tomato", "Herbs"],
+      "instructions": "1. Slice and layer veggies. 2. Season. 3. Bake until tender.",
+      "time": "50 min"
+    },
+    {
+      "id": 257,
+      "title": "Corn Chowder",
+      "cuisine": "American",
+      "ingredients": ["Corn", "Potatoes", "Bacon", "Cream"],
+      "instructions": "1. Cook bacon. 2. Add veggies and broth. 3. Stir in cream.",
+      "time": "30 min"
+    },
+    {
+      "id": 258,
+      "title": "Tiramisu",
+      "cuisine": "Italian",
+      "ingredients": ["Ladyfingers", "Mascarpone", "Espresso", "Cocoa"],
+      "instructions": "1. Dip ladyfingers in coffee. 2. Layer with mascarpone. 3. Dust with cocoa.",
+      "time": "30 min"
+    },
+    {
+      "id": 259,
+      "title": "Lamb Gyro",
+      "cuisine": "Greek",
+      "ingredients": ["Lamb", "Pita", "Tzatziki", "Tomato"],
+      "instructions": "1. Grill lamb. 2. Warm pita. 3. Wrap with sauce and veg.",
+      "time": "20 min"
+    },
+    {
+      "id": 260,
+      "title": "Butternut Squash Soup",
+      "cuisine": "Sides",
+      "ingredients": ["Squash", "Onion", "Broth", "Nutmeg"],
+      "instructions": "1. Roast squash. 2. Sauté onion. 3. Blend all together with broth.",
+      "time": "40 min"
+    },
+    {
+      "id": 261,
+      "title": "Chicken Marsala",
+      "cuisine": "Italian-American",
+      "ingredients": ["Chicken", "Marsala Wine", "Mushrooms", "Butter"],
+      "instructions": "1. Sauté chicken and mushrooms. 2. Add wine and simmer. 3. Finish with butter.",
+      "time": "25 min"
+    },
+    {
+      "id": 262,
+      "title": "Shrimp Lo Mein",
+      "cuisine": "Chinese",
+      "ingredients": ["Noodles", "Shrimp", "Cabbage", "Soy Sauce"],
+      "instructions": "1. Boil noodles. 2. Stir-fry shrimp and veg. 3. Toss with noodles and sauce.",
+      "time": "15 min"
+    },
+    {
+      "id": 263,
+      "title": "French Onion Soup",
+      "cuisine": "French",
+      "ingredients": ["Onions", "Beef Broth", "Gruyere", "Baguette"],
+      "instructions": "1. Caramelize onions. 2. Add broth. 3. Top with bread and cheese; broil.",
+      "time": "1 hour"
+    },
+    {
+      "id": 264,
+      "title": "Veggie Lasagna",
+      "cuisine": "Italian",
+      "ingredients": ["Lasagna Sheets", "Spinach", "Ricotta", "Marinara"],
+      "instructions": "1. Layer sheets, cheese, and spinach. 2. Add sauce. 3. Bake until bubbly.",
+      "time": "1 hour"
+    },
+    {
+      "id": 265,
+      "title": "Pulled Pork Sandwich",
+      "cuisine": "American",
+      "ingredients": ["Pork Shoulder", "BBQ Sauce", "Buns", "Coleslaw"],
+      "instructions": "1. Slow cook pork. 2. Shred and mix with sauce. 3. Serve on buns with slaw.",
+      "time": "6 hours"
+    },
+    {
+      "id": 266,
+      "title": "Tabbouleh",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Parsley", "Bulgur", "Mint", "Tomato", "Lemon Juice"],
+      "instructions": "1. Soak bulgur. 2. Finely chop herbs and veg. 3. Mix with lemon and oil.",
+      "time": "20 min"
+    },
+    {
+      "id": 267,
+      "title": "Duck à l'Orange",
+      "cuisine": "French",
+      "ingredients": ["Duck Breast", "Orange Juice", "Sugar", "Vinegar"],
+      "instructions": "1. Sear duck. 2. Make orange glaze. 3. Drizzle over sliced duck.",
+      "time": "45 min"
+    },
+    {
+      "id": 268,
+      "title": "Pho",
+      "cuisine": "Vietnamese",
+      "ingredients": ["Rice Noodles", "Beef Broth", "Beef Strips", "Basil"],
+      "instructions": "1. Boil noodles. 2. Pour hot broth over beef. 3. Add basil and lime.",
+      "time": "30 min"
+    },
+    {
+      "id": 269,
+      "title": "Baked Ziti",
+      "cuisine": "Italian",
+      "ingredients": ["Ziti", "Marinara", "Mozzarella", "Ricotta"],
+      "instructions": "1. Boil pasta. 2. Mix with sauce and ricotta. 3. Top with cheese and bake.",
+      "time": "40 min"
+    },
+    {
+      "id": 270,
+      "title": "Lobster Roll",
+      "cuisine": "Seafood",
+      "ingredients": ["Lobster", "Brioche Bun", "Mayo", "Chives"],
+      "instructions": "1. Mix lobster and mayo. 2. Butter and toast bun. 3. Fill and add chives.",
+      "time": "15 min"
+    },
+    {
+      "id": 271,
+      "title": "Lentil Soup",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Lentils", "Carrots", "Onion", "Broth"],
+      "instructions": "1. Sauté veg. 2. Add lentils and broth. 3. Simmer until tender.",
+      "time": "40 min"
+    },
+    {
+      "id": 272,
+      "title": "Spaghetti Carbonara",
+      "cuisine": "Italian",
+      "ingredients": ["Spaghetti", "Eggs", "Pancetta", "Pecorino"],
+      "instructions": "1. Cook pasta and pancetta. 2. Whisk eggs/cheese. 3. Toss with hot pasta.",
+      "time": "15 min"
+    },
+    {
+      "id": 273,
+      "title": "Bibimbap",
+      "cuisine": "Korean",
+      "ingredients": ["Rice", "Beef", "Egg", "Gochujang", "Vegetables"],
+      "instructions": "1. Sauté veg and beef. 2. Place on rice. 3. Top with egg and sauce.",
+      "time": "30 min"
+    },
+    {
+      "id": 274,
+      "title": "Lobster Bisque",
+      "cuisine": "Seafood",
+      "ingredients": ["Lobster", "Cream", "Sherry", "Tomato Paste"],
+      "instructions": "1. Sauté lobster. 2. Add cream, sherry, and paste. 3. Simmer and blend.",
+      "time": "45 min"
+    },
+    {
+      "id": 275,
+      "title": "Pad Thai",
+      "cuisine": "Thai",
+      "ingredients": ["Rice Noodles", "Shrimp", "Peanuts", "Bean Sprouts"],
+      "instructions": "1. Soak noodles. 2. Stir-fry shrimp and sprouts. 3. Toss with peanuts and sauce.",
+      "time": "20 min"
+    },
+    {
+      "id": 276,
+      "title": "Beef Wellington",
+      "cuisine": "British",
+      "ingredients": ["Beef Fillet", "Puff Pastry", "Mushrooms", "Prosciutto"],
+      "instructions": "1. Sear beef. 2. Wrap in mushrooms and pastry. 3. Bake until golden.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 277,
+      "title": "Ceviche",
+      "cuisine": "Latin American",
+      "ingredients": ["White Fish", "Lime", "Cilantro", "Red Onion"],
+      "instructions": "1. Cube fish. 2. Marinate in lime juice until firm. 3. Mix with veg.",
+      "time": "20 min"
+    },
+    {
+      "id": 278,
+      "title": "Egg Salad Sandwich",
+      "cuisine": "Lunch",
+      "ingredients": ["Hard-boiled Eggs", "Mayo", "Mustard", "Bread"],
+      "instructions": "1. Mash eggs with mayo/mustard. 2. Spread on bread.",
+      "time": "15 min"
+    },
+    {
+      "id": 279,
+      "title": "Moussaka",
+      "cuisine": "Greek",
+      "ingredients": ["Eggplant", "Ground Beef", "Bechamel", "Potato"],
+      "instructions": "1. Layer veg and beef. 2. Pour over bechamel. 3. Bake until golden.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 280,
+      "title": "Crab Cakes",
+      "cuisine": "Seafood",
+      "ingredients": ["Crab Meat", "Breadcrumbs", "Mayo", "Old Bay"],
+      "instructions": "1. Mix ingredients. 2. Form patties. 3. Pan-fry until golden.",
+      "time": "20 min"
+    },
+    {
+      "id": 281,
+      "title": "Paella",
+      "cuisine": "Spanish",
+      "ingredients": ["Rice", "Saffron", "Shrimp", "Mussels", "Chorizo"],
+      "instructions": "1. Cook chorizo. 2. Add rice, saffron, and broth. 3. Top with seafood; simmer.",
+      "time": "45 min"
+    },
+    {
+      "id": 282,
+      "title": "Garlic Butter Salmon",
+      "cuisine": "Seafood",
+      "ingredients": ["Salmon", "Butter", "Garlic", "Lemon"],
+      "instructions": "1. Season salmon. 2. Bake in butter and garlic. 3. Finish with lemon.",
+      "time": "15 min"
+    },
+    {
+      "id": 283,
+      "title": "Chicken Enchiladas",
+      "cuisine": "Mexican",
+      "ingredients": ["Tortilla", "Chicken", "Enchilada Sauce", "Cheese"],
+      "instructions": "1. Fill tortillas. 2. Cover with sauce and cheese. 3. Bake until bubbly.",
+      "time": "30 min"
+    },
+    {
+      "id": 284,
+      "title": "Stuffed Peppers",
+      "cuisine": "Global",
+      "ingredients": ["Bell Peppers", "Rice", "Ground Beef", "Tomato Sauce"],
+      "instructions": "1. Fill peppers with beef/rice. 2. Cover with sauce. 3. Bake until soft.",
+      "time": "50 min"
+    },
+    {
+      "id": 285,
+      "title": "Coleslaw",
+      "cuisine": "Sides",
+      "ingredients": ["Cabbage", "Carrots", "Mayo", "Vinegar"],
+      "instructions": "1. Shred veg. 2. Mix mayo and vinegar. 3. Toss together.",
+      "time": "10 min"
+    },
+    {
+      "id": 286,
+      "title": "Clam Chowder",
+      "cuisine": "American",
+      "ingredients": ["Clams", "Potatoes", "Cream", "Celery"],
+      "instructions": "1. Sauté veg. 2. Add potatoes and broth. 3. Stir in clams and cream.",
+      "time": "30 min"
+    },
+    {
+      "id": 287,
+      "title": "Huevos Rancheros",
+      "cuisine": "Mexican",
+      "ingredients": ["Eggs", "Tortilla", "Salsa", "Black Beans"],
+      "instructions": "1. Fry eggs. 2. Place on tortilla with beans. 3. Top with salsa.",
+      "time": "15 min"
+    },
+    {
+      "id": 288,
+      "title": "Pork Gyoza",
+      "cuisine": "Japanese",
+      "ingredients": ["Ground Pork", "Gyoza Wrappers", "Cabbage", "Ginger"],
+      "instructions": "1. Wrap filling. 2. Pan-fry bottom. 3. Steam with water.",
+      "time": "30 min"
+    },
+    {
+      "id": 289,
+      "title": "Aloo Gobi",
+      "cuisine": "Indian",
+      "ingredients": ["Potato", "Cauliflower", "Turmeric", "Cumin"],
+      "instructions": "1. Sauté spices. 2. Add veg. 3. Cook until tender.",
+      "time": "25 min"
+    },
+    {
+      "id": 290,
+      "title": "Minestrone",
+      "cuisine": "Italian",
+      "ingredients": ["Vegetable Broth", "Beans", "Pasta", "Tomato"],
+      "instructions": "1. Sauté veg. 2. Add broth, beans, and pasta. 3. Simmer until pasta is done.",
+      "time": "35 min"
+    },
+    {
+      "id": 291,
+      "title": "Beef Satay",
+      "cuisine": "Thai",
+      "ingredients": ["Beef Strips", "Peanut Sauce", "Turmeric", "Coconut Milk"],
+      "instructions": "1. Marinate beef. 2. Skewer and grill. 3. Serve with sauce.",
+      "time": "25 min"
+    },
+    {
+      "id": 292,
+      "title": "Samosas",
+      "cuisine": "Indian",
+      "ingredients": ["Pastry", "Potatoes", "Peas", "Cumin"],
+      "instructions": "1. Fill pastry with spiced potato. 2. Fold into triangles. 3. Deep fry.",
+      "time": "40 min"
+    },
+    {
+      "id": 293,
+      "title": "Baba Ganoush",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Eggplant", "Tahini", "Garlic", "Lemon"],
+      "instructions": "1. Roast eggplant. 2. Mash flesh. 3. Mix with tahini and garlic.",
+      "time": "45 min"
+    },
+    {
+      "id": 294,
+      "title": "Banh Mi",
+      "cuisine": "Vietnamese",
+      "ingredients": ["Baguette", "Pork", "Pickled Daikon", "Cilantro"],
+      "instructions": "1. Slice baguette. 2. Add pork and pickles. 3. Top with cilantro and mayo.",
+      "time": "15 min"
+    },
+    {
+      "id": 295,
+      "title": "Potato Leek Soup",
+      "cuisine": "French",
+      "ingredients": ["Leeks", "Potatoes", "Butter", "Broth"],
+      "instructions": "1. Sauté leeks. 2. Add potatoes and broth. 3. Blend until smooth.",
+      "time": "35 min"
+    },
+    {
+      "id": 296,
+      "title": "Shrimp Scampi",
+      "cuisine": "Italian",
+      "ingredients": ["Shrimp", "Pasta", "Garlic", "White Wine"],
+      "instructions": "1. Sauté garlic and shrimp. 2. Add wine. 3. Toss with boiled pasta.",
+      "time": "20 min"
+    },
+    {
+      "id": 297,
+      "title": "Pulled Chicken",
+      "cuisine": "American",
+      "ingredients": ["Chicken", "BBQ Sauce", "Buns"],
+      "instructions": "1. Boil chicken. 2. Shred. 3. Mix with sauce and serve on buns.",
+      "time": "25 min"
+    },
+    {
+      "id": 298,
+      "title": "Tuna Salad",
+      "cuisine": "Lunch",
+      "ingredients": ["Canned Tuna", "Mayo", "Celery", "Onion"],
+      "instructions": "1. Drain tuna. 2. Mix with mayo and diced veg. 3. Serve on crackers.",
+      "time": "10 min"
+    },
+    {
+      "id": 299,
+      "title": "Spanakopita",
+      "cuisine": "Greek",
+      "ingredients": ["Phyllo", "Spinach", "Feta", "Onion"],
+      "instructions": "1. Layer phyllo. 2. Fill with spinach and cheese. 3. Bake until flaky.",
+      "time": "50 min"
+    },
+    {
+      "id": 300,
+      "title": "Chow Mein",
+      "cuisine": "Chinese",
+      "ingredients": ["Noodles", "Cabbage", "Carrots", "Soy Sauce"],
+      "instructions": "1. Boil noodles. 2. Stir-fry veg. 3. Toss with noodles and sauce.",
+      "time": "15 min"
+    },
+    {
+      "id": 301,
+      "title": "Pancakes",
+      "cuisine": "Breakfast",
+      "ingredients": ["Flour", "Egg", "Milk", "Syrup"],
+      "instructions": "1. Mix batter. 2. Fry on griddle. 3. Serve with syrup.",
+      "time": "15 min"
+    },
+    {
+      "id": 302,
+      "title": "Beef Broccoli",
+      "cuisine": "Chinese",
+      "ingredients": ["Beef", "Broccoli", "Soy Sauce", "Ginger"],
+      "instructions": "1. Stir-fry beef. 2. Add broccoli and sauce. 3. Cook until tender.",
+      "time": "15 min"
+    },
+    {
+      "id": 303,
+      "title": "Apple Crisp",
+      "cuisine": "Dessert",
+      "ingredients": ["Apples", "Oats", "Brown Sugar", "Cinnamon"],
+      "instructions": "1. Slice apples. 2. Top with oat mixture. 3. Bake until golden.",
+      "time": "45 min"
+    },
+    {
+      "id": 304,
+      "title": "Zucchini Pasta",
+      "cuisine": "Healthy",
+      "ingredients": ["Zucchini", "Garlic", "Cherry Tomato", "Parmesan"],
+      "instructions": "1. Spiralize zucchini. 2. Sauté with garlic and tomato. 3. Top with cheese.",
+      "time": "12 min"
+    },
+    {
+      "id": 305,
+      "title": "Miso Soup",
+      "cuisine": "Japanese",
+      "ingredients": ["Miso", "Tofu", "Seaweed", "Dashi"],
+      "instructions": "1. Warm dashi. 2. Dissolve miso. 3. Add tofu and seaweed.",
+      "time": "10 min"
+    },
+    {
+      "id": 306,
+      "title": "Sloppy Joes",
+      "cuisine": "American",
+      "ingredients": ["Ground Beef", "Ketchup", "Mustard", "Buns"],
+      "instructions": "1. Brown beef. 2. Stir in sauce. 3. Serve on buns.",
+      "time": "15 min"
+    },
+    {
+      "id": 307,
+      "title": "Caprese Flatbread",
+      "cuisine": "Italian",
+      "ingredients": ["Flatbread", "Mozzarella", "Tomato", "Basil"],
+      "instructions": "1. Layer ingredients on bread. 2. Bake until cheese melts. 3. Add fresh basil.",
+      "time": "12 min"
+    },
+    {
+      "id": 308,
+      "title": "Eggplant Parmesan",
+      "cuisine": "Italian",
+      "ingredients": ["Eggplant", "Marinara", "Mozzarella", "Breadcrumbs"],
+      "instructions": "1. Bread and fry eggplant. 2. Layer with sauce and cheese. 3. Bake.",
+      "time": "45 min"
+    },
+    {
+      "id": 309,
+      "title": "Quiche Lorraine",
+      "cuisine": "French",
+      "ingredients": ["Pie Crust", "Bacon", "Eggs", "Swiss Cheese"],
+      "instructions": "1. Place bacon in crust. 2. Add eggs and cheese. 3. Bake until set.",
+      "time": "50 min"
+    },
+    {
+      "id": 310,
+      "title": "Tom Yum Soup",
+      "cuisine": "Thai",
+      "ingredients": ["Shrimp", "Lemongrass", "Chili", "Lime"],
+      "instructions": "1. Boil aromatics. 2. Add shrimp. 3. Season with lime and chili.",
+      "time": "20 min"
+    },
+    {
+      "id": 311,
+      "title": "Chicken Kiev",
+      "cuisine": "Eastern European",
+      "ingredients": ["Chicken Breast", "Butter", "Garlic", "Breadcrumbs"],
+      "instructions": "1. Stuff chicken with butter. 2. Bread and fry. 3. Bake until done.",
+      "time": "45 min"
+    },
+    {
+      "id": 312,
+      "title": "Guacamole",
+      "cuisine": "Mexican",
+      "ingredients": ["Avocado", "Lime", "Onion", "Cilantro"],
+      "instructions": "1. Mash avocado. 2. Mix with diced veg. 3. Season with salt.",
+      "time": "10 min"
+    },
+    {
+      "id": 313,
+      "title": "French Toast",
+      "cuisine": "Breakfast",
+      "ingredients": ["Bread", "Eggs", "Milk", "Cinnamon"],
+      "instructions": "1. Dip bread in egg mix. 2. Fry in butter. 3. Top with syrup.",
+      "time": "10 min"
+    },
+    {
+      "id": 314,
+      "title": "Pork Souvlaki",
+      "cuisine": "Greek",
+      "ingredients": ["Pork Cubes", "Lemon", "Oregano", "Pita"],
+      "instructions": "1. Marinate pork. 2. Skewer and grill. 3. Serve in pita.",
+      "time": "25 min"
+    },
+    {
+      "id": 315,
+      "title": "Linguine with Clams",
+      "cuisine": "Italian",
+      "ingredients": ["Linguine", "Clams", "Garlic", "Parsley"],
+      "instructions": "1. Boil pasta. 2. Sauté garlic and clams. 3. Toss together.",
+      "time": "20 min"
+    },
+    {
+      "id": 316,
+      "title": "Fried Green Tomatoes",
+      "cuisine": "American",
+      "ingredients": ["Green Tomatoes", "Cornmeal", "Egg", "Buttermilk"],
+      "instructions": "1. Slice tomatoes. 2. Coat in egg and cornmeal. 3. Fry until crisp.",
+      "time": "20 min"
+    },
+    {
+      "id": 317,
+      "title": "Stuffed Mushrooms",
+      "cuisine": "Appetizer",
+      "ingredients": ["Mushrooms", "Cream Cheese", "Garlic", "Parmesan"],
+      "instructions": "1. Remove stems. 2. Fill caps with cheese mix. 3. Bake.",
+      "time": "20 min"
+    },
+    {
+      "id": 318,
+      "title": "General Tso Chicken",
+      "cuisine": "Chinese",
+      "ingredients": ["Chicken", "Soy Sauce", "Ginger", "Chili"],
+      "instructions": "1. Batter and fry chicken. 2. Toss in sweet-spicy sauce. 3. Serve.",
+      "time": "30 min"
+    },
+    {
+      "id": 319,
+      "title": "Cauliflower Steaks",
+      "cuisine": "Vegan",
+      "ingredients": ["Cauliflower", "Olive Oil", "Garlic Powder", "Paprika"],
+      "instructions": "1. Slice cauliflower thick. 2. Season and oil. 3. Roast until tender.",
+      "time": "25 min"
+    },
+    {
+      "id": 320,
+      "title": "Chicken Noodle Soup",
+      "cuisine": "Global",
+      "ingredients": ["Chicken", "Noodles", "Carrot", "Celery"],
+      "instructions": "1. Simmer chicken and veg. 2. Add noodles. 3. Cook until tender.",
+      "time": "30 min"
+    },
+    {
+      "id": 321,
+      "title": "Beef Fajitas",
+      "cuisine": "Mexican",
+      "ingredients": ["Beef", "Peppers", "Onion", "Tortilla"],
+      "instructions": "1. Sauté beef and veg. 2. Serve with tortillas and lime.",
+      "time": "20 min"
+    },
+    {
+      "id": 322,
+      "title": "Goulash",
+      "cuisine": "Hungarian",
+      "ingredients": ["Beef", "Paprika", "Onion", "Potato"],
+      "instructions": "1. Sauté onion and beef. 2. Add paprika and water. 3. Simmer with potatoes.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 323,
+      "title": "Egg Drop Soup",
+      "cuisine": "Chinese",
+      "ingredients": ["Chicken Broth", "Egg", "Ginger", "Cornstarch"],
+      "instructions": "1. Heat broth. 2. Swirl in whisked egg. 3. Thicken with cornstarch.",
+      "time": "10 min"
+    },
+    {
+      "id": 324,
+      "title": "Baked Cod",
+      "cuisine": "Seafood",
+      "ingredients": ["Cod", "Lemon", "Butter", "Parsley"],
+      "instructions": "1. Season cod. 2. Bake with butter and lemon. 3. Garnish with parsley.",
+      "time": "15 min"
+    },
+    {
+      "id": 325,
+      "title": "Shrimp Fra Diavolo",
+      "cuisine": "Italian",
+      "ingredients": ["Shrimp", "Tomato Sauce", "Red Pepper Flakes", "Pasta"],
+      "instructions": "1. Sauté shrimp and flakes. 2. Add sauce. 3. Toss with pasta.",
+      "time": "20 min"
+    },
+    {
+      "id": 326,
+      "title": "Beef Rendang",
+      "cuisine": "Indonesian",
+      "ingredients": ["Beef", "Coconut Milk", "Lemongrass", "Spices"],
+      "instructions": "1. Simmer beef in milk and spices. 2. Cook until liquid is gone. 3. Brown meat.",
+      "time": "3 hours"
+    },
+    {
+      "id": 327,
+      "title": "Taco Salad",
+      "cuisine": "Mexican-American",
+      "ingredients": ["Ground Beef", "Lettuce", "Beans", "Tortilla Chips"],
+      "instructions": "1. Brown beef. 2. Toss with lettuce and beans. 3. Top with chips.",
+      "time": "15 min"
+    },
+    {
+      "id": 328,
+      "title": "Honey Mustard Chicken",
+      "cuisine": "American",
+      "ingredients": ["Chicken Thighs", "Honey", "Mustard", "Garlic"],
+      "instructions": "1. Mix honey and mustard. 2. Coat chicken. 3. Bake until golden.",
+      "time": "30 min"
+    },
+    {
+      "id": 329,
+      "title": "Cottage Pie",
+      "cuisine": "British",
+      "ingredients": ["Ground Beef", "Potatoes", "Peas", "Gravy"],
+      "instructions": "1. Cook beef and peas. 2. Top with mashed potatoes. 3. Bake until brown.",
+      "time": "45 min"
+    },
+    {
+      "id": 330,
+      "title": "Mongolian Beef",
+      "cuisine": "Chinese",
+      "ingredients": ["Beef Strips", "Soy Sauce", "Brown Sugar", "Green Onion"],
+      "instructions": "1. Fry beef. 2. Toss with sauce and sugar. 3. Add green onions.",
+      "time": "20 min"
+    },
+    {
+      "id": 331,
+      "title": "Stuffed Shells",
+      "cuisine": "Italian",
+      "ingredients": ["Pasta Shells", "Ricotta", "Spinach", "Marinara"],
+      "instructions": "1. Boil shells. 2. Fill with cheese mix. 3. Bake with sauce.",
+      "time": "45 min"
+    },
+    {
+      "id": 332,
+      "title": "Turkey Club",
+      "cuisine": "Lunch",
+      "ingredients": ["Turkey", "Bacon", "Lettuce", "Tomato", "Bread"],
+      "instructions": "1. Toast bread. 2. Layer meat and veg. 3. Slice and serve.",
+      "time": "10 min"
+    },
+    {
+      "id": 333,
+      "title": "Shrimp Fried Rice",
+      "cuisine": "Chinese",
+      "ingredients": ["Shrimp", "Rice", "Egg", "Peas", "Soy Sauce"],
+      "instructions": "1. Scramble egg. 2. Stir-fry shrimp and veg. 3. Mix with rice and soy.",
+      "time": "15 min"
+    },
+    {
+      "id": 334,
+      "title": "Tomato Soup",
+      "cuisine": "Global",
+      "ingredients": ["Canned Tomatoes", "Broth", "Onion", "Cream"],
+      "instructions": "1. Sauté onion. 2. Simmer with tomatoes. 3. Blend and add cream.",
+      "time": "20 min"
+    },
+    {
+      "id": 335,
+      "title": "Grilled Cheese",
+      "cuisine": "Lunch",
+      "ingredients": ["Bread", "Cheese", "Butter"],
+      "instructions": "1. Butter bread. 2. Place cheese inside. 3. Grill until golden.",
+      "time": "5 min"
+    },
+    {
+      "id": 336,
+      "title": "Pork Carnitas",
+      "cuisine": "Mexican",
+      "ingredients": ["Pork Shoulder", "Orange Juice", "Cumin", "Garlic"],
+      "instructions": "1. Slow cook pork. 2. Shred. 3. Broil until crisp.",
+      "time": "4 hours"
+    },
+    {
+      "id": 337,
+      "title": "Mussels in Wine",
+      "cuisine": "Seafood",
+      "ingredients": ["Mussels", "White Wine", "Garlic", "Shallots"],
+      "instructions": "1. Sauté shallots. 2. Add wine and mussels. 3. Steam until open.",
+      "time": "15 min"
+    },
+    {
+      "id": 338,
+      "title": "Eggplant Miso",
+      "cuisine": "Japanese",
+      "ingredients": ["Eggplant", "Miso", "Mirin", "Sugar"],
+      "instructions": "1. Roast eggplant. 2. Spread miso glaze. 3. Broil until bubbly.",
+      "time": "20 min"
+    },
+    {
+      "id": 339,
+      "title": "Potato Skins",
+      "cuisine": "Appetizer",
+      "ingredients": ["Potatoes", "Cheese", "Bacon", "Sour Cream"],
+      "instructions": "1. Bake and scoop potatoes. 2. Crisp skins. 3. Add cheese and bacon.",
+      "time": "20 min"
+    },
+    {
+      "id": 340,
+      "title": "Beef Pho",
+      "cuisine": "Vietnamese",
+      "ingredients": ["Broth", "Rice Noodles", "Thin Beef", "Star Anise"],
+      "instructions": "1. Boil broth with spices. 2. Add noodles. 3. Pour over raw beef.",
+      "time": "40 min"
+    },
+    {
+      "id": 341,
+      "title": "Blueberry Pancakes",
+      "cuisine": "Breakfast",
+      "ingredients": ["Pancakes", "Blueberries", "Syrup"],
+      "instructions": "1. Add berries to batter. 2. Fry. 3. Top with syrup.",
+      "time": "15 min"
+    },
+    {
+      "id": 342,
+      "title": "Omelet au Fromage",
+      "cuisine": "French",
+      "ingredients": ["Eggs", "Cheese", "Butter", "Chives"],
+      "instructions": "1. Whisk eggs. 2. Fry in butter. 3. Fold with cheese.",
+      "time": "8 min"
+    },
+    {
+      "id": 343,
+      "title": "Beef Bulgogi",
+      "cuisine": "Korean",
+      "ingredients": ["Beef", "Soy Sauce", "Sugar", "Sesame Oil"],
+      "instructions": "1. Marinate beef. 2. Grill quickly. 3. Serve with rice.",
+      "time": "20 min"
+    },
+    {
+      "id": 344,
+      "title": "Chili Cheese Fries",
+      "cuisine": "American",
+      "ingredients": ["Fries", "Chili", "Cheese Sauce"],
+      "instructions": "1. Bake fries. 2. Top with warm chili and cheese. 3. Serve.",
+      "time": "25 min"
+    },
+    {
+      "id": 345,
+      "title": "Penne alla Vodka",
+      "cuisine": "Italian",
+      "ingredients": ["Penne", "Vodka", "Cream", "Tomato Paste"],
+      "instructions": "1. Sauté paste and vodka. 2. Add cream. 3. Toss with pasta.",
+      "time": "20 min"
+    },
+    {
+      "id": 346,
+      "title": "Quinoa Bowl",
+      "cuisine": "Healthy",
+      "ingredients": ["Quinoa", "Avocado", "Beans", "Lime"],
+      "instructions": "1. Cook quinoa. 2. Top with veg and beans. 3. Drizzle with lime.",
+      "time": "20 min"
+    },
+    {
+      "id": 347,
+      "title": "Fish Tacos",
+      "cuisine": "Mexican",
+      "ingredients": ["Fish Fillet", "Cabbage", "Lime", "Tortilla"],
+      "instructions": "1. Fry fish. 2. Assemble in tortilla with cabbage. 3. Add lime.",
+      "time": "20 min"
+    },
+    {
+      "id": 348,
+      "title": "Spaghetti Bolognese",
+      "cuisine": "Italian",
+      "ingredients": ["Spaghetti", "Beef", "Tomato Sauce", "Carrot"],
+      "instructions": "1. Cook meat and veg. 2. Add sauce. 3. Serve over pasta.",
+      "time": "40 min"
+    },
+    {
+      "id": 349,
+      "title": "Lemon Tart",
+      "cuisine": "Dessert",
+      "ingredients": ["Crust", "Lemon", "Eggs", "Sugar"],
+      "instructions": "1. Bake crust. 2. Fill with lemon curd. 3. Chill.",
+      "time": "1 hour"
+    },
+    {
+      "id": 350,
+      "title": "Chicken Wing Dip",
+      "cuisine": "Appetizer",
+      "ingredients": ["Chicken", "Cream Cheese", "Buffalo Sauce"],
+      "instructions": "1. Mix ingredients. 2. Bake until bubbly. 3. Serve with chips.",
+      "time": "25 min"
+    },
+    {
+      "id": 351,
+      "title": "Garlic Naan",
+      "cuisine": "Indian",
+      "ingredients": ["Flour", "Yeast", "Garlic", "Butter"],
+      "instructions": "1. Make dough. 2. Pan-sear flatbread. 3. Brush with garlic butter.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 352,
+      "title": "Vegetable Korma",
+      "cuisine": "Indian",
+      "ingredients": ["Mixed Veg", "Coconut Milk", "Cashews", "Spices"],
+      "instructions": "1. Sauté veg and spices. 2. Add milk and nut paste. 3. Simmer.",
+      "time": "30 min"
+    },
+    {
+      "id": 353,
+      "title": "Beef Carpaccio",
+      "cuisine": "Italian",
+      "ingredients": ["Raw Beef", "Arugula", "Parmesan", "Lemon"],
+      "instructions": "1. Slice beef thin. 2. Top with greens and cheese. 3. Drizzle oil.",
+      "time": "15 min"
+    },
+    {
+      "id": 354,
+      "title": "Mushroom Quesadilla",
+      "cuisine": "Mexican",
+      "ingredients": ["Tortilla", "Mushrooms", "Cheese", "Onion"],
+      "instructions": "1. Sauté mushrooms. 2. Place on tortilla with cheese. 3. Grill.",
+      "time": "12 min"
+    },
+    {
+      "id": 355,
+      "title": "Turkey Meatloaf",
+      "cuisine": "American",
+      "ingredients": ["Ground Turkey", "Breadcrumbs", "Ketchup", "Egg"],
+      "instructions": "1. Mix ingredients. 2. Shape loaf. 3. Bake for 50 mins.",
+      "time": "1 hour"
+    },
+    {
+      "id": 356,
+      "title": "Pad See Ew",
+      "cuisine": "Thai",
+      "ingredients": ["Rice Noodles", "Beef", "Chinese Broccoli", "Soy Sauce"],
+      "instructions": "1. Sauté beef and broccoli. 2. Add noodles and sauce. 3. Stir-fry.",
+      "time": "20 min"
+    },
+    {
+      "id": 357,
+      "title": "Baked Salmon",
+      "cuisine": "Seafood",
+      "ingredients": ["Salmon", "Asparagus", "Lemon", "Oil"],
+      "instructions": "1. Season salmon and veg. 2. Place on sheet. 3. Bake at 400°F.",
+      "time": "15 min"
+    },
+    {
+      "id": 358,
+      "title": "Falafel",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Chickpeas", "Parsley", "Garlic", "Cumin"],
+      "instructions": "1. Pulse ingredients. 2. Form balls. 3. Deep fry.",
+      "time": "30 min"
+    },
+    {
+      "id": 359,
+      "title": "Paneer Butter Masala",
+      "cuisine": "Indian",
+      "ingredients": ["Paneer", "Tomato Puree", "Butter", "Cream"],
+      "instructions": "1. Sauté tomato and spices. 2. Add paneer. 3. Finish with cream.",
+      "time": "25 min"
+    },
+    {
+      "id": 360,
+      "title": "Tuna Melt",
+      "cuisine": "Lunch",
+      "ingredients": ["Tuna", "Mayo", "Cheese", "English Muffin"],
+      "instructions": "1. Mix tuna/mayo. 2. Top muffin with tuna and cheese. 3. Broil.",
+      "time": "10 min"
+    },
+    {
+      "id": 361,
+      "title": "Steak au Poivre",
+      "cuisine": "French",
+      "ingredients": ["Steak", "Peppercorns", "Cream", "Brandy"],
+      "instructions": "1. Sear peppered steak. 2. Add brandy and cream for sauce. 3. Serve.",
+      "time": "20 min"
+    },
+    {
+      "id": 362,
+      "title": "Gnocchi Sorrentina",
+      "cuisine": "Italian",
+      "ingredients": ["Gnocchi", "Tomato Sauce", "Mozzarella", "Basil"],
+      "instructions": "1. Boil gnocchi. 2. Mix with sauce and cheese. 3. Bake.",
+      "time": "20 min"
+    },
+    {
+      "id": 363,
+      "title": "Calamari",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Squid", "Flour", "Lemon", "Marinara"],
+      "instructions": "1. Coat squid in flour. 2. Fry until crisp. 3. Serve with sauce.",
+      "time": "15 min"
+    },
+    {
+      "id": 364,
+      "title": "Black Bean Burger",
+      "cuisine": "Vegan",
+      "ingredients": ["Black Beans", "Breadcrumbs", "Onion", "Cumin"],
+      "instructions": "1. Mash beans and mix. 2. Form patties. 3. Fry until crisp.",
+      "time": "20 min"
+    },
+    {
+      "id": 365,
+      "title": "Shepherd’s Pie",
+      "cuisine": "British",
+      "ingredients": ["Ground Lamb", "Potatoes", "Carrot", "Peas"],
+      "instructions": "1. Cook meat/veg. 2. Top with mash. 3. Bake until browned.",
+      "time": "45 min"
+    },
+    {
+      "id": 366,
+      "title": "Spaghetti Carbonara",
+      "cuisine": "Italian",
+      "ingredients": ["Pasta", "Egg", "Pancetta", "Pecorino"],
+      "instructions": "1. Cook pasta and meat. 2. Mix egg and cheese. 3. Toss with pasta.",
+      "time": "15 min"
+    },
+    {
+      "id": 367,
+      "title": "Beef Taco",
+      "cuisine": "Mexican",
+      "ingredients": ["Beef", "Tortilla", "Onion", "Cilantro"],
+      "instructions": "1. Season and brown beef. 2. Warm tortilla. 3. Garnish.",
+      "time": "15 min"
+    },
+    {
+      "id": 368,
+      "title": "Mango Sticky Rice",
+      "cuisine": "Thai",
+      "ingredients": ["Sticky Rice", "Mango", "Coconut Milk", "Sugar"],
+      "instructions": "1. Cook rice. 2. Mix milk and sugar. 3. Serve with mango.",
+      "time": "30 min"
+    },
+    {
+      "id": 369,
+      "title": "Onion Rings",
+      "cuisine": "Sides",
+      "ingredients": ["Onion", "Flour", "Beer Batter"],
+      "instructions": "1. Slice onions. 2. Dip in batter. 3. Fry until golden.",
+      "time": "20 min"
+    },
+    {
+      "id": 370,
+      "title": "Chicken Tikka",
+      "cuisine": "Indian",
+      "ingredients": ["Chicken", "Yogurt", "Spices", "Lemon"],
+      "instructions": "1. Marinate chicken. 2. Skewer. 3. Grill until charred.",
+      "time": "30 min"
+    },
+    {
+      "id": 371,
+      "title": "Chili Dog",
+      "cuisine": "American",
+      "ingredients": ["Hot Dog", "Chili", "Bun", "Cheese"],
+      "instructions": "1. Grill dog. 2. Place in bun. 3. Top with chili and cheese.",
+      "time": "10 min"
+    },
+    {
+      "id": 372,
+      "title": "Baklava",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Phyllo", "Nuts", "Honey", "Butter"],
+      "instructions": "1. Layer phyllo and nuts. 2. Bake. 3. Pour over honey syrup.",
+      "time": "1 hour"
+    },
+    {
+      "id": 373,
+      "title": "Clam Bake",
+      "cuisine": "Seafood",
+      "ingredients": ["Clams", "Corn", "Potato", "Lobster"],
+      "instructions": "1. Steam everything in a pot. 2. Serve with butter.",
+      "time": "45 min"
+    },
+    {
+      "id": 374,
+      "title": "Frittata",
+      "cuisine": "Italian",
+      "ingredients": ["Eggs", "Spinach", "Cheese", "Potato"],
+      "instructions": "1. Sauté veg. 2. Pour over eggs. 3. Bake until set.",
+      "time": "20 min"
+    },
+    {
+      "id": 375,
+      "title": "Egg Roll",
+      "cuisine": "Chinese",
+      "ingredients": ["Wrapper", "Pork", "Cabbage", "Ginger"],
+      "instructions": "1. Wrap filling. 2. Fry until crisp. 3. Serve with duck sauce.",
+      "time": "25 min"
+    },
+    {
+      "id": 376,
+      "title": "French Crepes",
+      "cuisine": "French",
+      "ingredients": ["Flour", "Egg", "Milk", "Butter"],
+      "instructions": "1. Mix thin batter. 2. Cook in flat pan. 3. Fill and fold.",
+      "time": "15 min"
+    },
+    {
+      "id": 377,
+      "title": "Risotto Nero",
+      "cuisine": "Italian",
+      "ingredients": ["Rice", "Squid Ink", "Squid", "Wine"],
+      "instructions": "1. Sauté squid. 2. Cook rice with ink and broth. 3. Serve.",
+      "time": "35 min"
+    },
+    {
+      "id": 378,
+      "title": "Fried Rice",
+      "cuisine": "Chinese",
+      "ingredients": ["Rice", "Peas", "Carrot", "Soy Sauce"],
+      "instructions": "1. Stir-fry veg. 2. Add rice and sauce. 3. Toss on high heat.",
+      "time": "10 min"
+    },
+    {
+      "id": 379,
+      "title": "Beef Tartare",
+      "cuisine": "French",
+      "ingredients": ["Beef", "Capers", "Egg Yolk", "Mustard"],
+      "instructions": "1. Finely chop beef. 2. Mix with capers and mustard. 3. Top with yolk.",
+      "time": "20 min"
+    },
+    {
+      "id": 380,
+      "title": "Chicken Parm",
+      "cuisine": "Italian-American",
+      "ingredients": ["Chicken", "Mozzarella", "Marinara", "Breadcrumbs"],
+      "instructions": "1. Fry breaded chicken. 2. Top with sauce and cheese. 3. Bake.",
+      "time": "30 min"
+    },
+    {
+      "id": 381,
+      "title": "Pot Stickers",
+      "cuisine": "Chinese",
+      "ingredients": ["Wrapper", "Pork", "Ginger", "Chives"],
+      "instructions": "1. Wrap. 2. Fry bottom. 3. Steam with water.",
+      "time": "30 min"
+    },
+    {
+      "id": 382,
+      "title": "Beef Stir-Fry",
+      "cuisine": "Chinese",
+      "ingredients": ["Beef", "Peppers", "Onion", "Soy Sauce"],
+      "instructions": "1. Sear beef. 2. Add veg and sauce. 3. Toss together.",
+      "time": "15 min"
+    },
+    {
+      "id": 383,
+      "title": "Chicken Salad",
+      "cuisine": "Lunch",
+      "ingredients": ["Chicken", "Mayo", "Grapes", "Walnuts"],
+      "instructions": "1. Chop chicken. 2. Mix with mayo and grapes. 3. Add nuts.",
+      "time": "15 min"
+    },
+    {
+      "id": 384,
+      "title": "Gnocchi Pesto",
+      "cuisine": "Italian",
+      "ingredients": ["Gnocchi", "Basil Pesto", "Parmesan"],
+      "instructions": "1. Boil gnocchi. 2. Toss with pesto and cheese.",
+      "time": "10 min"
+    },
+    {
+      "id": 385,
+      "title": "Sausage Rolls",
+      "cuisine": "British",
+      "ingredients": ["Sausage Meat", "Puff Pastry", "Egg"],
+      "instructions": "1. Wrap meat in pastry. 2. Brush with egg. 3. Bake until golden.",
+      "time": "25 min"
+    },
+    {
+      "id": 386,
+      "title": "Kimchi Fried Rice",
+      "cuisine": "Korean",
+      "ingredients": ["Rice", "Kimchi", "Egg", "Sesame Oil"],
+      "instructions": "1. Fry kimchi and rice. 2. Add oil. 3. Top with fried egg.",
+      "time": "15 min"
+    },
+    {
+      "id": 387,
+      "title": "Shrimp Scampi",
+      "cuisine": "Italian",
+      "ingredients": ["Shrimp", "Garlic", "Lemon", "Linguine"],
+      "instructions": "1. Boil pasta. 2. Sauté shrimp and garlic. 3. Toss together.",
+      "time": "15 min"
+    },
+    {
+      "id": 388,
+      "title": "Lentil Curry",
+      "cuisine": "Indian",
+      "ingredients": ["Lentils", "Curry Paste", "Coconut Milk"],
+      "instructions": "1. Boil lentils. 2. Add paste and milk. 3. Simmer until thick.",
+      "time": "25 min"
+    },
+    {
+      "id": 389,
+      "title": "Beef Kabobs",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Beef", "Onion", "Peppers", "Oil"],
+      "instructions": "1. Skewer meat and veg. 2. Brush with oil. 3. Grill.",
+      "time": "20 min"
+    },
+    {
+      "id": 390,
+      "title": "Chicken Marsala",
+      "cuisine": "Italian-American",
+      "ingredients": ["Chicken", "Mushrooms", "Marsala Wine"],
+      "instructions": "1. Sauté chicken and veg. 2. Add wine. 3. Reduce sauce.",
+      "time": "25 min"
+    },
+    {
+      "id": 391,
+      "title": "Potato Gratin",
+      "cuisine": "French",
+      "ingredients": ["Potatoes", "Cream", "Cheese", "Garlic"],
+      "instructions": "1. Slice potatoes. 2. Layer with cream and cheese. 3. Bake.",
+      "time": "1 hour"
+    },
+    {
+      "id": 392,
+      "title": "Miso Salmon",
+      "cuisine": "Japanese",
+      "ingredients": ["Salmon", "Miso", "Mirin", "Soy Sauce"],
+      "instructions": "1. Marinate salmon in miso. 2. Bake until tender.",
+      "time": "15 min"
+    },
+    {
+      "id": 393,
+      "title": "Chicken Satay",
+      "cuisine": "Indonesian",
+      "ingredients": ["Chicken", "Peanut Sauce", "Turmeric"],
+      "instructions": "1. Marinate chicken. 2. Skewer and grill. 3. Serve with dip.",
+      "time": "25 min"
+    },
+    {
+      "id": 394,
+      "title": "Beef Bourguignon",
+      "cuisine": "French",
+      "ingredients": ["Beef", "Red Wine", "Mushrooms", "Carrots"],
+      "instructions": "1. Brown beef. 2. Add wine and veg. 3. Slow cook for 2 hours.",
+      "time": "2.5 hours"
+    },
+    {
+      "id": 395,
+      "title": "Tuna Sashimi",
+      "cuisine": "Japanese",
+      "ingredients": ["Raw Tuna", "Soy Sauce", "Wasabi"],
+      "instructions": "1. Slice tuna thin. 2. Serve with soy and wasabi.",
+      "time": "10 min"
+    },
+    {
+      "id": 396,
+      "title": "Chicken Alfredo",
+      "cuisine": "Italian",
+      "ingredients": ["Chicken", "Pasta", "Cream", "Parmesan"],
+      "instructions": "1. Boil pasta. 2. Cook chicken and cream. 3. Toss together.",
+      "time": "20 min"
+    },
+    {
+      "id": 397,
+      "title": "Veggie Stir-Fry",
+      "cuisine": "Asian",
+      "ingredients": ["Broccoli", "Carrot", "Soy Sauce", "Snap Peas"],
+      "instructions": "1. Stir-fry veg. 2. Add sauce. 3. Serve hot.",
+      "time": "10 min"
+    },
+    {
+      "id": 398,
+      "title": "Steak Tacos",
+      "cuisine": "Mexican",
+      "ingredients": ["Steak", "Tortilla", "Onion", "Lime"],
+      "instructions": "1. Grill steak. 2. Slice and fill tortillas. 3. Add toppings.",
+      "time": "15 min"
+    },
+    {
+      "id": 399,
+      "title": "Greek Yogurt Bowl",
+      "cuisine": "Breakfast",
+      "ingredients": ["Yogurt", "Honey", "Granola", "Berries"],
+      "instructions": "1. Place yogurt in bowl. 2. Add toppings. 3. Drizzle with honey.",
+      "time": "5 min"
+    },
+    {
+      "id": 400,
+      "title": "Lobster Pasta",
+      "cuisine": "Seafood",
+      "ingredients": ["Lobster", "Spaghetti", "Tomato", "Garlic"],
+      "instructions": "1. Boil pasta. 2. Sauté lobster and garlic. 3. Toss with sauce.",
+      "time": "25 min"
+    },
+    {
+      "id": 401,
+      "title": "Eggplant Stew",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Eggplant", "Tomato", "Onion", "Chickpeas"],
+      "instructions": "1. Sauté veg. 2. Add chickpeas and tomato. 3. Simmer until soft.",
+      "time": "35 min"
+    },
+    {
+      "id": 402,
+      "title": "Garlic Butter Corn",
+      "cuisine": "Sides",
+      "ingredients": ["Corn", "Butter", "Garlic", "Parsley"],
+      "instructions": "1. Grill corn. 2. Brush with garlic butter. 3. Add parsley.",
+      "time": "15 min"
+    },
+    {
+      "id": 403,
+      "title": "Pork Ramen",
+      "cuisine": "Japanese",
+      "ingredients": ["Noodles", "Pork Belly", "Broth", "Egg"],
+      "instructions": "1. Heat broth. 2. Cook noodles. 3. Add pork and soft egg.",
+      "time": "20 min"
+    },
+    {
+      "id": 404,
+      "title": "Chicken Kabobs",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Chicken", "Bell Peppers", "Onion"],
+      "instructions": "1. Skewer meat and veg. 2. Grill until charred.",
+      "time": "20 min"
+    },
+    {
+      "id": 405,
+      "title": "Tuna Tartare",
+      "cuisine": "French",
+      "ingredients": ["Tuna", "Avocado", "Lime", "Soy Sauce"],
+      "instructions": "1. Dice tuna and avocado. 2. Mix with lime and soy. 3. Serve chilled.",
+      "time": "15 min"
+    },
+    {
+      "id": 406,
+      "title": "Beef Fajita Bowl",
+      "cuisine": "Mexican",
+      "ingredients": ["Beef", "Rice", "Peppers", "Corn"],
+      "instructions": "1. Cook beef and veg. 2. Serve over rice. 3. Add toppings.",
+      "time": "20 min"
+    },
+    {
+      "id": 407,
+      "title": "Salmon Cakes",
+      "cuisine": "Seafood",
+      "ingredients": ["Salmon", "Breadcrumbs", "Egg", "Dill"],
+      "instructions": "1. Mix ingredients. 2. Form cakes. 3. Pan-fry until crisp.",
+      "time": "20 min"
+    },
+    {
+      "id": 408,
+      "title": "Veggie Pizza",
+      "cuisine": "Italian",
+      "ingredients": ["Dough", "Tomato Sauce", "Bell Peppers", "Mushrooms"],
+      "instructions": "1. Layer toppings on dough. 2. Bake until crust is golden.",
+      "time": "20 min"
+    },
+    {
+      "id": 409,
+      "title": "Shrimp Pasta Salad",
+      "cuisine": "Sides",
+      "ingredients": ["Shrimp", "Rotini", "Mayo", "Celery"],
+      "instructions": "1. Boil pasta. 2. Mix with shrimp and mayo. 3. Chill.",
+      "time": "15 min"
+    },
+    {
+      "id": 410,
+      "title": "Beef Stew",
+      "cuisine": "Global",
+      "ingredients": ["Beef", "Potatoes", "Carrots", "Broth"],
+      "instructions": "1. Brown beef. 2. Add veg and broth. 3. Simmer until tender.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 411,
+      "title": "Mushroom Soup",
+      "cuisine": "French",
+      "ingredients": ["Mushrooms", "Cream", "Onion", "Broth"],
+      "instructions": "1. Sauté mushrooms. 2. Add broth and cream. 3. Blend.",
+      "time": "25 min"
+    },
+    {
+      "id": 412,
+      "title": "Avocado Salad",
+      "cuisine": "Healthy",
+      "ingredients": ["Avocado", "Tomato", "Cucumber", "Lime"],
+      "instructions": "1. Dice all veg. 2. Toss with lime juice and oil.",
+      "time": "10 min"
+    },
+    {
+      "id": 413,
+      "title": "Teriyaki Salmon",
+      "cuisine": "Japanese",
+      "ingredients": ["Salmon", "Teriyaki Sauce", "Sesame Seeds", "Bok Choy"],
+      "instructions": "1. Glaze salmon with sauce. 2. Bake until flaky. 3. Serve with steamed bok choy.",
+      "time": "15 min"
+    },
+    {
+      "id": 414,
+      "title": "Chicken Tortilla Soup",
+      "cuisine": "Mexican",
+      "ingredients": ["Chicken", "Tomato Broth", "Corn", "Tortilla Strips"],
+      "instructions": "1. Simmer chicken in broth with corn. 2. Shred chicken. 3. Top with strips.",
+      "time": "30 min"
+    },
+    {
+      "id": 415,
+      "title": "Eggplant Rolatini",
+      "cuisine": "Italian",
+      "ingredients": ["Eggplant", "Ricotta", "Marinara", "Mozzarella"],
+      "instructions": "1. Slice and bake eggplant. 2. Roll with ricotta. 3. Bake with sauce and cheese.",
+      "time": "45 min"
+    },
+    {
+      "id": 416,
+      "title": "Lamb Chops",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Lamb Chops", "Rosemary", "Garlic", "Olive Oil"],
+      "instructions": "1. Marinate chops in herbs and oil. 2. Sear in a hot pan. 3. Rest and serve.",
+      "time": "20 min"
+    },
+    {
+      "id": 417,
+      "title": "Vegetable Biryani",
+      "cuisine": "Indian",
+      "ingredients": ["Basmati Rice", "Mixed Vegetables", "Saffron", "Yogurt"],
+      "instructions": "1. Partially cook rice. 2. Layer with spiced veg. 3. Steam until fragrant.",
+      "time": "45 min"
+    },
+    {
+      "id": 418,
+      "title": "Bacon Wrapped Dates",
+      "cuisine": "Appetizer",
+      "ingredients": ["Dates", "Bacon", "Goat Cheese"],
+      "instructions": "1. Stuff dates with cheese. 2. Wrap in bacon. 3. Bake until bacon is crisp.",
+      "time": "25 min"
+    },
+    {
+      "id": 419,
+      "title": "Mushroom Swiss Burger",
+      "cuisine": "American",
+      "ingredients": ["Beef Patty", "Swiss Cheese", "Mushrooms", "Bun"],
+      "instructions": "1. Grill patty. 2. Sauté mushrooms. 3. Assemble with cheese on bun.",
+      "time": "15 min"
+    },
+    {
+      "id": 420,
+      "title": "Pesto Pasta Salad",
+      "cuisine": "Italian",
+      "ingredients": ["Fusilli", "Pesto", "Cherry Tomatoes", "Pine Nuts"],
+      "instructions": "1. Boil pasta. 2. Toss with pesto. 3. Add tomatoes and nuts.",
+      "time": "12 min"
+    },
+    {
+      "id": 421,
+      "title": "Chicken Schnitzel",
+      "cuisine": "German",
+      "ingredients": ["Chicken Breast", "Breadcrumbs", "Flour", "Lemon"],
+      "instructions": "1. Pound chicken thin. 2. Bread and fry. 3. Serve with lemon wedges.",
+      "time": "20 min"
+    },
+    {
+      "id": 422,
+      "title": "Ceviche Mixto",
+      "cuisine": "Peruvian",
+      "ingredients": ["White Fish", "Shrimp", "Lime", "Sweet Potato"],
+      "instructions": "1. Marinate seafood in lime. 2. Add onion and chili. 3. Serve with potato.",
+      "time": "20 min"
+    },
+    {
+      "id": 423,
+      "title": "Sweet and Sour Pork",
+      "cuisine": "Chinese",
+      "ingredients": ["Pork Cubes", "Pineapple", "Bell Peppers", "Vinegar"],
+      "instructions": "1. Fry pork. 2. Sauté peppers and pineapple. 3. Toss in sweet-sour sauce.",
+      "time": "30 min"
+    },
+    {
+      "id": 424,
+      "title": "Baked Brie",
+      "cuisine": "French",
+      "ingredients": ["Brie Wheel", "Honey", "Walnuts", "Crackers"],
+      "instructions": "1. Place brie in oven. 2. Bake until soft. 3. Top with honey and nuts.",
+      "time": "15 min"
+    },
+    {
+      "id": 425,
+      "title": "Lentil Tacos",
+      "cuisine": "Vegan",
+      "ingredients": ["Lentils", "Taco Seasoning", "Slaw", "Corn Tortilla"],
+      "instructions": "1. Cook lentils with seasoning. 2. Fill tortillas. 3. Top with fresh slaw.",
+      "time": "20 min"
+    },
+    {
+      "id": 426,
+      "title": "Garlic Parmesan Wings",
+      "cuisine": "American",
+      "ingredients": ["Wings", "Butter", "Garlic", "Parmesan"],
+      "instructions": "1. Bake wings until crisp. 2. Toss in garlic butter and cheese.",
+      "time": "40 min"
+    },
+    {
+      "id": 427,
+      "title": "Spaghetti Aglio e Olio",
+      "cuisine": "Italian",
+      "ingredients": ["Spaghetti", "Garlic", "Olive Oil", "Red Pepper Flakes"],
+      "instructions": "1. Boil pasta. 2. Sauté garlic and flakes in oil. 3. Toss with pasta.",
+      "time": "12 min"
+    },
+    {
+      "id": 428,
+      "title": "Chicken Pozole",
+      "cuisine": "Mexican",
+      "ingredients": ["Chicken", "Hominy", "Radish", "Cabbage"],
+      "instructions": "1. Simmer chicken and hominy. 2. Season with chili. 3. Garnish with radish.",
+      "time": "1 hour"
+    },
+    {
+      "id": 429,
+      "title": "Zucchini Bread",
+      "cuisine": "Bakery",
+      "ingredients": ["Zucchini", "Flour", "Cinnamon", "Walnuts"],
+      "instructions": "1. Grate zucchini. 2. Mix with dry ingredients. 3. Bake in loaf pan.",
+      "time": "1 hour"
+    },
+    {
+      "id": 430,
+      "title": "Greek Meatballs",
+      "cuisine": "Greek",
+      "ingredients": ["Ground Lamb", "Mint", "Garlic", "Tzatziki"],
+      "instructions": "1. Form meatballs with mint. 2. Pan-fry. 3. Serve with tzatziki sauce.",
+      "time": "25 min"
+    },
+    {
+      "id": 431,
+      "title": "Prawn Cocktail",
+      "cuisine": "British",
+      "ingredients": ["Prawns", "Lettuce", "Marie Rose Sauce", "Lemon"],
+      "instructions": "1. Shred lettuce. 2. Top with prawns and sauce. 3. Serve cold.",
+      "time": "10 min"
+    },
+    {
+      "id": 432,
+      "title": "Butternut Squash Ravioli",
+      "cuisine": "Italian",
+      "ingredients": ["Ravioli", "Sage", "Brown Butter", "Parmesan"],
+      "instructions": "1. Boil ravioli. 2. Toss in sage and brown butter. 3. Top with cheese.",
+      "time": "15 min"
+    },
+    {
+      "id": 433,
+      "title": "Shrimp Po' Boy",
+      "cuisine": "Cajun",
+      "ingredients": ["Fried Shrimp", "French Bread", "Remoulade Sauce", "Pickles"],
+      "instructions": "1. Fry breaded shrimp. 2. Slather bread with sauce. 3. Assemble sandwich.",
+      "time": "25 min"
+    },
+    {
+      "id": 434,
+      "title": "Stuffed Cabbage Rolls",
+      "cuisine": "Eastern European",
+      "ingredients": ["Cabbage Leaves", "Ground Beef", "Rice", "Tomato Sauce"],
+      "instructions": "1. Blanch leaves. 2. Fill with beef and rice. 3. Simmer in sauce.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 435,
+      "title": "Arugula Salad",
+      "cuisine": "Healthy",
+      "ingredients": ["Arugula", "Shaved Parmesan", "Lemon Vinaigrette", "Pine Nuts"],
+      "instructions": "1. Toss arugula with dressing. 2. Top with cheese and toasted nuts.",
+      "time": "5 min"
+    },
+    {
+      "id": 436,
+      "title": "Chicken Cordon Bleu",
+      "cuisine": "French",
+      "ingredients": ["Chicken", "Ham", "Swiss Cheese", "Breadcrumbs"],
+      "instructions": "1. Wrap ham and cheese in chicken. 2. Bread and bake until golden.",
+      "time": "40 min"
+    },
+    {
+      "id": 437,
+      "title": "Miso Glazed Eggplant",
+      "cuisine": "Japanese",
+      "ingredients": ["Eggplant", "Miso Paste", "Sugar", "Mirin"],
+      "instructions": "1. Slice eggplant. 2. Brush with miso glaze. 3. Broil until caramelized.",
+      "time": "20 min"
+    },
+    {
+      "id": 438,
+      "title": "Beef Empanadas",
+      "cuisine": "Latin American",
+      "ingredients": ["Pastry", "Ground Beef", "Olives", "Hard Boiled Egg"],
+      "instructions": "1. Fill pastry with beef mix. 2. Fold and crimp. 3. Bake until golden.",
+      "time": "45 min"
+    },
+    {
+      "id": 439,
+      "title": "Coconut Shrimp",
+      "cuisine": "Seafood",
+      "ingredients": ["Shrimp", "Shredded Coconut", "Panko", "Marmalade"],
+      "instructions": "1. Coat shrimp in coconut and panko. 2. Fry. 3. Serve with marmalade.",
+      "time": "20 min"
+    },
+    {
+      "id": 440,
+      "title": "Vegetable Frittata",
+      "cuisine": "Breakfast",
+      "ingredients": ["Eggs", "Zucchini", "Bell Peppers", "Feta"],
+      "instructions": "1. Sauté veg in pan. 2. Pour over whisked eggs. 3. Bake until set.",
+      "time": "20 min"
+    },
+    {
+      "id": 441,
+      "title": "Beef Kebabs",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Sirloin", "Onion", "Peppers", "Cumin"],
+      "instructions": "1. Skewer meat and veg. 2. Season with spices. 3. Grill over high heat.",
+      "time": "20 min"
+    },
+    {
+      "id": 442,
+      "title": "Clams Linguine",
+      "cuisine": "Italian",
+      "ingredients": ["Linguine", "Fresh Clams", "White Wine", "Parsley"],
+      "instructions": "1. Boil pasta. 2. Steam clams in wine and garlic. 3. Toss together.",
+      "time": "25 min"
+    },
+    {
+      "id": 443,
+      "title": "Korean Fried Chicken",
+      "cuisine": "Korean",
+      "ingredients": ["Chicken Wings", "Potato Starch", "Gochujang", "Honey"],
+      "instructions": "1. Double fry chicken. 2. Coat in spicy-sweet glaze. 3. Serve.",
+      "time": "45 min"
+    },
+    {
+      "id": 444,
+      "title": "Caprese Chicken",
+      "cuisine": "Italian",
+      "ingredients": ["Chicken Breast", "Mozzarella", "Tomato", "Balsamic"],
+      "instructions": "1. Pan-fry chicken. 2. Top with cheese and tomato. 3. Broil and drizzle.",
+      "time": "20 min"
+    },
+    {
+      "id": 445,
+      "title": "Cauliflower Wings",
+      "cuisine": "Vegan",
+      "ingredients": ["Cauliflower", "Buffalo Sauce", "Flour", "Garlic Powder"],
+      "instructions": "1. Batter cauliflower. 2. Bake until crisp. 3. Toss in buffalo sauce.",
+      "time": "30 min"
+    },
+    {
+      "id": 446,
+      "title": "Pork Tenderloin",
+      "cuisine": "American",
+      "ingredients": ["Pork Tenderloin", "Dijon Mustard", "Honey", "Thyme"],
+      "instructions": "1. Rub pork with honey-mustard. 2. Roast until 145°F. 3. Slice and serve.",
+      "time": "35 min"
+    },
+    {
+      "id": 447,
+      "title": "Gazpacho Andaluz",
+      "cuisine": "Spanish",
+      "ingredients": ["Tomato", "Cucumber", "Bread", "Sherry Vinegar"],
+      "instructions": "1. Blend veg and soaked bread. 2. Strain. 3. Chill before serving.",
+      "time": "15 min"
+    },
+    {
+      "id": 448,
+      "title": "Shrimp Gumbo",
+      "cuisine": "Cajun",
+      "ingredients": ["Shrimp", "Okra", "Roux", "Rice"],
+      "instructions": "1. Make dark roux. 2. Add veg and broth. 3. Simmer with shrimp; serve over rice.",
+      "time": "1 hour"
+    },
+    {
+      "id": 449,
+      "title": "Tiramisu Cups",
+      "cuisine": "Italian",
+      "ingredients": ["Ladyfingers", "Espresso", "Mascarpone", "Cocoa"],
+      "instructions": "1. Dip biscuits in coffee. 2. Layer with mascarpone cream. 3. Dust with cocoa.",
+      "time": "20 min"
+    },
+    {
+      "id": 450,
+      "title": "Blackened Fish",
+      "cuisine": "Cajun",
+      "ingredients": ["Tilapia", "Paprika", "Cayenne", "Oregano"],
+      "instructions": "1. Coat fish in spices. 2. Sear in a very hot cast iron skillet.",
+      "time": "10 min"
+    },
+    {
+      "id": 451,
+      "title": "Lamb Rogan Josh",
+      "cuisine": "Indian",
+      "ingredients": ["Lamb", "Ginger", "Garlic", "Kashmiri Chili"],
+      "instructions": "1. Brown lamb. 2. Simmer in spiced gravy until tender. 3. Garnish with ginger.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 452,
+      "title": "Avocado Chicken Salad",
+      "cuisine": "Lunch",
+      "ingredients": ["Chicken", "Avocado", "Lime", "Cilantro"],
+      "instructions": "1. Shred chicken. 2. Mash with avocado and lime. 3. Serve on toast.",
+      "time": "10 min"
+    },
+    {
+      "id": 453,
+      "title": "Crab Stuffed Mushrooms",
+      "cuisine": "Seafood",
+      "ingredients": ["Mushrooms", "Crab Meat", "Cream Cheese", "Parsley"],
+      "instructions": "1. Mix crab and cheese. 2. Fill mushroom caps. 3. Bake until bubbly.",
+      "time": "25 min"
+    },
+    {
+      "id": 454,
+      "title": "Beef Chow Fun",
+      "cuisine": "Chinese",
+      "ingredients": ["Flat Rice Noodles", "Beef", "Bean Sprouts", "Dark Soy"],
+      "instructions": "1. Sear beef. 2. Stir-fry sprouts and noodles. 3. Toss with sauce.",
+      "time": "20 min"
+    },
+    {
+      "id": 455,
+      "title": "Roasted Root Veggies",
+      "cuisine": "Sides",
+      "ingredients": ["Carrots", "Parsnips", "Beets", "Maple Syrup"],
+      "instructions": "1. Chop veg. 2. Toss with oil and syrup. 3. Roast until tender.",
+      "time": "40 min"
+    },
+    {
+      "id": 456,
+      "title": "Chicken Piccata",
+      "cuisine": "Italian",
+      "ingredients": ["Chicken Breast", "Capers", "Lemon Juice", "Butter"],
+      "instructions": "1. Pan-fry chicken. 2. Make sauce with lemon and capers. 3. Finish with butter.",
+      "time": "20 min"
+    },
+    {
+      "id": 457,
+      "title": "Sloppy Joe Sliders",
+      "cuisine": "American",
+      "ingredients": ["Ground Beef", "Ketchup", "Worcestershire", "Small Buns"],
+      "instructions": "1. Brown beef. 2. Add sauce and simmer. 3. Serve on slider buns.",
+      "time": "15 min"
+    },
+    {
+      "id": 458,
+      "title": "Mango Salsa",
+      "cuisine": "Mexican",
+      "ingredients": ["Mango", "Red Onion", "Jalapeno", "Lime"],
+      "instructions": "1. Dice all ingredients. 2. Mix in a bowl. 3. Serve with chips or fish.",
+      "time": "10 min"
+    },
+    {
+      "id": 459,
+      "title": "Steak Tartare",
+      "cuisine": "French",
+      "ingredients": ["Beef Fillet", "Egg Yolk", "Mustard", "Capers"],
+      "instructions": "1. Finely mince cold beef. 2. Mix with seasonings. 3. Top with raw yolk.",
+      "time": "20 min"
+    },
+    {
+      "id": 460,
+      "title": "Paneer Tikka",
+      "cuisine": "Indian",
+      "ingredients": ["Paneer", "Yogurt", "Tandoori Masala", "Bell Peppers"],
+      "instructions": "1. Marinate paneer. 2. Skewer with peppers. 3. Grill until charred.",
+      "time": "30 min"
+    },
+    {
+      "id": 461,
+      "title": "Bangers and Mash",
+      "cuisine": "British",
+      "ingredients": ["Sausages", "Potatoes", "Butter", "Onion Gravy"],
+      "instructions": "1. Boil and mash potatoes. 2. Fry sausages. 3. Serve with gravy.",
+      "time": "30 min"
+    },
+    {
+      "id": 462,
+      "title": "Shrimp Ceviche",
+      "cuisine": "Latin American",
+      "ingredients": ["Shrimp", "Lime", "Cucumber", "Cilantro"],
+      "instructions": "1. Blanch shrimp. 2. Marinate in lime and veg. 3. Chill and serve.",
+      "time": "15 min"
+    },
+    {
+      "id": 463,
+      "title": "Cauliflower Fried Rice",
+      "cuisine": "Healthy",
+      "ingredients": ["Riced Cauliflower", "Peas", "Egg", "Soy Sauce"],
+      "instructions": "1. Sauté cauliflower. 2. Scramble egg. 3. Toss with peas and soy.",
+      "time": "15 min"
+    },
+    {
+      "id": 464,
+      "title": "Chicken Katsu",
+      "cuisine": "Japanese",
+      "ingredients": ["Chicken Breast", "Panko", "Flour", "Tonkatsu Sauce"],
+      "instructions": "1. Bread chicken with panko. 2. Fry until golden. 3. Slice and serve with sauce.",
+      "time": "25 min"
+    },
+    {
+      "id": 465,
+      "title": "Beef Stroganoff",
+      "cuisine": "Russian",
+      "ingredients": ["Beef Strips", "Sour Cream", "Mushrooms", "Egg Noodles"],
+      "instructions": "1. Sauté beef and mushrooms. 2. Stir in sour cream. 3. Serve over noodles.",
+      "time": "30 min"
+    },
+    {
+      "id": 466,
+      "title": "Spinach Artichoke Dip",
+      "cuisine": "Appetizer",
+      "ingredients": ["Spinach", "Artichokes", "Cream Cheese", "Mozzarella"],
+      "instructions": "1. Mix all ingredients. 2. Bake until golden and bubbly. 3. Serve with bread.",
+      "time": "25 min"
+    },
+    {
+      "id": 467,
+      "title": "Pork Gyoza",
+      "cuisine": "Japanese",
+      "ingredients": ["Ground Pork", "Ginger", "Cabbage", "Wrappers"],
+      "instructions": "1. Fill wrappers. 2. Pan-fry bottom. 3. Steam with splash of water.",
+      "time": "35 min"
+    },
+    {
+      "id": 468,
+      "title": "Lobster Roll",
+      "cuisine": "Seafood",
+      "ingredients": ["Lobster Meat", "Mayo", "Celery", "Brioche Bun"],
+      "instructions": "1. Toss lobster with mayo and celery. 2. Butter and toast bun. 3. Fill.",
+      "time": "20 min"
+    },
+    {
+      "id": 469,
+      "title": "Potato Leek Soup",
+      "cuisine": "French",
+      "ingredients": ["Potatoes", "Leeks", "Cream", "Butter"],
+      "instructions": "1. Sauté leeks. 2. Simmer with potatoes and broth. 3. Blend and add cream.",
+      "time": "40 min"
+    },
+    {
+      "id": 470,
+      "title": "Sweet Potato Chili",
+      "cuisine": "Vegan",
+      "ingredients": ["Sweet Potato", "Black Beans", "Cumin", "Tomato"],
+      "instructions": "1. Sauté potato and onion. 2. Add beans and tomatoes. 3. Simmer until soft.",
+      "time": "45 min"
+    },
+    {
+      "id": 471,
+      "title": "Chicken Enchiladas",
+      "cuisine": "Mexican",
+      "ingredients": ["Chicken", "Tortillas", "Red Sauce", "Cheese"],
+      "instructions": "1. Fill tortillas with chicken. 2. Roll and cover with sauce/cheese. 3. Bake.",
+      "time": "30 min"
+    },
+    {
+      "id": 472,
+      "title": "Falafel Pita",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Falafel", "Pita", "Tahini", "Cucumber"],
+      "instructions": "1. Warm pita. 2. Stuff with falafel and veg. 3. Drizzle with tahini.",
+      "time": "10 min"
+    },
+    {
+      "id": 473,
+      "title": "Beef Carpaccio",
+      "cuisine": "Italian",
+      "ingredients": ["Beef Fillet", "Arugula", "Lemon", "Parmesan"],
+      "instructions": "1. Slice raw beef paper-thin. 2. Top with greens and cheese. 3. Drizzle oil.",
+      "time": "15 min"
+    },
+    {
+      "id": 474,
+      "title": "Honey Garlic Chicken",
+      "cuisine": "Asian",
+      "ingredients": ["Chicken Thighs", "Honey", "Garlic", "Soy Sauce"],
+      "instructions": "1. Brown chicken. 2. Add honey-garlic sauce. 3. Reduce until sticky.",
+      "time": "20 min"
+    },
+    {
+      "id": 475,
+      "title": "Mushroom Risotto",
+      "cuisine": "Italian",
+      "ingredients": ["Arborio Rice", "Mushrooms", "Parmesan", "Broth"],
+      "instructions": "1. Sauté mushrooms. 2. Slowly add broth to rice while stirring. 3. Finish with cheese.",
+      "time": "40 min"
+    },
+    {
+      "id": 476,
+      "title": "Egg Salad",
+      "cuisine": "Lunch",
+      "ingredients": ["Hard Boiled Eggs", "Mayo", "Dijon", "Chives"],
+      "instructions": "1. Mash eggs. 2. Mix with mayo and mustard. 3. Serve on bread or lettuce.",
+      "time": "15 min"
+    },
+    {
+      "id": 477,
+      "title": "Fish and Chips",
+      "cuisine": "British",
+      "ingredients": ["Cod", "Flour", "Beer", "Potatoes"],
+      "instructions": "1. Batter fish. 2. Deep fry fish and sliced potatoes. 3. Serve with tartar.",
+      "time": "30 min"
+    },
+    {
+      "id": 478,
+      "title": "Vegetable Korma",
+      "cuisine": "Indian",
+      "ingredients": ["Mixed Veg", "Cashews", "Coconut Milk", "Turmeric"],
+      "instructions": "1. Sauté veg and spices. 2. Add ground cashew and milk. 3. Simmer.",
+      "time": "35 min"
+    },
+    {
+      "id": 479,
+      "title": "Buffalo Chicken Dip",
+      "cuisine": "Appetizer",
+      "ingredients": ["Chicken", "Buffalo Sauce", "Cream Cheese", "Ranch"],
+      "instructions": "1. Shred chicken. 2. Mix all ingredients. 3. Bake until bubbly.",
+      "time": "25 min"
+    },
+    {
+      "id": 480,
+      "title": "Gnocchi Sorrentina",
+      "cuisine": "Italian",
+      "ingredients": ["Gnocchi", "Tomato Sauce", "Mozzarella", "Basil"],
+      "instructions": "1. Boil gnocchi. 2. Toss with sauce and cheese. 3. Broil until melted.",
+      "time": "20 min"
+    },
+    {
+      "id": 481,
+      "title": "Kung Pao Shrimp",
+      "cuisine": "Chinese",
+      "ingredients": ["Shrimp", "Peanuts", "Dried Chilis", "Soy Sauce"],
+      "instructions": "1. Stir-fry shrimp. 2. Add peanuts and chilis. 3. Toss in spicy sauce.",
+      "time": "15 min"
+    },
+    {
+      "id": 482,
+      "title": "Pork Chops with Apples",
+      "cuisine": "American",
+      "ingredients": ["Pork Chops", "Granny Smith Apple", "Cinnamon", "Butter"],
+      "instructions": "1. Sear pork. 2. Sauté apples in butter/cinnamon. 3. Serve over chops.",
+      "time": "25 min"
+    },
+    {
+      "id": 483,
+      "title": "French Onion Soup",
+      "cuisine": "French",
+      "ingredients": ["Onions", "Beef Broth", "Gruyere", "Baguette"],
+      "instructions": "1. Caramelize onions. 2. Add broth. 3. Top with bread and cheese; broil.",
+      "time": "1.5 hours"
+    },
+    {
+      "id": 484,
+      "title": "Huevos Rancheros",
+      "cuisine": "Mexican",
+      "ingredients": ["Eggs", "Tortilla", "Black Beans", "Salsa Roja"],
+      "instructions": "1. Fry eggs. 2. Place on warm tortilla and beans. 3. Top with salsa.",
+      "time": "15 min"
+    },
+    {
+      "id": 485,
+      "title": "Linguine with Pesto",
+      "cuisine": "Italian",
+      "ingredients": ["Linguine", "Fresh Basil", "Pine Nuts", "Parmesan"],
+      "instructions": "1. Blend pesto. 2. Boil pasta. 3. Toss together with splash of pasta water.",
+      "time": "15 min"
+    },
+    {
+      "id": 486,
+      "title": "Chicken Satay",
+      "cuisine": "Thai",
+      "ingredients": ["Chicken Strips", "Peanut Butter", "Coconut Milk", "Lime"],
+      "instructions": "1. Marinate chicken. 2. Grill on skewers. 3. Serve with peanut sauce.",
+      "time": "30 min"
+    },
+    {
+      "id": 487,
+      "title": "Shepherd's Pie",
+      "cuisine": "British",
+      "ingredients": ["Ground Lamb", "Mashed Potatoes", "Peas", "Carrots"],
+      "instructions": "1. Cook meat and veg. 2. Top with potatoes. 3. Bake until browned.",
+      "time": "50 min"
+    },
+    {
+      "id": 488,
+      "title": "Caprese Flatbread",
+      "cuisine": "Italian",
+      "ingredients": ["Flatbread", "Cherry Tomato", "Mozzarella", "Basil"],
+      "instructions": "1. Top bread with cheese and tomato. 2. Bake. 3. Garnish with basil.",
+      "time": "12 min"
+    },
+    {
+      "id": 489,
+      "title": "Tuna Niçoise Salad",
+      "cuisine": "French",
+      "ingredients": ["Tuna", "Green Beans", "Boiled Egg", "Olives"],
+      "instructions": "1. Arrange ingredients on lettuce. 2. Drizzle with vinaigrette.",
+      "time": "20 min"
+    },
+    {
+      "id": 490,
+      "title": "BBQ Pulled Pork",
+      "cuisine": "American",
+      "ingredients": ["Pork Shoulder", "BBQ Sauce", "Buns", "Coleslaw"],
+      "instructions": "1. Slow cook pork. 2. Shred and mix with sauce. 3. Serve on buns.",
+      "time": "6 hours"
+    },
+    {
+      "id": 491,
+      "title": "Minestrone Soup",
+      "cuisine": "Italian",
+      "ingredients": ["Beans", "Pasta", "Tomato", "Zucchini"],
+      "instructions": "1. Sauté veg. 2. Simmer with broth and beans. 3. Add pasta at the end.",
+      "time": "40 min"
+    },
+    {
+      "id": 492,
+      "title": "Bibimbap",
+      "cuisine": "Korean",
+      "ingredients": ["Rice", "Beef", "Egg", "Spinach", "Gochujang"],
+      "instructions": "1. Sauté veg and beef. 2. Place on rice. 3. Top with sunny-side egg.",
+      "time": "30 min"
+    },
+    {
+      "id": 493,
+      "title": "Pan-Seared Scallops",
+      "cuisine": "Seafood",
+      "ingredients": ["Scallops", "Butter", "Garlic", "Lemon"],
+      "instructions": "1. Dry scallops. 2. Sear in hot butter. 3. Baste with garlic and lemon.",
+      "time": "10 min"
+    },
+    {
+      "id": 494,
+      "title": "Ratatouille",
+      "cuisine": "French",
+      "ingredients": ["Eggplant", "Zucchini", "Bell Pepper", "Herbs"],
+      "instructions": "1. Stew sliced vegetables. 2. Season with thyme and garlic. 3. Serve warm.",
+      "time": "50 min"
+    },
+    {
+      "id": 495,
+      "title": "Chicken Parmigiana",
+      "cuisine": "Italian-American",
+      "ingredients": ["Chicken Breast", "Marinara", "Mozzarella", "Pasta"],
+      "instructions": "1. Fry breaded chicken. 2. Top with sauce and cheese. 3. Bake and serve over pasta.",
+      "time": "35 min"
+    },
+    {
+      "id": 496,
+      "title": "Aloo Gobi",
+      "cuisine": "Indian",
+      "ingredients": ["Potato", "Cauliflower", "Turmeric", "Coriander"],
+      "instructions": "1. Sauté spices and potatoes. 2. Add cauliflower. 3. Cook until tender.",
+      "time": "30 min"
+    },
+    {
+      "id": 497,
+      "title": "Fried Calamari",
+      "cuisine": "Mediterranean",
+      "ingredients": ["Squid", "Flour", "Lemon", "Marinara Sauce"],
+      "instructions": "1. Slice squid. 2. Dust in flour. 3. Deep fry and serve with lemon.",
+      "time": "15 min"
+    },
+    {
+      "id": 498,
+      "title": "Shakshuka",
+      "cuisine": "Middle Eastern",
+      "ingredients": ["Eggs", "Tomato Sauce", "Peppers", "Feta"],
+      "instructions": "1. Cook peppers in sauce. 2. Poach eggs in sauce. 3. Garnish with feta.",
+      "time": "25 min"
+    },
+    {
+      "id": 499,
+      "title": "Beef Pho",
+      "cuisine": "Vietnamese",
+      "ingredients": ["Rice Noodles", "Beef Slices", "Bean Sprouts", "Star Anise"],
+      "instructions": "1. Simmer broth with spices. 2. Cook noodles. 3. Pour broth over raw beef.",
+      "time": "45 min"
+    },
+    {
+      "id": 500,
+      "title": "Taco Salad Bowl",
+      "cuisine": "Mexican",
+      "ingredients": ["Ground Beef", "Lettuce", "Cheese", "Avocado", "Tortilla Chips"],
+      "instructions": "1. Brown beef. 2. Mix with greens and cheese. 3. Top with chips and avocado.",
+      "time": "15 min"
     }
   ]
 }
