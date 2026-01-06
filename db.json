@@ -1,0 +1,100 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pasta Aglio e Olio",
+      "cuisine": "Italian",
+      "ingredients": ["Pasta", "Garlic", "Olive Oil", "Red Pepper Flakes"],
+      "instructions": "1. Boil pasta. 2. Sauté garlic and flakes in oil. 3. Toss together.",
+      "time": "15 min"
+    },
+    {
+      "id": 2,
+      "title": "Honey Garlic Chicken",
+      "cuisine": "Asian",
+      "ingredients": ["Chicken", "Garlic", "Honey", "Soy Sauce", "Ginger"],
+      "instructions": "1. Brown chicken. 2. Add garlic, honey, and soy. 3. Simmer until glazed.",
+      "time": "20 min"
+    },
+    {
+      "id": 3,
+      "title": "Classic Beef Tacos",
+      "cuisine": "Mexican",
+      "ingredients": ["Ground Beef", "Taco Shells", "Lettuce", "Cheese", "Cumin"],
+      "instructions": "1. Brown beef with cumin. 2. Warm shells. 3. Fill shells with beef and toppings.",
+      "time": "15 min"
+    },
+    {
+      "id": 4,
+      "title": "Greek Salad",
+      "cuisine": "Greek",
+      "ingredients": ["Cucumber", "Tomato", "Feta Cheese", "Olives", "Red Onion"],
+      "instructions": "1. Chop vegetables. 2. Combine in a bowl. 3. Toss with olive oil and oregano.",
+      "time": "10 min"
+    },
+    {
+      "id": 5,
+      "title": "Caprese Toast",
+      "cuisine": "Italian",
+      "ingredients": ["Bread", "Mozzarella", "Tomato", "Basil", "Balsamic Glaze"],
+      "instructions": "1. Toast bread. 2. Layer cheese and tomato. 3. Top with basil and glaze.",
+      "time": "5 min"
+    },
+    {
+      "id": 6,
+      "title": "Egg Fried Rice",
+      "cuisine": "Asian",
+      "ingredients": ["Rice", "Eggs", "Green Peas", "Soy Sauce", "Green Onions"],
+      "instructions": "1. Scramble eggs. 2. Stir-fry rice and peas. 3. Mix eggs back in with soy sauce.",
+      "time": "12 min"
+    },
+    {
+      "id": 7,
+      "title": "Lemon Garlic Salmon",
+      "cuisine": "Seafood",
+      "ingredients": ["Salmon Fillet", "Lemon", "Garlic", "Butter", "Parsley"],
+      "instructions": "1. Season salmon. 2. Pan-sear in butter and garlic. 3. Squeeze lemon over top.",
+      "time": "12 min"
+    },
+    {
+      "id": 8,
+      "title": "Avocado Toast",
+      "cuisine": "Modern American",
+      "ingredients": ["Bread", "Avocado", "Lemon Juice", "Chili Flakes", "Salt"],
+      "instructions": "1. Toast bread. 2. Mash avocado with lemon and salt. 3. Spread on toast.",
+      "time": "5 min"
+    },
+    {
+      "id": 9,
+      "title": "Margherita Pizza",
+      "cuisine": "Italian",
+      "ingredients": ["Pizza Dough", "Tomato Sauce", "Fresh Mozzarella", "Basil"],
+      "instructions": "1. Spread sauce on dough. 2. Top with cheese. 3. Bake at 450°F and add basil.",
+      "time": "15 min"
+    },
+    {
+      "id": 10,
+      "title": "Chickpea Curry",
+      "cuisine": "Indian",
+      "ingredients": ["Chickpeas", "Coconut Milk", "Curry Powder", "Onion", "Spinach"],
+      "instructions": "1. Sauté onion. 2. Add spices, chickpeas, and milk. 3. Simmer and stir in spinach.",
+      "time": "20 min"
+    },
+    {
+      "id": 11,
+      "title": "Pesto Pasta",
+      "cuisine": "Italian",
+      "ingredients": ["Pasta", "Basil Pesto", "Parmesan", "Pine Nuts"],
+      "instructions": "1. Boil pasta. 2. Reserve some water and drain. 3. Mix pasta with pesto.",
+      "time": "12 min"
+    },
+    {
+      "id": 12,
+      "title": "Black Bean Quesadilla",
+      "cuisine": "Mexican",
+      "ingredients": ["Tortilla", "Black Beans", "Cheddar Cheese", "Corn"],
+      "instructions": "1. Place cheese and beans on tortilla. 2. Fold and grill until melted. 3. Slice and serve.",
+      "time": "10 min"
+    }
+  ]
+}

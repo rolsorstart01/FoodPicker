@@ -1,0 +1,44 @@
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.filter-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.add-btn {
+  background: none;
+  border: 1px dashed #ccc;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #888;
+}
+
+.add-btn:hover {
+  background: #f9f9f9;
+  color: #333;
+}
+
+.cuisine-tag {
+  background: #e1f5fe;
+  color: #01579b;
+  padding: 4px 12px;
+  border-radius: 50px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
