@@ -12,25 +12,32 @@ function App() {
   const [selectedIngs, setSelectedIngs] = useState([""]); // Starts with one empty input
   const [foundRecipe, setFoundRecipe] = useState(null);
 
+  // Extract unique ingredients and cuisines on load
   useEffect(() => {
-    // Extract unique ingredients and cuisines
     const allIngs = [...new Set(recipes.flatMap(r => r.ingredients))].sort();
     const allCuisines = ["All", ...new Set(recipes.map(r => r.cuisine))].sort();
     setAvailableIngs(allIngs);
     setCuisines(allCuisines);
   }, [recipes]);
 
-  // Handle adding/removing ingredient dropdowns
   const addIngredientSlot = () => setSelectedIngs([...selectedIngs, ""]);
+  
   const updateIng = (index, val) => {
     const next = [...selectedIngs];
     next[index] = val;
     setSelectedIngs(next);
   };
 
+  const resetEngine = () => {
+    setSelectedIngs([""]);
+    setSelectedCuisine("All");
+    setFoundRecipe(null);
+  };
+
   const findRecipe = () => {
     const activeIngs = selectedIngs.filter(i => i !== "");
     
+    // The "Anti-Decision" Filter
     const matches = recipes.filter(r => {
       const cuisineMatch = selectedCuisine === "All" || r.cuisine === selectedCuisine;
       const ingMatch = r.ingredients.some(ing => activeIngs.includes(ing));
@@ -38,49 +45,70 @@ function App() {
     });
 
     if (matches.length > 0) {
-      setFoundRecipe(matches[Math.floor(Math.random() * matches.length)]);
+      // Pick a random one that isn't the current one (if possible)
+      const otherMatches = matches.length > 1 && foundRecipe 
+        ? matches.filter(m => m.id !== foundRecipe.id) 
+        : matches;
+      
+      const randomItem = otherMatches[Math.floor(Math.random() * otherMatches.length)];
+      setFoundRecipe(randomItem);
     } else {
-      alert("No recipes found! Try widening your cuisine or ingredients.");
+      alert("No recipes found! Try adding more common ingredients like 'Garlic' or 'Pasta'.");
     }
   };
 
   return (
     <div className="engine-container">
-      <h1>FodPick</h1>
+      <header>
+        <h1>🚫 Anti-Decision Engine</h1>
+        <p>Stop thinking. Start cooking.</p>
+      </header>
 
       <div className="filter-group">
-        <label>Step 1: Pick a Cuisine</label>
-        <select onChange={(e) => setSelectedCuisine(e.target.value)}>
+        <label>1. Choose Style</label>
+        <select value={selectedCuisine} onChange={(e) => setSelectedCuisine(e.target.value)}>
           {cuisines.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
       </div>
 
       <div className="filter-group">
-        <label>Step 2: What's in your fridge?</label>
-        {selectedIngs.map((val, idx) => (
-          <select key={idx} value={val} onChange={(e) => updateIng(idx, e.target.value)}>
-            <option value="">Select Ingredient...</option>
-            {availableIngs.map(ing => <option key={ing} value={ing}>{ing}</option>)}
-          </select>
-        ))}
-        <button className="add-btn" onClick={addIngredientSlot}>+ Add More Ingredients</button>
+        <label>2. Your Ingredients</label>
+        <div className="dropdown-list">
+          {selectedIngs.map((val, idx) => (
+            <select key={idx} value={val} onChange={(e) => updateIng(idx, e.target.value)}>
+              <option value="">Select Ingredient...</option>
+              {availableIngs.map(ing => <option key={ing} value={ing}>{ing}</option>)}
+            </select>
+          ))}
+        </div>
+        <button className="add-btn" onClick={addIngredientSlot}>+ Add Another Item</button>
       </div>
 
-      <button className="main-btn" onClick={findRecipe}>DECIDE MY MEAL</button>
+      <div className="action-row">
+        <button className="main-btn" onClick={findRecipe}>
+          {foundRecipe ? "NOT FEELING IT? REROLL" : "DECIDE FOR ME"}
+        </button>
+        {foundRecipe && <button className="reset-link" onClick={resetEngine}>Clear All</button>}
+      </div>
 
       {foundRecipe && (
         <div className="recipe-card animate-in">
           <div className="card-header">
             <span className="cuisine-tag">{foundRecipe.cuisine}</span>
-            <span className="time-tag">{foundRecipe.time}</span>
+            <span className="time-tag">⏱ {foundRecipe.time}</span>
           </div>
           <h2>{foundRecipe.title}</h2>
+          <div className="ingredients-needed">
+             <strong>Needs:</strong> {foundRecipe.ingredients.join(", ")}
+          </div>
           <div className="method">
-            <h3>Method:</h3>
+            <h3>How to make it:</h3>
             <p>{foundRecipe.instructions}</p>
           </div>
         </div>
       )}
+
+      <div className="ad-box">ADVERTISEMENT SUPPORTING THE CREATOR</div>
     </div>
   );
 }

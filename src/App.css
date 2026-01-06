@@ -1,53 +1,47 @@
-/* --- Google Fonts for that Premium Look --- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@700;800&display=swap');
 
 :root {
   --primary: #6c5ce7;
-  --primary-hover: #5b4cc4;
+  --primary-glow: rgba(108, 92, 231, 0.15);
   --accent: #00cec9;
-  --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  --card-bg: rgba(255, 255, 255, 0.9);
-  --text-main: #2d3436;
-  --text-sub: #636e72;
+  --text-dark: #2d3436;
+  --text-gray: #636e72;
+  --glass: rgba(255, 255, 255, 0.9);
 }
 
 body {
   margin: 0;
-  padding: 0;
-  background: var(--bg-gradient);
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   min-height: 100vh;
   font-family: 'Inter', sans-serif;
-  color: var(--text-main);
+  color: var(--text-dark);
 }
 
 .engine-container {
-  max-width: 550px;
-  margin: 60px auto;
+  max-width: 500px;
+  margin: 50px auto;
   padding: 40px;
-  background: var(--card-bg);
-  backdrop-filter: blur(10px);
-  border-radius: 24px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  background: var(--glass);
+  backdrop-filter: blur(12px);
+  border-radius: 30px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
   text-align: center;
 }
 
 h1 {
   font-family: 'Outfit', sans-serif;
-  font-weight: 800;
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+  font-size: 2.2rem;
+  margin-bottom: 5px;
   background: linear-gradient(to right, var(--primary), var(--accent));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 header p {
-  color: var(--text-sub);
-  margin-bottom: 30px;
-  font-size: 1.1rem;
+  color: var(--text-gray);
+  margin-bottom: 35px;
 }
 
-/* --- Filter Sections --- */
 .filter-group {
   text-align: left;
   margin-bottom: 25px;
@@ -55,206 +49,163 @@ header p {
 
 .filter-group label {
   display: block;
-  font-weight: 600;
-  margin-bottom: 8px;
-  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 0.85rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
   color: var(--primary);
+  margin-bottom: 10px;
 }
 
+.dropdown-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Custom Dropdown Styling */
 select {
   width: 100%;
-  padding: 14px;
-  border-radius: 12px;
-  border: 2px solid #dfe6e9;
+  padding: 16px;
+  border-radius: 16px;
+  border: 2px solid #edf2f7;
   background: white;
   font-size: 1rem;
-  transition: all 0.3s ease;
   appearance: none;
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236c5ce7' stroke-width='2'%3E%3Cpath d='M19.5 8.25l-7.5 7.5-7.5-7.5'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 1rem center;
-  background-size: 1em;
+  background-size: 1.1rem;
+  transition: all 0.2s ease;
+}
+
+select:hover {
+  border-color: var(--primary);
+  transform: translateY(-1px);
 }
 
 select:focus {
-  border-color: var(--primary);
-  box-shadow: 0 0 0 4px rgba(108, 92, 231, 0.1);
   outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 4px var(--primary-glow);
 }
 
-/* --- Buttons --- */
 .add-btn {
   background: transparent;
-  color: var(--primary);
-  border: 2px dashed var(--primary);
-  padding: 10px;
+  color: var(--text-gray);
+  border: 2px dashed #cbd5e0;
+  padding: 12px;
   width: 100%;
-  margin-top: 10px;
-  border-radius: 12px;
-  font-weight: 600;
+  border-radius: 16px;
+  margin-top: 12px;
   cursor: pointer;
-  transition: all 0.2s;
+  font-weight: 600;
+  transition: 0.2s;
 }
 
 .add-btn:hover {
-  background: rgba(108, 92, 231, 0.05);
+  border-color: var(--primary);
+  color: var(--primary);
 }
 
 .main-btn {
   width: 100%;
-  padding: 18px;
+  padding: 20px;
   background: var(--primary);
   color: white;
   border: none;
-  border-radius: 16px;
-  font-size: 1.2rem;
-  font-weight: 700;
+  border-radius: 20px;
+  font-weight: 800;
+  font-size: 1.1rem;
   cursor: pointer;
-  box-shadow: 0 10px 20px rgba(108, 92, 231, 0.3);
-  transition: transform 0.2s, background 0.2s;
+  box-shadow: 0 10px 20px rgba(108, 92, 231, 0.25);
+  margin-top: 10px;
+  transition: 0.3s;
 }
 
 .main-btn:hover {
-  background: var(--primary-hover);
-  transform: translateY(-2px);
+  background: #5b4cc4;
+  transform: scale(1.02);
 }
 
-.main-btn:active {
-  transform: translateY(0);
+.reset-link {
+  background: none;
+  border: none;
+  color: var(--text-gray);
+  text-decoration: underline;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
 }
 
-/* --- Recipe Card --- */
+/* Recipe Result Card */
 .recipe-card {
   margin-top: 40px;
   padding: 30px;
-  background: white;
-  border-radius: 20px;
+  background: #fff;
+  border-radius: 24px;
   text-align: left;
-  border-left: 6px solid var(--accent);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  border-bottom: 5px solid var(--accent);
 }
 
 .card-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .cuisine-tag {
-  background: #e0fcfb;
+  background: #e0fbfa;
   color: #00b894;
-  padding: 5px 15px;
+  padding: 6px 14px;
   border-radius: 50px;
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-size: 0.75rem;
+  font-weight: 800;
 }
 
 .time-tag {
-  color: var(--text-sub);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
+  color: var(--text-gray);
 }
 
-.recipe-card h2 {
-  font-family: 'Outfit', sans-serif;
-  margin: 0 0 15px 0;
-  font-size: 1.8rem;
+.ingredients-needed {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+  color: var(--text-gray);
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 10px;
 }
 
 .method h3 {
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-transform: uppercase;
-  color: var(--text-sub);
-  margin-bottom: 10px;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
 }
 
 .method p {
-  line-height: 1.8;
-  color: #4b4b4b;
-  white-space: pre-wrap; /* Keeps your list formatting */
+  line-height: 1.7;
+  color: #444;
 }
 
-/* --- Animations --- */
+/* --- Entrance Animation --- */
 .animate-in {
-  animation: fadeInBlur 0.5s ease-out forwards;
+  animation: popIn 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-@keyframes fadeInBlur {
-  from {
-    opacity: 0;
-    filter: blur(10px);
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateY(0);
-  }
+@keyframes popIn {
+  from { opacity: 0; transform: scale(0.9) translateY(20px); }
+  to { opacity: 1; transform: scale(1) translateY(0); }
 }
 
-/* --- Ad Space Placeholder --- */
 .ad-box {
-  margin-top: 50px;
-  padding: 15px;
-  background: rgba(0,0,0,0.03);
-  border: 1px dashed #ccc;
-  border-radius: 8px;
-  font-size: 0.7rem;
-  color: #999;
+  margin-top: 40px;
+  font-size: 0.6rem;
+  color: #bdc3c7;
   letter-spacing: 2px;
-}
-.filter-group select {
-  width: 100%;
-  padding: 16px 20px;
-  font-family: 'Inter', sans-serif;
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--text-main);
-  background-color: #ffffff;
-  border: 2px solid #edf2f7;
-  border-radius: 16px;
-  cursor: pointer;
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  appearance: none;
-  
-  /* Custom Arrow Icon (SVG) */
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%236c5ce7' stroke-width='2.5'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5' /%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: right 1.25rem center;
-  background-size: 1.2rem;
-  
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
-}
-
-/* Hover State */
-.filter-group select:hover {
-  border-color: var(--primary);
-  background-color: #fcfaff;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(108, 92, 231, 0.08);
-}
-
-/* Focus State */
-.filter-group select:focus {
-  outline: none;
-  border-color: var(--primary);
-  box-shadow: 0 0 0 4px rgba(108, 92, 231, 0.15);
-  background-color: #ffffff;
-}
-
-/* Styling the options inside (Limited support, but helps) */
-.filter-group select option {
-  padding: 10px;
-  font-size: 1rem;
-  background-color: white;
-  color: var(--text-main);
-}
-
-/* Container spacing for multiple dropdowns */
-.dropdown-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px; /* Space between the ingredient boxes */
+  border-top: 1px solid #eee;
+  padding-top: 20px;
 }
