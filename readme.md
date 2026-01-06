@@ -1,37 +1,49 @@
-# Recipe App
- A simple Recipe app, showcasing list of recipes where you can create, update, and delete recipe. Project is create with vite and uses json server to mock API Data. A sample json.db is provided in root folder of the app. 
+# Fodpick
 
-## Table of Contents
--[Project Description](#project-description)
--[Installation](#installation)
--[Usage](#usage)
--[Contributing](#contributing)
--[Liscense](#license)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 
-## Project Description
-Recipe app is a web application showcasing list of recipes where you can create, update, and delete recipe. Project is create with vite and uses json server to mock API Data. A sample json.db is provided in root folder of the app.
+**Stop the scroll. Start the stove.** Fodpick is a minimalist web application designed to cure "Decision Fatigue." Instead of giving you 1,000 recipes you *can't* make, it gives you **exactly one** recipe you *can* make, based on what is actually in your fridge.
 
-## Installation 
-To install and run the project locally, follow follwoing steps
-1. Clone the repository 
-```git clone https://github.com/MahatHari/recipe-app.git```
-2. Navigate  the project directory
+[Live Demo Link (Replace with your Netlify/GitHub URL)]
 
-3. Install project dependencies
-```npm install```
-4. Start development server 
-```npm run serve``` will spin the json server at port 30001
-5. Start app server
-```npm run dev``` will spin the development server, check console for web app link 
+---
 
+## ✨ Features
 
-## Usage 
- Once the project is running, you can see list of recipes, these can be edited, delete or view details of recipe and you can also create new recipe
- Instructions, Ingredients and Tags to be provided in dedicated text-area, and each instruction step, ingredients and tags needs to be separeted with ';' if you want them to be nicely out puted and edit later easily 
+- **Decision-Free UI:** No endless scrolling. Input your ingredients and get a single, curated suggestion.
+- **Reroll Logic:** Don't like the result? One click gives you a new random match from your filtered criteria.
+- **Cuisine Filtering:** Sort by Italian, Asian, Mexican, or Mediterranean styles.
+- **Dynamic Ingredients:** Input as many ingredients as you have—the engine handles the rest.
+- **Ultra-Lightweight:** 100% Static React app. Zero backend dependencies. Lightning fast.
 
- ## Contributing 
-  me and myself :) 
+---
 
- ## License 
-This project is licensed under the [MIT License](LICENSE).
-# recipe-app
+## 🚀 Tech Stack
+
+- **Frontend:** React.js (Hooks, State Management)
+- **Styling:** Custom CSS3 (Glassmorphism, CSS Variables, Animations)
+- **Data:** Local JSON (Static Database)
+- **Build Tool:** Vite
+- **Deployment:** Netlify / GitHub Pages
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/rolsorstart01/FoodPicker.git](https://github.com/rolsorstart01/FoodPicker.git
+   Navigate to the project folder:Bashcd YOUR_NEW_REPO_NAME
+Install dependencies:Bashnpm install
+Start the development server:Bashnpm run dev
+🥗 Adding Your Own RecipesThe engine runs on db.json. To add your own recipes, simply append to the recipes array in this format:JSON{
+  "id": 101,
+  "title": "Your Recipe Name",
+  "cuisine": "Mexican",
+  "ingredients": ["Ingredient 1", "Ingredient 2"],
+  "instructions": "1. Step one. 2. Step two.",
+  "time": "15 min"
+}
+📸 ScreenshotsDashboardRecipe Reveal🤝 ContributingThis project was built to be open-source and community-driven. If you have a great 3-ingredient recipe or a UI improvement, feel free to fork this repo and submit a Pull Request!📜 LicenseDistributed under the MIT License. See LICENSE for more information.Built with ❤️rolsorstart01
